@@ -76,7 +76,8 @@
 		6F0711BE1A409668002B6E40 /* windowing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07117A1A409668002B6E40 /* windowing.cpp */; };
 		6F0711BF1A409668002B6E40 /* windowing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07117B1A409668002B6E40 /* windowing.h */; };
 		6F3AFA8F197FB9F60036D759 /* libessentiaX.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6FD0EB0E197E7B070093FFB6 /* libessentiaX.a */; };
-		6F966C211A7BA37E00261964 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F966C201A7BA37E00261964 /* libstdc++.6.0.9.dylib */; };
+		6F7D15C41A9B2FF20055DB29 /* chordsdetectionbeats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D15C21A9B2FF20055DB29 /* chordsdetectionbeats.cpp */; };
+		6F7D15C51A9B2FF20055DB29 /* chordsdetectionbeats.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7D15C31A9B2FF20055DB29 /* chordsdetectionbeats.h */; };
 		6F9BC5821A7A85F400E995AD /* audiocontext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5801A7A85F400E995AD /* audiocontext.cpp */; };
 		6F9BC5831A7A85F400E995AD /* audiocontext.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5811A7A85F400E995AD /* audiocontext.h */; };
 		6F9BC59A1A7A863700E995AD /* audioloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5841A7A863700E995AD /* audioloader.cpp */; };
@@ -101,6 +102,7 @@
 		6F9BC5AD1A7A863700E995AD /* yamlinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5971A7A863700E995AD /* yamlinput.h */; };
 		6F9BC5AE1A7A863700E995AD /* yamloutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5981A7A863700E995AD /* yamloutput.cpp */; };
 		6F9BC5AF1A7A863700E995AD /* yamloutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5991A7A863700E995AD /* yamloutput.h */; };
+		6FA57EEB1A8A0CC800006E23 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA57EEA1A8A0CC700006E23 /* libstdc++.dylib */; };
 		6FABD95219F51F0B00788094 /* cartesiantopolar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD6E919F51F0B00788094 /* cartesiantopolar.cpp */; };
 		6FABD95319F51F0B00788094 /* cartesiantopolar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD6EA19F51F0B00788094 /* cartesiantopolar.h */; };
 		6FABD95419F51F0B00788094 /* magnitude.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD6EB19F51F0B00788094 /* magnitude.cpp */; };
@@ -566,7 +568,8 @@
 		6F0711791A409668002B6E40 /* warpedautocorrelation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = warpedautocorrelation.h; sourceTree = "<group>"; };
 		6F07117A1A409668002B6E40 /* windowing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = windowing.cpp; sourceTree = "<group>"; };
 		6F07117B1A409668002B6E40 /* windowing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = windowing.h; sourceTree = "<group>"; };
-		6F966C201A7BA37E00261964 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		6F7D15C21A9B2FF20055DB29 /* chordsdetectionbeats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chordsdetectionbeats.cpp; sourceTree = "<group>"; };
+		6F7D15C31A9B2FF20055DB29 /* chordsdetectionbeats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chordsdetectionbeats.h; sourceTree = "<group>"; };
 		6F9BC5801A7A85F400E995AD /* audiocontext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audiocontext.cpp; sourceTree = "<group>"; };
 		6F9BC5811A7A85F400E995AD /* audiocontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audiocontext.h; sourceTree = "<group>"; };
 		6F9BC5841A7A863700E995AD /* audioloader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audioloader.cpp; sourceTree = "<group>"; };
@@ -591,6 +594,7 @@
 		6F9BC5971A7A863700E995AD /* yamlinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yamlinput.h; sourceTree = "<group>"; };
 		6F9BC5981A7A863700E995AD /* yamloutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yamloutput.cpp; sourceTree = "<group>"; };
 		6F9BC5991A7A863700E995AD /* yamloutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yamloutput.h; sourceTree = "<group>"; };
+		6FA57EEA1A8A0CC700006E23 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		6FABD6E919F51F0B00788094 /* cartesiantopolar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cartesiantopolar.cpp; sourceTree = "<group>"; };
 		6FABD6EA19F51F0B00788094 /* cartesiantopolar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartesiantopolar.h; sourceTree = "<group>"; };
 		6FABD6EB19F51F0B00788094 /* magnitude.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = magnitude.cpp; sourceTree = "<group>"; };
@@ -981,7 +985,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F966C211A7BA37E00261964 /* libstdc++.6.0.9.dylib in Frameworks */,
+				6FA57EEB1A8A0CC800006E23 /* libstdc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1451,6 +1455,8 @@
 		6FABD85719F51F0B00788094 /* tonal */ = {
 			isa = PBXGroup;
 			children = (
+				6F7D15C21A9B2FF20055DB29 /* chordsdetectionbeats.cpp */,
+				6F7D15C31A9B2FF20055DB29 /* chordsdetectionbeats.h */,
 				6FABD85819F51F0B00788094 /* chordsdescriptors.cpp */,
 				6FABD85919F51F0B00788094 /* chordsdescriptors.h */,
 				6FABD85A19F51F0B00788094 /* chordsdetection.cpp */,
@@ -1655,7 +1661,7 @@
 		6FD0EB05197E7B070093FFB6 = {
 			isa = PBXGroup;
 			children = (
-				6F966C201A7BA37E00261964 /* libstdc++.6.0.9.dylib */,
+				6FA57EEA1A8A0CC700006E23 /* libstdc++.dylib */,
 				6FABD6CD19F51F0B00788094 /* 3rdparty */,
 				6FABD6E719F51F0B00788094 /* algorithms */,
 				6FABD87C19F51F0B00788094 /* essentia */,
@@ -1889,6 +1895,7 @@
 				6FABDAD719F51F0B00788094 /* connector.h in Headers */,
 				6FABDB1319F51F0B00788094 /* atomic.h in Headers */,
 				6F07117D1A409668002B6E40 /* autocorrelation.h in Headers */,
+				6F7D15C51A9B2FF20055DB29 /* chordsdetectionbeats.h in Headers */,
 				6FABD97C19F51F0B00788094 /* iir.h in Headers */,
 				6FABD9A019F51F0B00788094 /* harmonicbpm.h in Headers */,
 				6FABDB2319F51F0B00788094 /* jama_cholesky.h in Headers */,
@@ -2001,7 +2008,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		6FD0F0C4197E9FD70093FFB6 /* Run Script configure */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -2042,6 +2049,7 @@
 				6FABDA1319F51F0B00788094 /* maxmagfreq.cpp in Sources */,
 				6F07119A1A409668002B6E40 /* noiseadder.cpp in Sources */,
 				6F0711B41A409668002B6E40 /* trimmer.cpp in Sources */,
+				6F7D15C41A9B2FF20055DB29 /* chordsdetectionbeats.cpp in Sources */,
 				6FABD9C919F51F0B00788094 /* beattrackermultifeature.cpp in Sources */,
 				6FABDAD419F51F0B00788094 /* configurable.cpp in Sources */,
 				6FABD9BB19F51F0B00788094 /* ringbufferinput.cpp in Sources */,
@@ -2237,7 +2245,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -2281,7 +2289,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -2332,7 +2340,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 					"DEBUGGING_ENABLED=0",
-					"HAVE_SWRESAMPLE=1",
+					"HAVE_AVRESAMPLE=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				HEADER_SEARCH_PATHS = (
