@@ -2,6 +2,7 @@
 .waf-*
 .lock-*
 
+products/
 
 build/
 *.pbxuser
