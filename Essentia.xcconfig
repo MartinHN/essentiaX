@@ -1,0 +1,56 @@
+//
+//  Shared.xcconfig
+//  essentiaX
+//
+//  Created by martin hermant on 03/09/15.
+//  Copyright (c) 2015 martin hermant. All rights reserved.
+//
+
+GCC_PREPROCESSOR_DEFINITIONS = HAVE_AVRESAMPLE=1
+
+
+
+H_FFMPEGLIB= /usr/local/Cellar/ffmpeg/2.7.2_1/
+H_PYTHON=/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/
+H_TAGLIB=/usr/local/Cellar/taglib/1.9.1/
+H_SITE_P=/usr/local/lib/python2.7/site-packages/
+H_ESSENTIA_SRC=$(ESSENTIA_PATH)src/
+H_KISS_FFT=$(H_ESSENTIA_SRC)3rdparty/kiss_fft130/
+
+
+
+ESSENTIA_HEADERS=$(H_ESSENTIA_SRC)essentia $(H_SITE_P)numpy/core/include $(H_PYTHON) $(H_ESSENTIA_SRC)essentia/streaming $(H_ESSENTIA_SRC)essentia/utils /usr/local/include $(H_FFMPEGLIB)include $(H_TAGLIB)include/taglib $(H_ESSENTIA_SRC)python $(H_ESSENTIA_SRC) $(H_KISS_FFT)
+
+
+
+
+// LIBRARIES
+
+L_Z = "/usr/local/opt/zlib/lib/libz.a"
+
+
+L_FFMPEG_0 = "$(H_FFMPEGLIB)lib/libavresample.a"
+L_FFMPEG_1 = "$(H_FFMPEGLIB)lib/libavformat.a"
+L_FFMPEG_2 = "$(H_FFMPEGLIB)lib/libavcodec.a"
+L_FFMPEG_3 = "$(H_FFMPEGLIB)lib/libavutil.a"
+
+
+L_FFMPEG = $(L_FFMPEG_0) $(L_FFMPEG_1) $(L_FFMPEG_2) $(L_FFMPEG_3)
+
+
+L_SAMPLERATE ="/usr/local/lib/libsamplerate.a"
+
+L_YAML = "/usr/local/lib/libyaml.a"
+L_TAG = "/usr/local/lib/libtag.a"
+
+L_ICONV  = "/usr/local/opt/libiconv/lib/libiconv.dylib"
+
+ESSENTIA_LIBS = $(L_Z) $(L_SAMPLERATE) $(L_FFMPEG) $(L_YAML) $(L_TAG) 
+
+
+
+ESSENTIA_FRAMEWORKS = -framework Security
+
+
+
+//$(SITE_P)numpy/core/include $(inherited) /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include $(PYTHON_H) $(ESSENTIA_SRC)essentia/utils /usr/local/include $(FFMPEGLIB)include $(TAGLIB)include/taglib $(ESSENTIA_SRC)python $(ESSENTIA_SRC)
