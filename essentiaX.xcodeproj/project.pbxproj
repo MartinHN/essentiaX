@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FCA1CBE1BA01D8D0092006C /* ffmpegapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCA1CBD1BA01D8D0092006C /* ffmpegapi.h */; };
+		3FCA1CBF1BA01D8D0092006C /* ffmpegapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCA1CBD1BA01D8D0092006C /* ffmpegapi.h */; };
+		3FCA1CC01BA01D8D0092006C /* ffmpegapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCA1CBD1BA01D8D0092006C /* ffmpegapi.h */; };
+		3FCA1CC11BA01D8D0092006C /* ffmpegapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCA1CBD1BA01D8D0092006C /* ffmpegapi.h */; };
 		6F018EFA1B4A8F1A00367977 /* multipitchklapuri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F018EF81B4A8F1A00367977 /* multipitchklapuri.cpp */; };
 		6F018EFB1B4A8F1A00367977 /* multipitchklapuri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F018EF81B4A8F1A00367977 /* multipitchklapuri.cpp */; };
 		6F018EFC1B4A8F1A00367977 /* multipitchklapuri.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F018EF91B4A8F1A00367977 /* multipitchklapuri.h */; };
@@ -45,11 +49,9 @@
 		6F07118D1A409668002B6E40 /* derivative.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711491A409668002B6E40 /* derivative.h */; };
 		6F07118E1A409668002B6E40 /* envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114A1A409668002B6E40 /* envelope.cpp */; };
 		6F07118F1A409668002B6E40 /* envelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114B1A409668002B6E40 /* envelope.h */; };
-		6F0711901A409668002B6E40 /* fftw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114C1A409668002B6E40 /* fftw.cpp */; };
 		6F0711911A409668002B6E40 /* fftw.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114D1A409668002B6E40 /* fftw.h */; };
 		6F0711921A409668002B6E40 /* framecutter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114E1A409668002B6E40 /* framecutter.cpp */; };
 		6F0711931A409668002B6E40 /* framecutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114F1A409668002B6E40 /* framecutter.h */; };
-		6F0711941A409668002B6E40 /* ifftw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711501A409668002B6E40 /* ifftw.cpp */; };
 		6F0711951A409668002B6E40 /* ifftw.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711511A409668002B6E40 /* ifftw.h */; };
 		6F0711961A409668002B6E40 /* monomixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711521A409668002B6E40 /* monomixer.cpp */; };
 		6F0711971A409668002B6E40 /* monomixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711531A409668002B6E40 /* monomixer.h */; };
@@ -1396,8 +1398,6 @@
 		6FAEB9231B98D61E006B2C66 /* frametoreal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F018F0B1B4A90D600367977 /* frametoreal.h */; };
 		6FAEB9241B98D61E006B2C66 /* overlapadd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F018F041B4A90AC00367977 /* overlapadd.cpp */; };
 		6FAEB9251B98D61E006B2C66 /* overlapadd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F018F051B4A90AC00367977 /* overlapadd.h */; };
-		6FAEB9261B98D61E006B2C66 /* ifftk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC18381B2EEBDB00370F5E /* ifftk.cpp */; };
-		6FAEB9271B98D61E006B2C66 /* fftk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC183C1B2EEC2D00370F5E /* fftk.cpp */; };
 		6FAEB9281B98D61E006B2C66 /* fftk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC183D1B2EEC2D00370F5E /* fftk.h */; };
 		6FAEB9291B98D61E006B2C66 /* ifftk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC18391B2EEBDB00370F5E /* ifftk.h */; };
 		6FAEB92A1B98D61E006B2C66 /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
@@ -1837,6 +1837,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FCA1CBD1BA01D8D0092006C /* ffmpegapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ffmpegapi.h; path = ../../../../essentia/src/essentia/utils/ffmpegapi.h; sourceTree = "<group>"; };
 		6F018EF81B4A8F1A00367977 /* multipitchklapuri.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multipitchklapuri.cpp; sourceTree = "<group>"; };
 		6F018EF91B4A8F1A00367977 /* multipitchklapuri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multipitchklapuri.h; sourceTree = "<group>"; };
 		6F018EFE1B4A904F00367977 /* predominantpitchmelodia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = predominantpitchmelodia.cpp; sourceTree = "<group>"; };
@@ -3070,6 +3071,7 @@
 		6FABD8C019F51F0B00788094 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				3FCA1CBD1BA01D8D0092006C /* ffmpegapi.h */,
 				6F9BC5801A7A85F400E995AD /* audiocontext.cpp */,
 				6F9BC5811A7A85F400E995AD /* audiocontext.h */,
 				6FABD8C119F51F0B00788094 /* asciidag.cpp */,
@@ -3206,6 +3208,7 @@
 				6F37511D1B4D0AA20089C554 /* binaryoperator.h in Headers */,
 				6F37511E1B4D0AA20089C554 /* binaryoperatorstream.h in Headers */,
 				6F37511F1B4D0AA20089C554 /* bpf.h in Headers */,
+				3FCA1CC01BA01D8D0092006C /* ffmpegapi.h in Headers */,
 				6F3751201B4D0AA20089C554 /* pitchcontoursmonomelody.h in Headers */,
 				6F3751211B4D0AA20089C554 /* clipper.h in Headers */,
 				6F3751221B4D0AA20089C554 /* overlapadd.h in Headers */,
@@ -3431,6 +3434,7 @@
 				6F37530A1B4D2DEB0089C554 /* binaryoperator.h in Headers */,
 				6F37530B1B4D2DEB0089C554 /* binaryoperatorstream.h in Headers */,
 				6F37530C1B4D2DEB0089C554 /* bpf.h in Headers */,
+				3FCA1CC11BA01D8D0092006C /* ffmpegapi.h in Headers */,
 				6F37530D1B4D2DEB0089C554 /* pitchcontoursmonomelody.h in Headers */,
 				6F37530E1B4D2DEB0089C554 /* clipper.h in Headers */,
 				6F37530F1B4D2DEB0089C554 /* overlapadd.h in Headers */,
@@ -3656,6 +3660,7 @@
 				6FAEFBDF1B274976002DB4A1 /* binaryoperator.h in Headers */,
 				6FAEFBE01B274976002DB4A1 /* binaryoperatorstream.h in Headers */,
 				6FAEFBE11B274976002DB4A1 /* bpf.h in Headers */,
+				3FCA1CBF1BA01D8D0092006C /* ffmpegapi.h in Headers */,
 				6FB430AE1B2754A6006BAA24 /* pitchcontoursmonomelody.h in Headers */,
 				6FAEFBE21B274976002DB4A1 /* clipper.h in Headers */,
 				6F018F091B4A90AC00367977 /* overlapadd.h in Headers */,
@@ -4150,6 +4155,7 @@
 				6FABD97819F51F0B00788094 /* equalloudness.h in Headers */,
 				6FABD97019F51F0B00788094 /* allpass.h in Headers */,
 				6FABDA8819F51F0B00788094 /* rms.h in Headers */,
+				3FCA1CBE1BA01D8D0092006C /* ffmpegapi.h in Headers */,
 				6F0711831A409668002B6E40 /* bpf.h in Headers */,
 				6FABDB2019F51F0B00788094 /* ringbufferimpl.h in Headers */,
 				6F0711991A409668002B6E40 /* multiplexer.h in Headers */,
@@ -5023,7 +5029,6 @@
 				6FABDAC519F51F0B00788094 /* pitchyinfft.cpp in Sources */,
 				6FABDA9F19F51F0B00788094 /* loudness.cpp in Sources */,
 				6FABD9CD19F51F0B00788094 /* bpmhistogramdescriptors.cpp in Sources */,
-				6F0711941A409668002B6E40 /* ifftw.cpp in Sources */,
 				6FB430AF1B2754A6006BAA24 /* pitchcontoursmultimelody.cpp in Sources */,
 				6FB430B71B2754A6006BAA24 /* vibrato.cpp in Sources */,
 				6FABD97F19F51F0B00788094 /* movingaverage.cpp in Sources */,
@@ -5066,7 +5071,6 @@
 				6FABD96B19F51F0B00788094 /* tonalextractor.cpp in Sources */,
 				6FABD9DD19F51F0B00788094 /* rhythmextractor2013.cpp in Sources */,
 				6FABDAB319F51F0B00788094 /* highresolutionfeatures.cpp in Sources */,
-				6FAEB9271B98D61E006B2C66 /* fftk.cpp in Sources */,
 				6F07119E1A409668002B6E40 /* powerspectrum.cpp in Sources */,
 				6FABD95F19F51F0B00788094 /* extractor.cpp in Sources */,
 				6FABD9FD19F51F0B00788094 /* tctototal.cpp in Sources */,
@@ -5169,14 +5173,12 @@
 				6F0711821A409668002B6E40 /* bpf.cpp in Sources */,
 				6FABD9E719F51F0B00788094 /* tempotapdegara.cpp in Sources */,
 				6FB430A71B2754A6006BAA24 /* pitchcontoursmelody.cpp in Sources */,
-				6FAEB9261B98D61E006B2C66 /* ifftk.cpp in Sources */,
 				6FABDADA19F51F0B00788094 /* essentia.cpp in Sources */,
 				6F9BC59A1A7A863700E995AD /* audioloader.cpp in Sources */,
 				6F07119C1A409668002B6E40 /* peakdetection.cpp in Sources */,
 				6FABD9D319F51F0B00788094 /* noveltycurvefixedbpmestimator.cpp in Sources */,
 				6F0711A81A409668002B6E40 /* silencerate.cpp in Sources */,
 				6FABDA0119F51F0B00788094 /* energyband.cpp in Sources */,
-				6F0711901A409668002B6E40 /* fftw.cpp in Sources */,
 				6FABD9FF19F51F0B00788094 /* barkbands.cpp in Sources */,
 				6FABDB0619F51F0B00788094 /* streamingalgorithmcomposite.cpp in Sources */,
 				6F0711BA1A409668002B6E40 /* vectorrealaccumulator.cpp in Sources */,

@@ -6,20 +6,35 @@
 //  Copyright (c) 2015 martin hermant. All rights reserved.
 //
 
+
+// ESSENTIA_PATH NEEDS TO BE DEFINED
+
+
 GCC_PREPROCESSOR_DEFINITIONS = HAVE_AVRESAMPLE=1
 
+// ACCELERATE / KISS / FFTW
+ESSENTIA_FFT = ACCELERATE
 
 
-H_FFMPEGLIB= /usr/local/Cellar/ffmpeg/2.7.2_1/
-H_PYTHON=/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/
-H_TAGLIB=/usr/local/Cellar/taglib/1.9.1/
+
+H_FFMPEGLIB= /usr/local/include/
+H_YAML = /usr/local/include/
+
+H_TAGLIB=/usr/local/include/taglib/
 H_SITE_P=/usr/local/lib/python2.7/site-packages/
+H_PYTHON=/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/
+
+
 H_ESSENTIA_SRC=$(ESSENTIA_PATH)src/
+
 H_KISS_FFT=$(H_ESSENTIA_SRC)3rdparty/kiss_fft130/
+H_FFTW_FFT=/usr/local/include/
+
+H_ESSENTIA_INTERN = $(H_ESSENTIA_SRC)essentia $(H_ESSENTIA_SRC)essentia/utils (H_ESSENTIA_SRC)essentia/streaming $(H_ESSENTIA_SRC)python  $(H_ESSENTIA_SRC)
 
 
 
-ESSENTIA_HEADERS=$(H_ESSENTIA_SRC)essentia $(H_SITE_P)numpy/core/include $(H_PYTHON) $(H_ESSENTIA_SRC)essentia/streaming $(H_ESSENTIA_SRC)essentia/utils /usr/local/include $(H_FFMPEGLIB)include $(H_TAGLIB)include/taglib $(H_ESSENTIA_SRC)python $(H_ESSENTIA_SRC) $(H_KISS_FFT)
+ESSENTIA_HEADERS= $(H_ESSENTIA_INTERN) $(H_SITE_P)numpy/core/include $(H_PYTHON) $(H_FFMPEGLIB)include $(H_TAGLIB) $(H_$(ESSENTIA_FFT)_FFT) $(H_YAML)
 
 
 
@@ -28,11 +43,12 @@ ESSENTIA_HEADERS=$(H_ESSENTIA_SRC)essentia $(H_SITE_P)numpy/core/include $(H_PYT
 
 L_Z = "/usr/local/opt/zlib/lib/libz.a"
 
+L_FFMPEG_ROOT = /usr/local/lib/
 
-L_FFMPEG_0 = "$(H_FFMPEGLIB)lib/libavresample.a"
-L_FFMPEG_1 = "$(H_FFMPEGLIB)lib/libavformat.a"
-L_FFMPEG_2 = "$(H_FFMPEGLIB)lib/libavcodec.a"
-L_FFMPEG_3 = "$(H_FFMPEGLIB)lib/libavutil.a"
+L_FFMPEG_0 = "$(L_FFMPEG_ROOT)libavresample.a"
+L_FFMPEG_1 = "$(L_FFMPEG_ROOT)libavformat.a"
+L_FFMPEG_2 = "$(L_FFMPEG_ROOT)libavcodec.a"
+L_FFMPEG_3 = "$(L_FFMPEG_ROOT)libavutil.a"
 
 
 L_FFMPEG = $(L_FFMPEG_0) $(L_FFMPEG_1) $(L_FFMPEG_2) $(L_FFMPEG_3)
@@ -45,11 +61,23 @@ L_TAG = "/usr/local/lib/libtag.a"
 
 L_ICONV  = "/usr/local/opt/libiconv/lib/libiconv.dylib"
 
-ESSENTIA_LIBS = $(L_Z) $(L_SAMPLERATE) $(L_FFMPEG) $(L_YAML) $(L_TAG) 
+L_ESSENTIA_FFT_FFTW_S = "/usr/local/lib/libfftw3f.a"
+L_ESSENTIA_FFT_S = $(L_ESSENTIA_FFT_$(ESSENTIA_FFT)_S)
+
+
+L_ESSENTIA_FFT_FFTW_D = -lfftw3f
+L_ESSENTIA_FFT_D = $(L_ESSENTIA_FFT_$(ESSENTIA_FFT)_D)
+
+ESSENTIA_STATICLIBS = $(L_Z) $(L_SAMPLERATE) $(L_FFMPEG) $(L_YAML) $(L_TAG) $(L_ESSENTIA_FFT_S)
+ESSENTIA_DYNAMICLIBS = -L/usr/local/lib -lz -lsamplerate -lavresample -lavformat -lavcodec -lavutil -lyaml -ltag
 
 
 
-ESSENTIA_FRAMEWORKS = -framework Security
+ESSENTIA_LIBS = $(ESSENTIA_DYNAMICLIBS)
+
+ESSENTIA_FFT_ACCELERATE_FRAMEWORK = -framework Accelerate
+
+ESSENTIA_FRAMEWORKS = -framework Security $(ESSENTIA_FFT_$(ESSENTIA_FFT)_FRAMEWORK)
 
 
 
