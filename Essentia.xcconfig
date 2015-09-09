@@ -12,6 +12,8 @@
 
 GCC_PREPROCESSOR_DEFINITIONS = HAVE_AVRESAMPLE=1
 
+// Actually have to manually change fft algorithms to essentia/algorithm/standard/ fftk /ffta / fftw target for xcode to compile it
+// but everything else should be cared of
 // ACCELERATE / KISS / FFTW
 ESSENTIA_FFT = ACCELERATE
 
@@ -69,7 +71,7 @@ L_ESSENTIA_FFT_FFTW_D = -lfftw3f
 L_ESSENTIA_FFT_D = $(L_ESSENTIA_FFT_$(ESSENTIA_FFT)_D)
 
 ESSENTIA_STATICLIBS = $(L_Z) $(L_SAMPLERATE) $(L_FFMPEG) $(L_YAML) $(L_TAG) $(L_ESSENTIA_FFT_S)
-ESSENTIA_DYNAMICLIBS = -L/usr/local/lib -lz -lsamplerate -lavresample -lavformat -lavcodec -lavutil -lyaml -ltag
+ESSENTIA_DYNAMICLIBS = -L/usr/local/lib -lsamplerate -lavresample -lavformat -lavcodec -lavutil -lyaml -ltag
 
 
 
@@ -79,6 +81,3 @@ ESSENTIA_FFT_ACCELERATE_FRAMEWORK = -framework Accelerate
 
 ESSENTIA_FRAMEWORKS = -framework Security $(ESSENTIA_FFT_$(ESSENTIA_FFT)_FRAMEWORK)
 
-
-
-//$(SITE_P)numpy/core/include $(inherited) /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include $(PYTHON_H) $(ESSENTIA_SRC)essentia/utils /usr/local/include $(FFMPEGLIB)include $(TAGLIB)include/taglib $(ESSENTIA_SRC)python $(ESSENTIA_SRC)

@@ -49,10 +49,8 @@
 		6F07118D1A409668002B6E40 /* derivative.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711491A409668002B6E40 /* derivative.h */; };
 		6F07118E1A409668002B6E40 /* envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114A1A409668002B6E40 /* envelope.cpp */; };
 		6F07118F1A409668002B6E40 /* envelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114B1A409668002B6E40 /* envelope.h */; };
-		6F0711911A409668002B6E40 /* fftw.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114D1A409668002B6E40 /* fftw.h */; };
 		6F0711921A409668002B6E40 /* framecutter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114E1A409668002B6E40 /* framecutter.cpp */; };
 		6F0711931A409668002B6E40 /* framecutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114F1A409668002B6E40 /* framecutter.h */; };
-		6F0711951A409668002B6E40 /* ifftw.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711511A409668002B6E40 /* ifftw.h */; };
 		6F0711961A409668002B6E40 /* monomixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711521A409668002B6E40 /* monomixer.cpp */; };
 		6F0711971A409668002B6E40 /* monomixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711531A409668002B6E40 /* monomixer.h */; };
 		6F0711981A409668002B6E40 /* multiplexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711541A409668002B6E40 /* multiplexer.cpp */; };
@@ -127,8 +125,6 @@
 		6F26F7B91B4C44610074B3D9 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BF19F51F0B00788094 /* types.h */; };
 		6F3750381B4D0AA20089C554 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA57EEA1A8A0CC700006E23 /* libstdc++.dylib */; };
 		6F37503A1B4D0AA20089C554 /* splineutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377511AF79B2500B481E4 /* splineutil.cpp */; };
-		6F37503B1B4D0AA20089C554 /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
-		6F37503C1B4D0AA20089C554 /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
 		6F37503D1B4D0AA20089C554 /* autocorrelation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711381A409668002B6E40 /* autocorrelation.cpp */; };
 		6F37503E1B4D0AA20089C554 /* binaryoperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07113A1A409668002B6E40 /* binaryoperator.cpp */; };
 		6F37503F1B4D0AA20089C554 /* binaryoperatorstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07113C1A409668002B6E40 /* binaryoperatorstream.cpp */; };
@@ -143,10 +139,7 @@
 		6F3750481B4D0AA20089C554 /* pitchmelodia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4309F1B2754A6006BAA24 /* pitchmelodia.cpp */; };
 		6F3750491B4D0AA20089C554 /* configurable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD88219F51F0B00788094 /* configurable.cpp */; };
 		6F37504A1B4D0AA20089C554 /* envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114A1A409668002B6E40 /* envelope.cpp */; };
-		6F37504B1B4D0AA20089C554 /* ifftk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC18381B2EEBDB00370F5E /* ifftk.cpp */; };
-		6F37504C1B4D0AA20089C554 /* fftw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114C1A409668002B6E40 /* fftw.cpp */; };
 		6F37504D1B4D0AA20089C554 /* framecutter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114E1A409668002B6E40 /* framecutter.cpp */; };
-		6F37504E1B4D0AA20089C554 /* ifftw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711501A409668002B6E40 /* ifftw.cpp */; };
 		6F37504F1B4D0AA20089C554 /* monomixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711521A409668002B6E40 /* monomixer.cpp */; };
 		6F3750501B4D0AA20089C554 /* multiplexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711541A409668002B6E40 /* multiplexer.cpp */; };
 		6F3750511B4D0AA20089C554 /* multipitchklapuri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F018EF81B4A8F1A00367977 /* multipitchklapuri.cpp */; };
@@ -290,7 +283,6 @@
 		6F3750DB1B4D0AA20089C554 /* MaxFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83719F51F0B00788094 /* MaxFilter.cpp */; };
 		6F3750DC1B4D0AA20089C554 /* TriangularBands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83919F51F0B00788094 /* TriangularBands.cpp */; };
 		6F3750DD1B4D0AA20089C554 /* SuperFluxExtractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83C19F51F0B00788094 /* SuperFluxExtractor.cpp */; };
-		6F3750DE1B4D0AA20089C554 /* fftk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC183C1B2EEC2D00370F5E /* fftk.cpp */; };
 		6F3750DF1B4D0AA20089C554 /* SuperFluxNovelty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83E19F51F0B00788094 /* SuperFluxNovelty.cpp */; };
 		6F3750E01B4D0AA20089C554 /* multipitchmelodia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4308D1B275439006BAA24 /* multipitchmelodia.cpp */; };
 		6F3750E11B4D0AA20089C554 /* SuperFluxPeaks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84019F51F0B00788094 /* SuperFluxPeaks.cpp */; };
@@ -344,11 +336,7 @@
 		6F3751141B4D0AA20089C554 /* asciidag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8C119F51F0B00788094 /* asciidag.cpp */; };
 		6F3751151B4D0AA20089C554 /* asciidagparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8C319F51F0B00788094 /* asciidagparser.cpp */; };
 		6F3751171B4D0AA20089C554 /* splineutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377521AF79B2500B481E4 /* splineutil.h */; };
-		6F3751181B4D0AA20089C554 /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
-		6F3751191B4D0AA20089C554 /* ffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F83775C1AF7A91A00B481E4 /* ffta.h */; };
-		6F37511A1B4D0AA20089C554 /* ifftk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC18391B2EEBDB00370F5E /* ifftk.h */; };
 		6F37511B1B4D0AA20089C554 /* autocorrelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711391A409668002B6E40 /* autocorrelation.h */; };
-		6F37511C1B4D0AA20089C554 /* fftk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC183D1B2EEC2D00370F5E /* fftk.h */; };
 		6F37511D1B4D0AA20089C554 /* binaryoperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07113B1A409668002B6E40 /* binaryoperator.h */; };
 		6F37511E1B4D0AA20089C554 /* binaryoperatorstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07113D1A409668002B6E40 /* binaryoperatorstream.h */; };
 		6F37511F1B4D0AA20089C554 /* bpf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07113F1A409668002B6E40 /* bpf.h */; };
@@ -361,10 +349,8 @@
 		6F3751261B4D0AA20089C554 /* dct.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711471A409668002B6E40 /* dct.h */; };
 		6F3751271B4D0AA20089C554 /* derivative.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711491A409668002B6E40 /* derivative.h */; };
 		6F3751281B4D0AA20089C554 /* envelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114B1A409668002B6E40 /* envelope.h */; };
-		6F3751291B4D0AA20089C554 /* fftw.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114D1A409668002B6E40 /* fftw.h */; };
 		6F37512A1B4D0AA20089C554 /* framecutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114F1A409668002B6E40 /* framecutter.h */; };
 		6F37512B1B4D0AA20089C554 /* iotypewrappers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88D19F51F0B00788094 /* iotypewrappers.h */; };
-		6F37512C1B4D0AA20089C554 /* ifftw.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711511A409668002B6E40 /* ifftw.h */; };
 		6F37512D1B4D0AA20089C554 /* monomixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711531A409668002B6E40 /* monomixer.h */; };
 		6F37512E1B4D0AA20089C554 /* multiplexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711551A409668002B6E40 /* multiplexer.h */; };
 		6F37512F1B4D0AA20089C554 /* noiseadder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711571A409668002B6E40 /* noiseadder.h */; };
@@ -560,8 +546,6 @@
 		6F3751ED1B4D0AA20089C554 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD94119F51F0B00788094 /* version.h */; };
 		6F3752251B4D2DEB0089C554 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA57EEA1A8A0CC700006E23 /* libstdc++.dylib */; };
 		6F3752271B4D2DEB0089C554 /* splineutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377511AF79B2500B481E4 /* splineutil.cpp */; };
-		6F3752281B4D2DEB0089C554 /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
-		6F3752291B4D2DEB0089C554 /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
 		6F37522A1B4D2DEB0089C554 /* autocorrelation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711381A409668002B6E40 /* autocorrelation.cpp */; };
 		6F37522B1B4D2DEB0089C554 /* binaryoperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07113A1A409668002B6E40 /* binaryoperator.cpp */; };
 		6F37522C1B4D2DEB0089C554 /* binaryoperatorstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07113C1A409668002B6E40 /* binaryoperatorstream.cpp */; };
@@ -576,10 +560,7 @@
 		6F3752351B4D2DEB0089C554 /* pitchmelodia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4309F1B2754A6006BAA24 /* pitchmelodia.cpp */; };
 		6F3752361B4D2DEB0089C554 /* configurable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD88219F51F0B00788094 /* configurable.cpp */; };
 		6F3752371B4D2DEB0089C554 /* envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114A1A409668002B6E40 /* envelope.cpp */; };
-		6F3752381B4D2DEB0089C554 /* ifftk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC18381B2EEBDB00370F5E /* ifftk.cpp */; };
-		6F3752391B4D2DEB0089C554 /* fftw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114C1A409668002B6E40 /* fftw.cpp */; };
 		6F37523A1B4D2DEB0089C554 /* framecutter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114E1A409668002B6E40 /* framecutter.cpp */; };
-		6F37523B1B4D2DEB0089C554 /* ifftw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711501A409668002B6E40 /* ifftw.cpp */; };
 		6F37523C1B4D2DEB0089C554 /* monomixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711521A409668002B6E40 /* monomixer.cpp */; };
 		6F37523D1B4D2DEB0089C554 /* multiplexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711541A409668002B6E40 /* multiplexer.cpp */; };
 		6F37523E1B4D2DEB0089C554 /* multipitchklapuri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F018EF81B4A8F1A00367977 /* multipitchklapuri.cpp */; };
@@ -723,7 +704,6 @@
 		6F3752C81B4D2DEB0089C554 /* MaxFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83719F51F0B00788094 /* MaxFilter.cpp */; };
 		6F3752C91B4D2DEB0089C554 /* TriangularBands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83919F51F0B00788094 /* TriangularBands.cpp */; };
 		6F3752CA1B4D2DEB0089C554 /* SuperFluxExtractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83C19F51F0B00788094 /* SuperFluxExtractor.cpp */; };
-		6F3752CB1B4D2DEB0089C554 /* fftk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC183C1B2EEC2D00370F5E /* fftk.cpp */; };
 		6F3752CC1B4D2DEB0089C554 /* SuperFluxNovelty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83E19F51F0B00788094 /* SuperFluxNovelty.cpp */; };
 		6F3752CD1B4D2DEB0089C554 /* multipitchmelodia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4308D1B275439006BAA24 /* multipitchmelodia.cpp */; };
 		6F3752CE1B4D2DEB0089C554 /* SuperFluxPeaks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84019F51F0B00788094 /* SuperFluxPeaks.cpp */; };
@@ -777,11 +757,7 @@
 		6F3753011B4D2DEB0089C554 /* asciidag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8C119F51F0B00788094 /* asciidag.cpp */; };
 		6F3753021B4D2DEB0089C554 /* asciidagparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8C319F51F0B00788094 /* asciidagparser.cpp */; };
 		6F3753041B4D2DEB0089C554 /* splineutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377521AF79B2500B481E4 /* splineutil.h */; };
-		6F3753051B4D2DEB0089C554 /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
-		6F3753061B4D2DEB0089C554 /* ffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F83775C1AF7A91A00B481E4 /* ffta.h */; };
-		6F3753071B4D2DEB0089C554 /* ifftk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC18391B2EEBDB00370F5E /* ifftk.h */; };
 		6F3753081B4D2DEB0089C554 /* autocorrelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711391A409668002B6E40 /* autocorrelation.h */; };
-		6F3753091B4D2DEB0089C554 /* fftk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC183D1B2EEC2D00370F5E /* fftk.h */; };
 		6F37530A1B4D2DEB0089C554 /* binaryoperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07113B1A409668002B6E40 /* binaryoperator.h */; };
 		6F37530B1B4D2DEB0089C554 /* binaryoperatorstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07113D1A409668002B6E40 /* binaryoperatorstream.h */; };
 		6F37530C1B4D2DEB0089C554 /* bpf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07113F1A409668002B6E40 /* bpf.h */; };
@@ -794,10 +770,8 @@
 		6F3753131B4D2DEB0089C554 /* dct.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711471A409668002B6E40 /* dct.h */; };
 		6F3753141B4D2DEB0089C554 /* derivative.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711491A409668002B6E40 /* derivative.h */; };
 		6F3753151B4D2DEB0089C554 /* envelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114B1A409668002B6E40 /* envelope.h */; };
-		6F3753161B4D2DEB0089C554 /* fftw.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114D1A409668002B6E40 /* fftw.h */; };
 		6F3753171B4D2DEB0089C554 /* framecutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114F1A409668002B6E40 /* framecutter.h */; };
 		6F3753181B4D2DEB0089C554 /* iotypewrappers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88D19F51F0B00788094 /* iotypewrappers.h */; };
-		6F3753191B4D2DEB0089C554 /* ifftw.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711511A409668002B6E40 /* ifftw.h */; };
 		6F37531A1B4D2DEB0089C554 /* monomixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711531A409668002B6E40 /* monomixer.h */; };
 		6F37531B1B4D2DEB0089C554 /* multiplexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711551A409668002B6E40 /* multiplexer.h */; };
 		6F37531C1B4D2DEB0089C554 /* noiseadder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711571A409668002B6E40 /* noiseadder.h */; };
@@ -991,6 +965,22 @@
 		6F3753D81B4D2DEB0089C554 /* tristimulus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD87919F51F0B00788094 /* tristimulus.h */; };
 		6F3753D91B4D2DEB0089C554 /* tuningfrequency.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD87B19F51F0B00788094 /* tuningfrequency.h */; };
 		6F3753DA1B4D2DEB0089C554 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD94119F51F0B00788094 /* version.h */; };
+		6F6384D01BA0705500520AAB /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
+		6F6384D11BA0705500520AAB /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
+		6F6384D21BA0705500520AAB /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
+		6F6384D31BA0705500520AAB /* ffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F83775C1AF7A91A00B481E4 /* ffta.h */; };
+		6F6384D41BA0705600520AAB /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
+		6F6384D51BA0705600520AAB /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
+		6F6384D61BA0705600520AAB /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
+		6F6384D71BA0705600520AAB /* ffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F83775C1AF7A91A00B481E4 /* ffta.h */; };
+		6F6384D81BA0705600520AAB /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
+		6F6384D91BA0705600520AAB /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
+		6F6384DA1BA0705600520AAB /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
+		6F6384DB1BA0705600520AAB /* ffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F83775C1AF7A91A00B481E4 /* ffta.h */; };
+		6F6384DC1BA0705700520AAB /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
+		6F6384DD1BA0705700520AAB /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
+		6F6384DE1BA0705700520AAB /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
+		6F6384DF1BA0705700520AAB /* ffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F83775C1AF7A91A00B481E4 /* ffta.h */; };
 		6F7D15C41A9B2FF20055DB29 /* chordsdetectionbeats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D15C21A9B2FF20055DB29 /* chordsdetectionbeats.cpp */; };
 		6F7D15C51A9B2FF20055DB29 /* chordsdetectionbeats.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7D15C31A9B2FF20055DB29 /* chordsdetectionbeats.h */; };
 		6F8377531AF79B2500B481E4 /* splineutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377511AF79B2500B481E4 /* splineutil.cpp */; };
@@ -1398,12 +1388,6 @@
 		6FAEB9231B98D61E006B2C66 /* frametoreal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F018F0B1B4A90D600367977 /* frametoreal.h */; };
 		6FAEB9241B98D61E006B2C66 /* overlapadd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F018F041B4A90AC00367977 /* overlapadd.cpp */; };
 		6FAEB9251B98D61E006B2C66 /* overlapadd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F018F051B4A90AC00367977 /* overlapadd.h */; };
-		6FAEB9281B98D61E006B2C66 /* fftk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC183D1B2EEC2D00370F5E /* fftk.h */; };
-		6FAEB9291B98D61E006B2C66 /* ifftk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC18391B2EEBDB00370F5E /* ifftk.h */; };
-		6FAEB92A1B98D61E006B2C66 /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
-		6FAEB92B1B98D61E006B2C66 /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
-		6FAEB92C1B98D61E006B2C66 /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
-		6FAEB92D1B98D61E006B2C66 /* ffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F83775C1AF7A91A00B481E4 /* ffta.h */; };
 		6FAEB92E1B98D61E006B2C66 /* autocorrelation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711381A409668002B6E40 /* autocorrelation.cpp */; };
 		6FAEB92F1B98D61E006B2C66 /* autocorrelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711391A409668002B6E40 /* autocorrelation.h */; };
 		6FAEB9361B98D7A6006B2C66 /* ringbufferinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FAEB9301B98D7A6006B2C66 /* ringbufferinput.cpp */; };
@@ -1431,8 +1415,6 @@
 		6FAEB94C1B98D7A6006B2C66 /* ringbuffervectoroutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9351B98D7A6006B2C66 /* ringbuffervectoroutput.h */; };
 		6FAEB94D1B98D7A6006B2C66 /* ringbuffervectoroutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9351B98D7A6006B2C66 /* ringbuffervectoroutput.h */; };
 		6FAEFB071B27495F002DB4A1 /* splineutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377511AF79B2500B481E4 /* splineutil.cpp */; };
-		6FAEFB081B27495F002DB4A1 /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
-		6FAEFB091B27495F002DB4A1 /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
 		6FAEFB0A1B27495F002DB4A1 /* autocorrelation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711381A409668002B6E40 /* autocorrelation.cpp */; };
 		6FAEFB0B1B27495F002DB4A1 /* binaryoperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07113A1A409668002B6E40 /* binaryoperator.cpp */; };
 		6FAEFB0C1B27495F002DB4A1 /* binaryoperatorstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07113C1A409668002B6E40 /* binaryoperatorstream.cpp */; };
@@ -1443,9 +1425,7 @@
 		6FAEFB111B27495F002DB4A1 /* dct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711461A409668002B6E40 /* dct.cpp */; };
 		6FAEFB121B27495F002DB4A1 /* derivative.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711481A409668002B6E40 /* derivative.cpp */; };
 		6FAEFB131B27495F002DB4A1 /* envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114A1A409668002B6E40 /* envelope.cpp */; };
-		6FAEFB141B27495F002DB4A1 /* fftw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114C1A409668002B6E40 /* fftw.cpp */; };
 		6FAEFB151B27495F002DB4A1 /* framecutter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114E1A409668002B6E40 /* framecutter.cpp */; };
-		6FAEFB161B27495F002DB4A1 /* ifftw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711501A409668002B6E40 /* ifftw.cpp */; };
 		6FAEFB171B27495F002DB4A1 /* monomixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711521A409668002B6E40 /* monomixer.cpp */; };
 		6FAEFB181B27495F002DB4A1 /* multiplexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711541A409668002B6E40 /* multiplexer.cpp */; };
 		6FAEFB191B27495F002DB4A1 /* noiseadder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711561A409668002B6E40 /* noiseadder.cpp */; };
@@ -1614,8 +1594,6 @@
 		6FAEFBD61B274960002DB4A1 /* asciidag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8C119F51F0B00788094 /* asciidag.cpp */; };
 		6FAEFBD71B274960002DB4A1 /* asciidagparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8C319F51F0B00788094 /* asciidagparser.cpp */; };
 		6FAEFBDB1B274976002DB4A1 /* splineutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377521AF79B2500B481E4 /* splineutil.h */; };
-		6FAEFBDC1B274976002DB4A1 /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
-		6FAEFBDD1B274976002DB4A1 /* ffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F83775C1AF7A91A00B481E4 /* ffta.h */; };
 		6FAEFBDE1B274976002DB4A1 /* autocorrelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711391A409668002B6E40 /* autocorrelation.h */; };
 		6FAEFBDF1B274976002DB4A1 /* binaryoperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07113B1A409668002B6E40 /* binaryoperator.h */; };
 		6FAEFBE01B274976002DB4A1 /* binaryoperatorstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07113D1A409668002B6E40 /* binaryoperatorstream.h */; };
@@ -1626,9 +1604,7 @@
 		6FAEFBE51B274976002DB4A1 /* dct.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711471A409668002B6E40 /* dct.h */; };
 		6FAEFBE61B274976002DB4A1 /* derivative.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711491A409668002B6E40 /* derivative.h */; };
 		6FAEFBE71B274976002DB4A1 /* envelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114B1A409668002B6E40 /* envelope.h */; };
-		6FAEFBE81B274976002DB4A1 /* fftw.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114D1A409668002B6E40 /* fftw.h */; };
 		6FAEFBE91B274976002DB4A1 /* framecutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114F1A409668002B6E40 /* framecutter.h */; };
-		6FAEFBEA1B274976002DB4A1 /* ifftw.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711511A409668002B6E40 /* ifftw.h */; };
 		6FAEFBEB1B274976002DB4A1 /* monomixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711531A409668002B6E40 /* monomixer.h */; };
 		6FAEFBEC1B274976002DB4A1 /* multiplexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711551A409668002B6E40 /* multiplexer.h */; };
 		6FAEFBED1B274976002DB4A1 /* noiseadder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711571A409668002B6E40 /* noiseadder.h */; };
@@ -1815,10 +1791,6 @@
 		6FB430BC1B275818006BAA24 /* audioonsetsmarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5871A7A863700E995AD /* audioonsetsmarker.h */; };
 		6FB430BD1B2758E5006BAA24 /* fileoutputproxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC58E1A7A863700E995AD /* fileoutputproxy.cpp */; };
 		6FB430BE1B2758E5006BAA24 /* fileoutputproxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC58F1A7A863700E995AD /* fileoutputproxy.h */; };
-		6FCC183A1B2EEBDB00370F5E /* ifftk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC18381B2EEBDB00370F5E /* ifftk.cpp */; };
-		6FCC183B1B2EEBDB00370F5E /* ifftk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC18391B2EEBDB00370F5E /* ifftk.h */; };
-		6FCC183E1B2EEC2D00370F5E /* fftk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC183C1B2EEC2D00370F5E /* fftk.cpp */; };
-		6FCC183F1B2EEC2D00370F5E /* fftk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC183D1B2EEC2D00370F5E /* fftk.h */; };
 		6FCC186C1B2EECB000370F5E /* _kiss_fft_guts.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC18441B2EECB000370F5E /* _kiss_fft_guts.h */; };
 		6FCC186D1B2EECB000370F5E /* kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC18471B2EECB000370F5E /* kiss_fft.c */; };
 		6FCC186E1B2EECB000370F5E /* kiss_fft.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC18481B2EECB000370F5E /* kiss_fft.h */; };
@@ -2427,18 +2399,6 @@
 		6F0711371A409668002B6E40 /* standard */ = {
 			isa = PBXGroup;
 			children = (
-				6F018F0A1B4A90D600367977 /* frametoreal.cpp */,
-				6F018F0B1B4A90D600367977 /* frametoreal.h */,
-				6F018F041B4A90AC00367977 /* overlapadd.cpp */,
-				6F018F051B4A90AC00367977 /* overlapadd.h */,
-				6FCC18381B2EEBDB00370F5E /* ifftk.cpp */,
-				6FCC183C1B2EEC2D00370F5E /* fftk.cpp */,
-				6FCC183D1B2EEC2D00370F5E /* fftk.h */,
-				6FCC18391B2EEBDB00370F5E /* ifftk.h */,
-				6F8377631AF7A9ED00B481E4 /* iffta.cpp */,
-				6F8377641AF7A9ED00B481E4 /* iffta.h */,
-				6F83775B1AF7A91A00B481E4 /* ffta.cpp */,
-				6F83775C1AF7A91A00B481E4 /* ffta.h */,
 				6F0711381A409668002B6E40 /* autocorrelation.cpp */,
 				6F0711391A409668002B6E40 /* autocorrelation.h */,
 				6F07113A1A409668002B6E40 /* binaryoperator.cpp */,
@@ -2459,10 +2419,20 @@
 				6F0711491A409668002B6E40 /* derivative.h */,
 				6F07114A1A409668002B6E40 /* envelope.cpp */,
 				6F07114B1A409668002B6E40 /* envelope.h */,
+				6F83775B1AF7A91A00B481E4 /* ffta.cpp */,
+				6F83775C1AF7A91A00B481E4 /* ffta.h */,
+				6FCC183C1B2EEC2D00370F5E /* fftk.cpp */,
+				6FCC183D1B2EEC2D00370F5E /* fftk.h */,
 				6F07114C1A409668002B6E40 /* fftw.cpp */,
 				6F07114D1A409668002B6E40 /* fftw.h */,
 				6F07114E1A409668002B6E40 /* framecutter.cpp */,
 				6F07114F1A409668002B6E40 /* framecutter.h */,
+				6F018F0A1B4A90D600367977 /* frametoreal.cpp */,
+				6F018F0B1B4A90D600367977 /* frametoreal.h */,
+				6F8377631AF7A9ED00B481E4 /* iffta.cpp */,
+				6F8377641AF7A9ED00B481E4 /* iffta.h */,
+				6FCC18381B2EEBDB00370F5E /* ifftk.cpp */,
+				6FCC18391B2EEBDB00370F5E /* ifftk.h */,
 				6F0711501A409668002B6E40 /* ifftw.cpp */,
 				6F0711511A409668002B6E40 /* ifftw.h */,
 				6F0711521A409668002B6E40 /* monomixer.cpp */,
@@ -2471,6 +2441,8 @@
 				6F0711551A409668002B6E40 /* multiplexer.h */,
 				6F0711561A409668002B6E40 /* noiseadder.cpp */,
 				6F0711571A409668002B6E40 /* noiseadder.h */,
+				6F018F041B4A90AC00367977 /* overlapadd.cpp */,
+				6F018F051B4A90AC00367977 /* overlapadd.h */,
 				6F0711581A409668002B6E40 /* peakdetection.cpp */,
 				6F0711591A409668002B6E40 /* peakdetection.h */,
 				6F07115A1A409668002B6E40 /* powerspectrum.cpp */,
@@ -3200,11 +3172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F3751171B4D0AA20089C554 /* splineutil.h in Headers */,
-				6F3751181B4D0AA20089C554 /* iffta.h in Headers */,
-				6F3751191B4D0AA20089C554 /* ffta.h in Headers */,
-				6F37511A1B4D0AA20089C554 /* ifftk.h in Headers */,
 				6F37511B1B4D0AA20089C554 /* autocorrelation.h in Headers */,
-				6F37511C1B4D0AA20089C554 /* fftk.h in Headers */,
 				6F37511D1B4D0AA20089C554 /* binaryoperator.h in Headers */,
 				6F37511E1B4D0AA20089C554 /* binaryoperatorstream.h in Headers */,
 				6F37511F1B4D0AA20089C554 /* bpf.h in Headers */,
@@ -3218,10 +3186,8 @@
 				6F3751261B4D0AA20089C554 /* dct.h in Headers */,
 				6F3751271B4D0AA20089C554 /* derivative.h in Headers */,
 				6F3751281B4D0AA20089C554 /* envelope.h in Headers */,
-				6F3751291B4D0AA20089C554 /* fftw.h in Headers */,
 				6F37512A1B4D0AA20089C554 /* framecutter.h in Headers */,
 				6F37512B1B4D0AA20089C554 /* iotypewrappers.h in Headers */,
-				6F37512C1B4D0AA20089C554 /* ifftw.h in Headers */,
 				6F37512D1B4D0AA20089C554 /* monomixer.h in Headers */,
 				6F37512E1B4D0AA20089C554 /* multiplexer.h in Headers */,
 				6F37512F1B4D0AA20089C554 /* noiseadder.h in Headers */,
@@ -3306,6 +3272,7 @@
 				6F37517D1B4D0AA20089C554 /* rhythmextractor2013.h in Headers */,
 				6F37517E1B4D0AA20089C554 /* rhythmtransform.h in Headers */,
 				6F37517F1B4D0AA20089C554 /* singlebeatloudness.h in Headers */,
+				6F6384D91BA0705600520AAB /* iffta.h in Headers */,
 				6F3751801B4D0AA20089C554 /* temposcalebands.h in Headers */,
 				6F3751811B4D0AA20089C554 /* tempotap.h in Headers */,
 				6F3751821B4D0AA20089C554 /* tempotapdegara.h in Headers */,
@@ -3329,6 +3296,7 @@
 				6F3751941B4D0AA20089C554 /* essentiautil.h in Headers */,
 				6F3751951B4D0AA20089C554 /* range.h in Headers */,
 				6F3751961B4D0AA20089C554 /* multipitchklapuri.h in Headers */,
+				6F6384DB1BA0705600520AAB /* ffta.h in Headers */,
 				6F3751971B4D0AA20089C554 /* pitchcontoursegmentation.h in Headers */,
 				6F3751981B4D0AA20089C554 /* multipitchmelodia.h in Headers */,
 				6F3751991B4D0AA20089C554 /* frametoreal.h in Headers */,
@@ -3426,11 +3394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F3753041B4D2DEB0089C554 /* splineutil.h in Headers */,
-				6F3753051B4D2DEB0089C554 /* iffta.h in Headers */,
-				6F3753061B4D2DEB0089C554 /* ffta.h in Headers */,
-				6F3753071B4D2DEB0089C554 /* ifftk.h in Headers */,
 				6F3753081B4D2DEB0089C554 /* autocorrelation.h in Headers */,
-				6F3753091B4D2DEB0089C554 /* fftk.h in Headers */,
 				6F37530A1B4D2DEB0089C554 /* binaryoperator.h in Headers */,
 				6F37530B1B4D2DEB0089C554 /* binaryoperatorstream.h in Headers */,
 				6F37530C1B4D2DEB0089C554 /* bpf.h in Headers */,
@@ -3444,10 +3408,8 @@
 				6F3753131B4D2DEB0089C554 /* dct.h in Headers */,
 				6F3753141B4D2DEB0089C554 /* derivative.h in Headers */,
 				6F3753151B4D2DEB0089C554 /* envelope.h in Headers */,
-				6F3753161B4D2DEB0089C554 /* fftw.h in Headers */,
 				6F3753171B4D2DEB0089C554 /* framecutter.h in Headers */,
 				6F3753181B4D2DEB0089C554 /* iotypewrappers.h in Headers */,
-				6F3753191B4D2DEB0089C554 /* ifftw.h in Headers */,
 				6F37531A1B4D2DEB0089C554 /* monomixer.h in Headers */,
 				6F37531B1B4D2DEB0089C554 /* multiplexer.h in Headers */,
 				6F37531C1B4D2DEB0089C554 /* noiseadder.h in Headers */,
@@ -3532,6 +3494,7 @@
 				6F37536A1B4D2DEB0089C554 /* rhythmextractor2013.h in Headers */,
 				6F37536B1B4D2DEB0089C554 /* rhythmtransform.h in Headers */,
 				6F37536C1B4D2DEB0089C554 /* singlebeatloudness.h in Headers */,
+				6F6384DD1BA0705700520AAB /* iffta.h in Headers */,
 				6F37536D1B4D2DEB0089C554 /* temposcalebands.h in Headers */,
 				6F37536E1B4D2DEB0089C554 /* tempotap.h in Headers */,
 				6F37536F1B4D2DEB0089C554 /* tempotapdegara.h in Headers */,
@@ -3555,6 +3518,7 @@
 				6F3753811B4D2DEB0089C554 /* essentiautil.h in Headers */,
 				6F3753821B4D2DEB0089C554 /* range.h in Headers */,
 				6F3753831B4D2DEB0089C554 /* multipitchklapuri.h in Headers */,
+				6F6384DF1BA0705700520AAB /* ffta.h in Headers */,
 				6F3753841B4D2DEB0089C554 /* pitchcontoursegmentation.h in Headers */,
 				6F3753851B4D2DEB0089C554 /* multipitchmelodia.h in Headers */,
 				6F3753861B4D2DEB0089C554 /* frametoreal.h in Headers */,
@@ -3652,11 +3616,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FAEFBDB1B274976002DB4A1 /* splineutil.h in Headers */,
-				6FAEFBDC1B274976002DB4A1 /* iffta.h in Headers */,
-				6FAEFBDD1B274976002DB4A1 /* ffta.h in Headers */,
-				6FCC183B1B2EEBDB00370F5E /* ifftk.h in Headers */,
 				6FAEFBDE1B274976002DB4A1 /* autocorrelation.h in Headers */,
-				6FCC183F1B2EEC2D00370F5E /* fftk.h in Headers */,
 				6FAEFBDF1B274976002DB4A1 /* binaryoperator.h in Headers */,
 				6FAEFBE01B274976002DB4A1 /* binaryoperatorstream.h in Headers */,
 				6FAEFBE11B274976002DB4A1 /* bpf.h in Headers */,
@@ -3670,10 +3630,8 @@
 				6FAEFBE51B274976002DB4A1 /* dct.h in Headers */,
 				6FAEFBE61B274976002DB4A1 /* derivative.h in Headers */,
 				6FAEFBE71B274976002DB4A1 /* envelope.h in Headers */,
-				6FAEFBE81B274976002DB4A1 /* fftw.h in Headers */,
 				6FAEFBE91B274976002DB4A1 /* framecutter.h in Headers */,
 				6F26F7AB1B4C44610074B3D9 /* iotypewrappers.h in Headers */,
-				6FAEFBEA1B274976002DB4A1 /* ifftw.h in Headers */,
 				6FAEFBEB1B274976002DB4A1 /* monomixer.h in Headers */,
 				6FAEFBEC1B274976002DB4A1 /* multiplexer.h in Headers */,
 				6FAEFBED1B274976002DB4A1 /* noiseadder.h in Headers */,
@@ -3758,6 +3716,7 @@
 				6FAEFC361B274979002DB4A1 /* rhythmextractor2013.h in Headers */,
 				6FAEFC371B274979002DB4A1 /* rhythmtransform.h in Headers */,
 				6FAEFC381B274979002DB4A1 /* singlebeatloudness.h in Headers */,
+				6F6384D51BA0705600520AAB /* iffta.h in Headers */,
 				6FAEFC391B274979002DB4A1 /* temposcalebands.h in Headers */,
 				6FAEFC3A1B274979002DB4A1 /* tempotap.h in Headers */,
 				6FAEFC3B1B274979002DB4A1 /* tempotapdegara.h in Headers */,
@@ -3781,6 +3740,7 @@
 				6F26F7AA1B4C44610074B3D9 /* essentiautil.h in Headers */,
 				6F26F7B21B4C44610074B3D9 /* range.h in Headers */,
 				6F018EFD1B4A8F1A00367977 /* multipitchklapuri.h in Headers */,
+				6F6384D71BA0705600520AAB /* ffta.h in Headers */,
 				6FB430A61B2754A6006BAA24 /* pitchcontoursegmentation.h in Headers */,
 				6FB430961B275439006BAA24 /* multipitchmelodia.h in Headers */,
 				6F018F0F1B4A90D600367977 /* frametoreal.h in Headers */,
@@ -3894,7 +3854,6 @@
 				6FABDB0519F51F0B00788094 /* streamingalgorithm.h in Headers */,
 				6FABD9F619F51F0B00788094 /* maxtototal.h in Headers */,
 				6FABDAD519F51F0B00788094 /* configurable.h in Headers */,
-				6FAEB9291B98D61E006B2C66 /* ifftk.h in Headers */,
 				6F07119D1A409668002B6E40 /* peakdetection.h in Headers */,
 				6FABDA8019F51F0B00788094 /* median.h in Headers */,
 				6FABDB3A19F51F0B00788094 /* tnt_sparse_matrix_csr.h in Headers */,
@@ -3993,8 +3952,8 @@
 				6FABD9D419F51F0B00788094 /* noveltycurvefixedbpmestimator.h in Headers */,
 				6FABD98019F51F0B00788094 /* movingaverage.h in Headers */,
 				6F07118D1A409668002B6E40 /* derivative.h in Headers */,
+				6F6384D11BA0705500520AAB /* iffta.h in Headers */,
 				6FABDAAE19F51F0B00788094 /* chordsdetection.h in Headers */,
-				6FAEB92B1B98D61E006B2C66 /* iffta.h in Headers */,
 				6FABDAAA19F51F0B00788094 /* zerocrossingrate.h in Headers */,
 				6FB430B91B2754A6006BAA24 /* vibrato.h in Headers */,
 				6FABD9F419F51F0B00788094 /* logattacktime.h in Headers */,
@@ -4042,9 +4001,8 @@
 				6FABD96819F51F0B00788094 /* lowlevelspectralextractor.h in Headers */,
 				6FABDAD919F51F0B00788094 /* debugging.h in Headers */,
 				6F0711B31A409668002B6E40 /* stereodemuxer.h in Headers */,
-				6FAEB9281B98D61E006B2C66 /* fftk.h in Headers */,
 				6FABDB2D19F51F0B00788094 /* tnt_array2d.h in Headers */,
-				6FAEB92D1B98D61E006B2C66 /* ffta.h in Headers */,
+				6F6384D31BA0705500520AAB /* ffta.h in Headers */,
 				6FABDB2F19F51F0B00788094 /* tnt_array3d.h in Headers */,
 				6F0711B51A409668002B6E40 /* trimmer.h in Headers */,
 				6FABDAFC19F51F0B00788094 /* sink.h in Headers */,
@@ -4079,7 +4037,6 @@
 				6FABDA0819F51F0B00788094 /* flatnessdb.h in Headers */,
 				6F018F171B4A911100367977 /* harmonicmask.h in Headers */,
 				6FABDAC019F51F0B00788094 /* pitchfiltermakam.h in Headers */,
-				6F0711951A409668002B6E40 /* ifftw.h in Headers */,
 				6F9BC5831A7A85F400E995AD /* audiocontext.h in Headers */,
 				6FABD96A19F51F0B00788094 /* rhythmdescriptors.h in Headers */,
 				6F018F1B1B4A911100367977 /* sinemodel.h in Headers */,
@@ -4110,7 +4067,6 @@
 				6FABD97419F51F0B00788094 /* bandreject.h in Headers */,
 				6FABDA8419F51F0B00788094 /* powermean.h in Headers */,
 				6FABDA1419F51F0B00788094 /* maxmagfreq.h in Headers */,
-				6F0711911A409668002B6E40 /* fftw.h in Headers */,
 				6FABD96C19F51F0B00788094 /* tonalextractor.h in Headers */,
 				6FABD9E219F51F0B00788094 /* singlebeatloudness.h in Headers */,
 				6FABDB0319F51F0B00788094 /* sourceproxy.h in Headers */,
@@ -4315,7 +4271,7 @@
 		};
 		6FD0F0C4197E9FD70093FFB6 /* Run Script configure */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -4323,9 +4279,9 @@
 			name = "Run Script configure";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\nexport PATH=$PATH:/usr/local/bin;\ncd $ESSENTIA_PATH;\n./waf configure  --fft ACCELERATE;\n./waf ;\n\n\n";
+			shellScript = "export PATH=$PATH:/usr/local/bin;\ncd $ESSENTIA_PATH;\n./waf configure  --fft $ESSENTIA_FFT --no_build;\n./waf ;\n\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -4335,9 +4291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F37503A1B4D0AA20089C554 /* splineutil.cpp in Sources */,
-				6F37503B1B4D0AA20089C554 /* iffta.cpp in Sources */,
-				6F37503C1B4D0AA20089C554 /* ffta.cpp in Sources */,
 				6F37503D1B4D0AA20089C554 /* autocorrelation.cpp in Sources */,
+				6F6384DA1BA0705600520AAB /* ffta.cpp in Sources */,
 				6F37503E1B4D0AA20089C554 /* binaryoperator.cpp in Sources */,
 				6F37503F1B4D0AA20089C554 /* binaryoperatorstream.cpp in Sources */,
 				6F3750401B4D0AA20089C554 /* bpf.cpp in Sources */,
@@ -4351,10 +4306,7 @@
 				6F3750481B4D0AA20089C554 /* pitchmelodia.cpp in Sources */,
 				6F3750491B4D0AA20089C554 /* configurable.cpp in Sources */,
 				6F37504A1B4D0AA20089C554 /* envelope.cpp in Sources */,
-				6F37504B1B4D0AA20089C554 /* ifftk.cpp in Sources */,
-				6F37504C1B4D0AA20089C554 /* fftw.cpp in Sources */,
 				6F37504D1B4D0AA20089C554 /* framecutter.cpp in Sources */,
-				6F37504E1B4D0AA20089C554 /* ifftw.cpp in Sources */,
 				6F37504F1B4D0AA20089C554 /* monomixer.cpp in Sources */,
 				6F3750501B4D0AA20089C554 /* multiplexer.cpp in Sources */,
 				6F3750511B4D0AA20089C554 /* multipitchklapuri.cpp in Sources */,
@@ -4501,7 +4453,6 @@
 				6F3750DB1B4D0AA20089C554 /* MaxFilter.cpp in Sources */,
 				6F3750DC1B4D0AA20089C554 /* TriangularBands.cpp in Sources */,
 				6F3750DD1B4D0AA20089C554 /* SuperFluxExtractor.cpp in Sources */,
-				6F3750DE1B4D0AA20089C554 /* fftk.cpp in Sources */,
 				6F3750DF1B4D0AA20089C554 /* SuperFluxNovelty.cpp in Sources */,
 				6F3750E01B4D0AA20089C554 /* multipitchmelodia.cpp in Sources */,
 				6F3750E11B4D0AA20089C554 /* SuperFluxPeaks.cpp in Sources */,
@@ -4515,6 +4466,7 @@
 				6F3750E91B4D0AA20089C554 /* loudnessebur128filter.cpp in Sources */,
 				6F3750EA1B4D0AA20089C554 /* loudnessvickers.cpp in Sources */,
 				6F3750EB1B4D0AA20089C554 /* lpc.cpp in Sources */,
+				6F6384D81BA0705600520AAB /* iffta.cpp in Sources */,
 				6F3750EC1B4D0AA20089C554 /* zerocrossingrate.cpp in Sources */,
 				6F3750ED1B4D0AA20089C554 /* chordsdetectionbeats.cpp in Sources */,
 				6F3750EE1B4D0AA20089C554 /* chordsdescriptors.cpp in Sources */,
@@ -4562,9 +4514,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F3752271B4D2DEB0089C554 /* splineutil.cpp in Sources */,
-				6F3752281B4D2DEB0089C554 /* iffta.cpp in Sources */,
-				6F3752291B4D2DEB0089C554 /* ffta.cpp in Sources */,
 				6F37522A1B4D2DEB0089C554 /* autocorrelation.cpp in Sources */,
+				6F6384DE1BA0705700520AAB /* ffta.cpp in Sources */,
 				6F37522B1B4D2DEB0089C554 /* binaryoperator.cpp in Sources */,
 				6F37522C1B4D2DEB0089C554 /* binaryoperatorstream.cpp in Sources */,
 				6F37522D1B4D2DEB0089C554 /* bpf.cpp in Sources */,
@@ -4578,10 +4529,7 @@
 				6F3752351B4D2DEB0089C554 /* pitchmelodia.cpp in Sources */,
 				6F3752361B4D2DEB0089C554 /* configurable.cpp in Sources */,
 				6F3752371B4D2DEB0089C554 /* envelope.cpp in Sources */,
-				6F3752381B4D2DEB0089C554 /* ifftk.cpp in Sources */,
-				6F3752391B4D2DEB0089C554 /* fftw.cpp in Sources */,
 				6F37523A1B4D2DEB0089C554 /* framecutter.cpp in Sources */,
-				6F37523B1B4D2DEB0089C554 /* ifftw.cpp in Sources */,
 				6F37523C1B4D2DEB0089C554 /* monomixer.cpp in Sources */,
 				6F37523D1B4D2DEB0089C554 /* multiplexer.cpp in Sources */,
 				6F37523E1B4D2DEB0089C554 /* multipitchklapuri.cpp in Sources */,
@@ -4728,7 +4676,6 @@
 				6F3752C81B4D2DEB0089C554 /* MaxFilter.cpp in Sources */,
 				6F3752C91B4D2DEB0089C554 /* TriangularBands.cpp in Sources */,
 				6F3752CA1B4D2DEB0089C554 /* SuperFluxExtractor.cpp in Sources */,
-				6F3752CB1B4D2DEB0089C554 /* fftk.cpp in Sources */,
 				6F3752CC1B4D2DEB0089C554 /* SuperFluxNovelty.cpp in Sources */,
 				6F3752CD1B4D2DEB0089C554 /* multipitchmelodia.cpp in Sources */,
 				6F3752CE1B4D2DEB0089C554 /* SuperFluxPeaks.cpp in Sources */,
@@ -4742,6 +4689,7 @@
 				6F3752D61B4D2DEB0089C554 /* loudnessebur128filter.cpp in Sources */,
 				6F3752D71B4D2DEB0089C554 /* loudnessvickers.cpp in Sources */,
 				6F3752D81B4D2DEB0089C554 /* lpc.cpp in Sources */,
+				6F6384DC1BA0705700520AAB /* iffta.cpp in Sources */,
 				6F3752D91B4D2DEB0089C554 /* zerocrossingrate.cpp in Sources */,
 				6F3752DA1B4D2DEB0089C554 /* chordsdetectionbeats.cpp in Sources */,
 				6F3752DB1B4D2DEB0089C554 /* chordsdescriptors.cpp in Sources */,
@@ -4789,9 +4737,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FAEFB071B27495F002DB4A1 /* splineutil.cpp in Sources */,
-				6FAEFB081B27495F002DB4A1 /* iffta.cpp in Sources */,
-				6FAEFB091B27495F002DB4A1 /* ffta.cpp in Sources */,
 				6FAEFB0A1B27495F002DB4A1 /* autocorrelation.cpp in Sources */,
+				6F6384D61BA0705600520AAB /* ffta.cpp in Sources */,
 				6FAEFB0B1B27495F002DB4A1 /* binaryoperator.cpp in Sources */,
 				6FAEFB0C1B27495F002DB4A1 /* binaryoperatorstream.cpp in Sources */,
 				6FAEFB0D1B27495F002DB4A1 /* bpf.cpp in Sources */,
@@ -4805,10 +4752,7 @@
 				6FB430B41B2754A6006BAA24 /* pitchmelodia.cpp in Sources */,
 				6F26F7A01B4C44610074B3D9 /* configurable.cpp in Sources */,
 				6FAEFB131B27495F002DB4A1 /* envelope.cpp in Sources */,
-				6FCC183A1B2EEBDB00370F5E /* ifftk.cpp in Sources */,
-				6FAEFB141B27495F002DB4A1 /* fftw.cpp in Sources */,
 				6FAEFB151B27495F002DB4A1 /* framecutter.cpp in Sources */,
-				6FAEFB161B27495F002DB4A1 /* ifftw.cpp in Sources */,
 				6FAEFB171B27495F002DB4A1 /* monomixer.cpp in Sources */,
 				6FAEFB181B27495F002DB4A1 /* multiplexer.cpp in Sources */,
 				6F018EFB1B4A8F1A00367977 /* multipitchklapuri.cpp in Sources */,
@@ -4955,7 +4899,6 @@
 				6FAEFB9A1B274960002DB4A1 /* MaxFilter.cpp in Sources */,
 				6FAEFB9B1B274960002DB4A1 /* TriangularBands.cpp in Sources */,
 				6FAEFB9C1B274960002DB4A1 /* SuperFluxExtractor.cpp in Sources */,
-				6FCC183E1B2EEC2D00370F5E /* fftk.cpp in Sources */,
 				6FAEFB9D1B274960002DB4A1 /* SuperFluxNovelty.cpp in Sources */,
 				6FB430941B275439006BAA24 /* multipitchmelodia.cpp in Sources */,
 				6FAEFB9E1B274960002DB4A1 /* SuperFluxPeaks.cpp in Sources */,
@@ -4969,6 +4912,7 @@
 				6FAEFBA51B274960002DB4A1 /* loudnessebur128filter.cpp in Sources */,
 				6FAEFBA61B274960002DB4A1 /* loudnessvickers.cpp in Sources */,
 				6FAEFBA71B274960002DB4A1 /* lpc.cpp in Sources */,
+				6F6384D41BA0705600520AAB /* iffta.cpp in Sources */,
 				6FAEFBA81B274960002DB4A1 /* zerocrossingrate.cpp in Sources */,
 				6FAEFBA91B274960002DB4A1 /* chordsdetectionbeats.cpp in Sources */,
 				6FAEFBAA1B274960002DB4A1 /* chordsdescriptors.cpp in Sources */,
@@ -5015,7 +4959,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FAEB92A1B98D61E006B2C66 /* iffta.cpp in Sources */,
 				6FABDA0919F51F0B00788094 /* flux.cpp in Sources */,
 				6FABDA0319F51F0B00788094 /* energybandratio.cpp in Sources */,
 				6F0711AE1A409668002B6E40 /* spline.cpp in Sources */,
@@ -5092,8 +5035,8 @@
 				6FABDA2119F51F0B00788094 /* spectralpeaks.cpp in Sources */,
 				6FABD9A319F51F0B00788094 /* onsetrate.cpp in Sources */,
 				6FABDAB719F51F0B00788094 /* key.cpp in Sources */,
-				6FAEB92C1B98D61E006B2C66 /* ffta.cpp in Sources */,
 				6F0711BC1A409668002B6E40 /* warpedautocorrelation.cpp in Sources */,
+				6F6384D01BA0705500520AAB /* iffta.cpp in Sources */,
 				6F018F001B4A904F00367977 /* predominantpitchmelodia.cpp in Sources */,
 				6FABD9F119F51F0B00788094 /* flatnesssfx.cpp in Sources */,
 				6F9BC5A41A7A863700E995AD /* fileoutputproxy.cpp in Sources */,
@@ -5114,6 +5057,7 @@
 				6FABD9D919F51F0B00788094 /* onsets.cpp in Sources */,
 				6F9BC5AC1A7A863700E995AD /* yamlinput.cpp in Sources */,
 				6F0711921A409668002B6E40 /* framecutter.cpp in Sources */,
+				6F6384D21BA0705500520AAB /* ffta.cpp in Sources */,
 				6FABDAE519F51F0B00788094 /* range.cpp in Sources */,
 				6FABDA8719F51F0B00788094 /* rms.cpp in Sources */,
 				6FABD9EF19F51F0B00788094 /* derivativesfx.cpp in Sources */,
