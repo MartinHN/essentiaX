@@ -32,7 +32,7 @@ H_ESSENTIA_SRC=$(ESSENTIA_PATH)src/
 H_KISS_FFT=$(H_ESSENTIA_SRC)3rdparty/kiss_fft130/
 H_FFTW_FFT=/usr/local/include/
 
-H_ESSENTIA_INTERN = $(H_ESSENTIA_SRC)essentia $(H_ESSENTIA_SRC)essentia/utils (H_ESSENTIA_SRC)essentia/streaming $(H_ESSENTIA_SRC)python  $(H_ESSENTIA_SRC)
+H_ESSENTIA_INTERN = $(H_ESSENTIA_SRC)essentia $(H_ESSENTIA_SRC)essentia/utils $(H_ESSENTIA_SRC)essentia/streaming $(H_ESSENTIA_SRC)python  $(H_ESSENTIA_SRC)
 
 
 

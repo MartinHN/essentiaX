@@ -91,6 +91,371 @@
 		6F26F7B71B4C44610074B3D9 /* stringutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BD19F51F0B00788094 /* stringutil.h */; };
 		6F26F7B81B4C44610074B3D9 /* threading.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BE19F51F0B00788094 /* threading.h */; };
 		6F26F7B91B4C44610074B3D9 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BF19F51F0B00788094 /* types.h */; };
+		6F5CD3FB1BA203C400619854 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA57EEA1A8A0CC700006E23 /* libstdc++.dylib */; };
+		6F5CD3FD1BA203C400619854 /* flux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7AF19F51F0B00788094 /* flux.cpp */; };
+		6F5CD3FE1BA203C400619854 /* energybandratio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7A919F51F0B00788094 /* energybandratio.cpp */; };
+		6F5CD3FF1BA203C400619854 /* spline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07116A1A409668002B6E40 /* spline.cpp */; };
+		6F5CD4001BA203C400619854 /* derivative.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711481A409668002B6E40 /* derivative.cpp */; };
+		6F5CD4011BA203C400619854 /* pitchyin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377571AF7A7B700B481E4 /* pitchyin.cpp */; };
+		6F5CD4021BA203C400619854 /* variance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83319F51F0B00788094 /* variance.cpp */; };
+		6F5CD4031BA203C400619854 /* splineutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377511AF79B2500B481E4 /* splineutil.cpp */; };
+		6F5CD4041BA203C400619854 /* pitchyinfft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD87219F51F0B00788094 /* pitchyinfft.cpp */; };
+		6F5CD4051BA203C400619854 /* loudness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84B19F51F0B00788094 /* loudness.cpp */; };
+		6F5CD4061BA203C400619854 /* movingaverage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD71919F51F0B00788094 /* movingaverage.cpp */; };
+		6F5CD4071BA203C400619854 /* singlegaussian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83119F51F0B00788094 /* singlegaussian.cpp */; };
+		6F5CD4081BA203C400619854 /* flatness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD81F19F51F0B00788094 /* flatness.cpp */; };
+		6F5CD4091BA203C400619854 /* gfcc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7B319F51F0B00788094 /* gfcc.cpp */; };
+		6F5CD40A1BA203C400619854 /* noiseadder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711561A409668002B6E40 /* noiseadder.cpp */; };
+		6F5CD40B1BA203C400619854 /* maxmagfreq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7B919F51F0B00788094 /* maxmagfreq.cpp */; };
+		6F5CD40C1BA203C400619854 /* configurable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD88219F51F0B00788094 /* configurable.cpp */; };
+		6F5CD40D1BA203C400619854 /* harmonicpeaks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD85E19F51F0B00788094 /* harmonicpeaks.cpp */; };
+		6F5CD40E1BA203C400619854 /* hfc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7B519F51F0B00788094 /* hfc.cpp */; };
+		6F5CD40F1BA203C400619854 /* spectralcomplexity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7C319F51F0B00788094 /* spectralcomplexity.cpp */; };
+		6F5CD4101BA203C400619854 /* resample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711601A409668002B6E40 /* resample.cpp */; };
+		6F5CD4111BA203C400619854 /* harmonicmask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F018F111B4A911100367977 /* harmonicmask.cpp */; };
+		6F5CD4121BA203C400619854 /* fadedetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD73C19F51F0B00788094 /* fadedetection.cpp */; };
+		6F5CD4141BA203C400619854 /* polartocartesian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD6ED19F51F0B00788094 /* polartocartesian.cpp */; };
+		6F5CD4151BA203C400619854 /* median.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD82719F51F0B00788094 /* median.cpp */; };
+		6F5CD4161BA203C400619854 /* asciidag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8C119F51F0B00788094 /* asciidag.cpp */; };
+		6F5CD4171BA203C400619854 /* essentia_algorithms_reg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD6EF19F51F0B00788094 /* essentia_algorithms_reg.cpp */; };
+		6F5CD4181BA203C400619854 /* windowing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07117A1A409668002B6E40 /* windowing.cpp */; };
+		6F5CD4191BA203C400619854 /* unaryoperatorstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711741A409668002B6E40 /* unaryoperatorstream.cpp */; };
+		6F5CD41A1BA203C400619854 /* TriangularBands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83919F51F0B00788094 /* TriangularBands.cpp */; };
+		6F5CD41B1BA203C400619854 /* poolaggregator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD82919F51F0B00788094 /* poolaggregator.cpp */; };
+		6F5CD41C1BA203C400619854 /* easyloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC58A1A7A863700E995AD /* easyloader.cpp */; };
+		6F5CD41D1BA203C400619854 /* envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114A1A409668002B6E40 /* envelope.cpp */; };
+		6F5CD41E1BA203C400619854 /* eqloudloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC58C1A7A863700E995AD /* eqloudloader.cpp */; };
+		6F5CD41F1BA203C400619854 /* mfcc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7BD19F51F0B00788094 /* mfcc.cpp */; };
+		6F5CD4201BA203C400619854 /* streamingalgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8B519F51F0B00788094 /* streamingalgorithm.cpp */; };
+		6F5CD4221BA203C400619854 /* centroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD81319F51F0B00788094 /* centroid.cpp */; };
+		6F5CD4231BA203C400619854 /* audioonsetsmarker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5861A7A863700E995AD /* audioonsetsmarker.cpp */; };
+		6F5CD4241BA203C400619854 /* oddtoevenharmonicenergyratio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86619F51F0B00788094 /* oddtoevenharmonicenergyratio.cpp */; };
+		6F5CD4251BA203C400619854 /* cubicspline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711441A409668002B6E40 /* cubicspline.cpp */; };
+		6F5CD4261BA203C400619854 /* decrease.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD81719F51F0B00788094 /* decrease.cpp */; };
+		6F5CD4271BA203C400619854 /* dct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711461A409668002B6E40 /* dct.cpp */; };
+		6F5CD4281BA203C400619854 /* larm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84719F51F0B00788094 /* larm.cpp */; };
+		6F5CD4291BA203C400619854 /* strongpeak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7CB19F51F0B00788094 /* strongpeak.cpp */; };
+		6F5CD42A1BA203C400619854 /* dynamiccomplexity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD73A19F51F0B00788094 /* dynamiccomplexity.cpp */; };
+		6F5CD42C1BA203C400619854 /* spectralpeaks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7C719F51F0B00788094 /* spectralpeaks.cpp */; };
+		6F5CD42E1BA203C400619854 /* key.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86419F51F0B00788094 /* key.cpp */; };
+		6F5CD42F1BA203C400619854 /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
+		6F5CD4301BA203C400619854 /* predominantpitchmelodia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F018EFE1B4A904F00367977 /* predominantpitchmelodia.cpp */; };
+		6F5CD4311BA203C400619854 /* fileoutputproxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC58E1A7A863700E995AD /* fileoutputproxy.cpp */; };
+		6F5CD4321BA203C400619854 /* loudnessvickers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD85119F51F0B00788094 /* loudnessvickers.cpp */; };
+		6F5CD4331BA203C400619854 /* SuperFluxPeaks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84019F51F0B00788094 /* SuperFluxPeaks.cpp */; };
+		6F5CD4341BA203C400619854 /* scale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711621A409668002B6E40 /* scale.cpp */; };
+		6F5CD4351BA203C400619854 /* poolstorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8A619F51F0B00788094 /* poolstorage.cpp */; };
+		6F5CD4361BA203C400619854 /* networkparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89A19F51F0B00788094 /* networkparser.cpp */; };
+		6F5CD4371BA203C400619854 /* spectrum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711681A409668002B6E40 /* spectrum.cpp */; };
+		6F5CD4381BA203C400619854 /* ringbufferoutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FAEB9321B98D7A6006B2C66 /* ringbufferoutput.cpp */; };
+		6F5CD4391BA203C400619854 /* algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD87D19F51F0B00788094 /* algorithm.cpp */; };
+		6F5CD43A1BA203C400619854 /* powermean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD82B19F51F0B00788094 /* powermean.cpp */; };
+		6F5CD43B1BA203C400619854 /* yamlinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5961A7A863700E995AD /* yamlinput.cpp */; };
+		6F5CD43C1BA203C400619854 /* framecutter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114E1A409668002B6E40 /* framecutter.cpp */; };
+		6F5CD43D1BA203C400619854 /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
+		6F5CD43E1BA203C400619854 /* range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89319F51F0B00788094 /* range.cpp */; };
+		6F5CD43F1BA203C400619854 /* rms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD82F19F51F0B00788094 /* rms.cpp */; };
+		6F5CD4401BA203C400619854 /* network.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89819F51F0B00788094 /* network.cpp */; };
+		6F5CD4411BA203C400619854 /* centralmoments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD81119F51F0B00788094 /* centralmoments.cpp */; };
+		6F5CD4431BA203C400619854 /* yamlast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8F219F51F0B00788094 /* yamlast.cpp */; };
+		6F5CD4441BA203C400619854 /* debugging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD88619F51F0B00788094 /* debugging.cpp */; };
+		6F5CD4451BA203C400619854 /* rolloff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7C119F51F0B00788094 /* rolloff.cpp */; };
+		6F5CD4461BA203C400619854 /* accumulatoralgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89E19F51F0B00788094 /* accumulatoralgorithm.cpp */; };
+		6F5CD4471BA203C400619854 /* pitchsalience.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD79E19F51F0B00788094 /* pitchsalience.cpp */; };
+		6F5CD4481BA203C400619854 /* pitchsaliencefunctionpeaks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD87019F51F0B00788094 /* pitchsaliencefunctionpeaks.cpp */; };
+		6F5CD4491BA203C400619854 /* unaryoperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711721A409668002B6E40 /* unaryoperator.cpp */; };
+		6F5CD44A1BA203C400619854 /* essentiautil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD88B19F51F0B00788094 /* essentiautil.cpp */; };
+		6F5CD44B1BA203C400619854 /* iir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD71519F51F0B00788094 /* iir.cpp */; };
+		6F5CD44C1BA203C400619854 /* instantpower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD82319F51F0B00788094 /* instantpower.cpp */; };
+		6F5CD44D1BA203C400619854 /* clipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711401A409668002B6E40 /* clipper.cpp */; };
+		6F5CD44E1BA203C400619854 /* harmonicbpm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD74019F51F0B00788094 /* harmonicbpm.cpp */; };
+		6F5CD44F1BA203C400619854 /* binaryoperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07113A1A409668002B6E40 /* binaryoperator.cpp */; };
+		6F5CD4501BA203C400619854 /* inharmonicity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86219F51F0B00788094 /* inharmonicity.cpp */; };
+		6F5CD4511BA203C400619854 /* rawmoments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD82D19F51F0B00788094 /* rawmoments.cpp */; };
+		6F5CD4521BA203C400619854 /* parameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD88F19F51F0B00788094 /* parameter.cpp */; };
+		6F5CD4531BA203C400619854 /* sourcebase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8B219F51F0B00788094 /* sourcebase.cpp */; };
+		6F5CD4541BA203C400619854 /* spectralwhitening.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7C919F51F0B00788094 /* spectralwhitening.cpp */; };
+		6F5CD4551BA203C400619854 /* sbic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD74819F51F0B00788094 /* sbic.cpp */; };
+		6F5CD4571BA203C400619854 /* distributionshape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD81919F51F0B00788094 /* distributionshape.cpp */; };
+		6F5CD4581BA203C400619854 /* SuperFluxNovelty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83E19F51F0B00788094 /* SuperFluxNovelty.cpp */; };
+		6F5CD4591BA203C400619854 /* panning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7BF19F51F0B00788094 /* panning.cpp */; };
+		6F5CD45A1BA203C400619854 /* slicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711661A409668002B6E40 /* slicer.cpp */; };
+		6F5CD45B1BA203C400619854 /* loudnessebur128filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84F19F51F0B00788094 /* loudnessebur128filter.cpp */; };
+		6F5CD45C1BA203C400619854 /* pitchcontours.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86819F51F0B00788094 /* pitchcontours.cpp */; };
+		6F5CD45F1BA203C400619854 /* mean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD82519F51F0B00788094 /* mean.cpp */; };
+		6F5CD4611BA203C400619854 /* danceability.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD73819F51F0B00788094 /* danceability.cpp */; };
+		6F5CD4621BA203C400619854 /* hpcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7B719F51F0B00788094 /* hpcp.cpp */; };
+		6F5CD4631BA203C400619854 /* frequencybands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7B119F51F0B00788094 /* frequencybands.cpp */; };
+		6F5CD4641BA203C400619854 /* MaxFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83719F51F0B00788094 /* MaxFilter.cpp */; };
+		6F5CD4651BA203C400619854 /* equalloudness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD71119F51F0B00788094 /* equalloudness.cpp */; };
+		6F5CD4661BA203C400619854 /* asciidagparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8C319F51F0B00788094 /* asciidagparser.cpp */; };
+		6F5CD4671BA203C400619854 /* crest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD81519F51F0B00788094 /* crest.cpp */; };
+		6F5CD4681BA203C400619854 /* ringbuffervectoroutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FAEB9341B98D7A6006B2C66 /* ringbuffervectoroutput.cpp */; };
+		6F5CD46A1BA203C400619854 /* essentia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD88819F51F0B00788094 /* essentia.cpp */; };
+		6F5CD46B1BA203C400619854 /* audioloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5841A7A863700E995AD /* audioloader.cpp */; };
+		6F5CD46C1BA203C400619854 /* peakdetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711581A409668002B6E40 /* peakdetection.cpp */; };
+		6F5CD46D1BA203C400619854 /* silencerate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711641A409668002B6E40 /* silencerate.cpp */; };
+		6F5CD46E1BA203C400619854 /* energyband.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7A719F51F0B00788094 /* energyband.cpp */; };
+		6F5CD46F1BA203C400619854 /* barkbands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7A519F51F0B00788094 /* barkbands.cpp */; };
+		6F5CD4701BA203C400619854 /* streamingalgorithmcomposite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8B719F51F0B00788094 /* streamingalgorithmcomposite.cpp */; };
+		6F5CD4711BA203C400619854 /* intensity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD74219F51F0B00788094 /* intensity.cpp */; };
+		6F5CD4721BA203C400619854 /* zerocrossingrate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD85519F51F0B00788094 /* zerocrossingrate.cpp */; };
+		6F5CD4731BA203C400619854 /* energy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD81B19F51F0B00788094 /* energy.cpp */; };
+		6F5CD4741BA203C400619854 /* sinemodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F018F131B4A911100367977 /* sinemodel.cpp */; };
+		6F5CD4751BA203C400619854 /* leq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84919F51F0B00788094 /* leq.cpp */; };
+		6F5CD4761BA203C400619854 /* melbands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7BB19F51F0B00788094 /* melbands.cpp */; };
+		6F5CD4771BA203C400619854 /* geometricmean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD82119F51F0B00788094 /* geometricmean.cpp */; };
+		6F5CD4781BA203C400619854 /* erbbands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7AB19F51F0B00788094 /* erbbands.cpp */; };
+		6F5CD4791BA203C400619854 /* magnitude.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD6EB19F51F0B00788094 /* magnitude.cpp */; };
+		6F5CD47A1BA203C400619854 /* flatnessdb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7AD19F51F0B00788094 /* flatnessdb.cpp */; };
+		6F5CD47B1BA203C400619854 /* yamloutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5981A7A863700E995AD /* yamloutput.cpp */; };
+		6F5CD47C1BA203C400619854 /* devnull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8A219F51F0B00788094 /* devnull.cpp */; };
+		6F5CD47D1BA203C400619854 /* cartesiantopolar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD6E919F51F0B00788094 /* cartesiantopolar.cpp */; };
+		6F5CD47E1BA203C400619854 /* lowpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD71719F51F0B00788094 /* lowpass.cpp */; };
+		6F5CD47F1BA203C400619854 /* streamingalgorithmwrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8B919F51F0B00788094 /* streamingalgorithmwrapper.cpp */; };
+		6F5CD4801BA203C400619854 /* effectiveduration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84519F51F0B00788094 /* effectiveduration.cpp */; };
+		6F5CD4811BA203C400619854 /* pitchsaliencefunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86E19F51F0B00788094 /* pitchsaliencefunction.cpp */; };
+		6F5CD4821BA203C400619854 /* ringbufferinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FAEB9301B98D7A6006B2C66 /* ringbufferinput.cpp */; };
+		6F5CD4831BA203C400619854 /* connector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD88419F51F0B00788094 /* connector.cpp */; };
+		6F5CD4841BA203C400619854 /* monoloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5921A7A863700E995AD /* monoloader.cpp */; };
+		6F5CD4851BA203C400619854 /* metadatareader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5901A7A863700E995AD /* metadatareader.cpp */; };
+		6F5CD4861BA203C400619854 /* entropy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD81D19F51F0B00788094 /* entropy.cpp */; };
+		6F5CD4881BA203C400619854 /* audiowriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5881A7A863700E995AD /* audiowriter.cpp */; };
+		6F5CD4891BA203C400619854 /* frametoreal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F018F0A1B4A90D600367977 /* frametoreal.cpp */; };
+		6F5CD48A1BA203C400619854 /* audiocontext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5801A7A85F400E995AD /* audiocontext.cpp */; };
+		6F5CD48B1BA203C400619854 /* SuperFluxExtractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD83C19F51F0B00788094 /* SuperFluxExtractor.cpp */; };
+		6F5CD48C1BA203C400619854 /* highpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD71319F51F0B00788094 /* highpass.cpp */; };
+		6F5CD48D1BA203C400619854 /* spectralcontrast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7C519F51F0B00788094 /* spectralcontrast.cpp */; };
+		6F5CD48E1BA203C400619854 /* pitchmelodia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4309F1B2754A6006BAA24 /* pitchmelodia.cpp */; };
+		6F5CD48F1BA203C400619854 /* pca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD74619F51F0B00788094 /* pca.cpp */; };
+		6F5CD4901BA203C400619854 /* monowriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5941A7A863700E995AD /* monowriter.cpp */; };
+		6F5CD4911BA203C400619854 /* lpc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD85319F51F0B00788094 /* lpc.cpp */; };
+		6F5CD4921BA203C400619854 /* lowlevelspectralextractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD70019F51F0B00788094 /* lowlevelspectralextractor.cpp */; };
+		6F5CD4931BA203C400619854 /* stringutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8BC19F51F0B00788094 /* stringutil.cpp */; };
+		6F5CD4941BA203C400619854 /* monomixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711521A409668002B6E40 /* monomixer.cpp */; };
+		6F5CD4951BA203C400619854 /* crosscorrelation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711421A409668002B6E40 /* crosscorrelation.cpp */; };
+		6F5CD4961BA203C400619854 /* sinkbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8AE19F51F0B00788094 /* sinkbase.cpp */; };
+		6F5CD4971BA203C400619854 /* duration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84319F51F0B00788094 /* duration.cpp */; };
+		6F5CD4981BA203C400619854 /* tristimulus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD87819F51F0B00788094 /* tristimulus.cpp */; };
+		6F5CD4991BA203C400619854 /* pool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89119F51F0B00788094 /* pool.cpp */; };
+		6F5CD49A1BA203C400619854 /* jsonconvert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8CC19F51F0B00788094 /* jsonconvert.cpp */; };
+		6F5CD49B1BA203C400619854 /* autocorrelation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711381A409668002B6E40 /* autocorrelation.cpp */; };
+		6F5CD49D1BA203C400619854 /* spectralpeaks.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7C819F51F0B00788094 /* spectralpeaks.h */; };
+		6F5CD49E1BA203C400619854 /* slicer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711671A409668002B6E40 /* slicer.h */; };
+		6F5CD49F1BA203C400619854 /* frequencybands.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7B219F51F0B00788094 /* frequencybands.h */; };
+		6F5CD4A01BA203C400619854 /* singlegaussian.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD83219F51F0B00788094 /* singlegaussian.h */; };
+		6F5CD4A11BA203C400619854 /* betools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8C819F51F0B00788094 /* betools.h */; };
+		6F5CD4A21BA203C400619854 /* highresolutionfeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD86119F51F0B00788094 /* highresolutionfeatures.h */; };
+		6F5CD4A31BA203C400619854 /* vectoroutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8A919F51F0B00788094 /* vectoroutput.h */; };
+		6F5CD4A41BA203C400619854 /* asciidagparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8C419F51F0B00788094 /* asciidagparser.h */; };
+		6F5CD4A51BA203C400619854 /* centroid.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD81419F51F0B00788094 /* centroid.h */; };
+		6F5CD4A61BA203C400619854 /* tristimulus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD87919F51F0B00788094 /* tristimulus.h */; };
+		6F5CD4A71BA203C400619854 /* energy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD81C19F51F0B00788094 /* energy.h */; };
+		6F5CD4A81BA203C400619854 /* streamingalgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8B619F51F0B00788094 /* streamingalgorithm.h */; };
+		6F5CD4A91BA203C400619854 /* configurable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88319F51F0B00788094 /* configurable.h */; };
+		6F5CD4AA1BA203C400619854 /* peakdetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711591A409668002B6E40 /* peakdetection.h */; };
+		6F5CD4AB1BA203C400619854 /* median.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD82819F51F0B00788094 /* median.h */; };
+		6F5CD4AC1BA203C400619854 /* tnt_sparse_matrix_csr.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8ED19F51F0B00788094 /* tnt_sparse_matrix_csr.h */; };
+		6F5CD4AD1BA203C400619854 /* panning.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7C019F51F0B00788094 /* panning.h */; };
+		6F5CD4AE1BA203C400619854 /* flux.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7B019F51F0B00788094 /* flux.h */; };
+		6F5CD4AF1BA203C400619854 /* TriangularBands.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD83A19F51F0B00788094 /* TriangularBands.h */; };
+		6F5CD4B01BA203C400619854 /* harmonicpeaks.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD85F19F51F0B00788094 /* harmonicpeaks.h */; };
+		6F5CD4B11BA203C400619854 /* tnt_i_refvec.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8EB19F51F0B00788094 /* tnt_i_refvec.h */; };
+		6F5CD4B21BA203C400619854 /* fileoutputproxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC58F1A7A863700E995AD /* fileoutputproxy.h */; };
+		6F5CD4B31BA203C400619854 /* lpc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD85419F51F0B00788094 /* lpc.h */; };
+		6F5CD4B41BA203C400619854 /* metadatautils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8CF19F51F0B00788094 /* metadatautils.h */; };
+		6F5CD4B51BA203C400619854 /* spectralcomplexity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7C419F51F0B00788094 /* spectralcomplexity.h */; };
+		6F5CD4B61BA203C400619854 /* tnt_cmat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8E419F51F0B00788094 /* tnt_cmat.h */; };
+		6F5CD4B71BA203C400619854 /* lowpass.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD71819F51F0B00788094 /* lowpass.h */; };
+		6F5CD4B81BA203C400619854 /* tnt.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8DB19F51F0B00788094 /* tnt.h */; };
+		6F5CD4B91BA203C400619854 /* binaryoperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07113B1A409668002B6E40 /* binaryoperator.h */; };
+		6F5CD4BA1BA203C400619854 /* metadatareader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5911A7A863700E995AD /* metadatareader.h */; };
+		6F5CD4BB1BA203C400619854 /* unaryoperatorstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711751A409668002B6E40 /* unaryoperatorstream.h */; };
+		6F5CD4BC1BA203C400619854 /* scale.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711631A409668002B6E40 /* scale.h */; };
+		6F5CD4BD1BA203C400619854 /* tnt_array2d_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8E119F51F0B00788094 /* tnt_array2d_utils.h */; };
+		6F5CD4BE1BA203C400619854 /* crest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD81619F51F0B00788094 /* crest.h */; };
+		6F5CD4BF1BA203C400619854 /* monowriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5951A7A863700E995AD /* monowriter.h */; };
+		6F5CD4C01BA203C400619854 /* accumulatoralgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89F19F51F0B00788094 /* accumulatoralgorithm.h */; };
+		6F5CD4C11BA203C400619854 /* clipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711411A409668002B6E40 /* clipper.h */; };
+		6F5CD4C21BA203C400619854 /* iotypewrappers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88D19F51F0B00788094 /* iotypewrappers.h */; };
+		6F5CD4C31BA203C400619854 /* effectiveduration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD84619F51F0B00788094 /* effectiveduration.h */; };
+		6F5CD4C41BA203C400619854 /* algorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD87E19F51F0B00788094 /* algorithm.h */; };
+		6F5CD4C51BA203C400619854 /* pitchyinfft.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD87319F51F0B00788094 /* pitchyinfft.h */; };
+		6F5CD4C61BA203C400619854 /* strongpeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7CC19F51F0B00788094 /* strongpeak.h */; };
+		6F5CD4C71BA203C400619854 /* tnt_math_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8EC19F51F0B00788094 /* tnt_math_utils.h */; };
+		6F5CD4C81BA203C400619854 /* larm.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD84819F51F0B00788094 /* larm.h */; };
+		6F5CD4C91BA203C400619854 /* spectrum.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711691A409668002B6E40 /* spectrum.h */; };
+		6F5CD4CA1BA203C400619854 /* algorithmfactory_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88019F51F0B00788094 /* algorithmfactory_impl.h */; };
+		6F5CD4CB1BA203C400619854 /* yamlinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5971A7A863700E995AD /* yamlinput.h */; };
+		6F5CD4CC1BA203C400619854 /* jama_qr.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8D919F51F0B00788094 /* jama_qr.h */; };
+		6F5CD4CD1BA203C400619854 /* centralmoments.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD81219F51F0B00788094 /* centralmoments.h */; };
+		6F5CD4CE1BA203C400619854 /* pool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89219F51F0B00788094 /* pool.h */; };
+		6F5CD4CF1BA203C400619854 /* tnt_subscript.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8EF19F51F0B00788094 /* tnt_subscript.h */; };
+		6F5CD4D01BA203C400619854 /* audioonsetsmarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5871A7A863700E995AD /* audioonsetsmarker.h */; };
+		6F5CD4D11BA203C400619854 /* range.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89419F51F0B00788094 /* range.h */; };
+		6F5CD4D21BA203C400619854 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BF19F51F0B00788094 /* types.h */; };
+		6F5CD4D31BA203C400619854 /* bpfutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8C919F51F0B00788094 /* bpfutil.h */; };
+		6F5CD4D41BA203C400619854 /* essentia.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88919F51F0B00788094 /* essentia.h */; };
+		6F5CD4D61BA203C400619854 /* streamingalgorithmwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BA19F51F0B00788094 /* streamingalgorithmwrapper.h */; };
+		6F5CD4D71BA203C400619854 /* poolstorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8A719F51F0B00788094 /* poolstorage.h */; };
+		6F5CD4D81BA203C400619854 /* sbic.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD74919F51F0B00788094 /* sbic.h */; };
+		6F5CD4D91BA203C400619854 /* duration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD84419F51F0B00788094 /* duration.h */; };
+		6F5CD4DA1BA203C400619854 /* SuperFluxPeaks.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD84119F51F0B00788094 /* SuperFluxPeaks.h */; };
+		6F5CD4DB1BA203C400619854 /* phantombuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8AB19F51F0B00788094 /* phantombuffer.h */; };
+		6F5CD4DC1BA203C400619854 /* yamlast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8F319F51F0B00788094 /* yamlast.h */; };
+		6F5CD4DD1BA203C400619854 /* tnt_fortran_array3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8E919F51F0B00788094 /* tnt_fortran_array3d.h */; };
+		6F5CD4DE1BA203C400619854 /* autocorrelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711391A409668002B6E40 /* autocorrelation.h */; };
+		6F5CD4DF1BA203C400619854 /* inharmonicity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD86319F51F0B00788094 /* inharmonicity.h */; };
+		6F5CD4E01BA203C400619854 /* highpass.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD71419F51F0B00788094 /* highpass.h */; };
+		6F5CD4E11BA203C400619854 /* spectralcontrast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7C619F51F0B00788094 /* spectralcontrast.h */; };
+		6F5CD4E21BA203C400619854 /* lowlevelspectralextractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD70119F51F0B00788094 /* lowlevelspectralextractor.h */; };
+		6F5CD4E31BA203C400619854 /* loudness.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD84C19F51F0B00788094 /* loudness.h */; };
+		6F5CD4E41BA203C400619854 /* tnt_vec.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8F019F51F0B00788094 /* tnt_vec.h */; };
+		6F5CD4E51BA203C400619854 /* resample.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711611A409668002B6E40 /* resample.h */; };
+		6F5CD4E61BA203C400619854 /* graphutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89719F51F0B00788094 /* graphutils.h */; };
+		6F5CD4E71BA203C400619854 /* pitchcontoursmelody.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD86B19F51F0B00788094 /* pitchcontoursmelody.h */; };
+		6F5CD4E81BA203C400619854 /* crosscorrelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711431A409668002B6E40 /* crosscorrelation.h */; };
+		6F5CD4E91BA203C400619854 /* dissonance.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD85D19F51F0B00788094 /* dissonance.h */; };
+		6F5CD4EA1BA203C400619854 /* leq.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD84A19F51F0B00788094 /* leq.h */; };
+		6F5CD4EB1BA203C400619854 /* geometricmean.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD82219F51F0B00788094 /* geometricmean.h */; };
+		6F5CD4EC1BA203C400619854 /* cartesiantopolar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD6EA19F51F0B00788094 /* cartesiantopolar.h */; };
+		6F5CD4ED1BA203C400619854 /* jama_lu.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8D819F51F0B00788094 /* jama_lu.h */; };
+		6F5CD4EE1BA203C400619854 /* loudnessebur128filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD85019F51F0B00788094 /* loudnessebur128filter.h */; };
+		6F5CD4EF1BA203C400619854 /* tnt_fortran_array1d_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8E619F51F0B00788094 /* tnt_fortran_array1d_utils.h */; };
+		6F5CD4F01BA203C400619854 /* noiseadder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711571A409668002B6E40 /* noiseadder.h */; };
+		6F5CD4F11BA203C400619854 /* jama_svd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8DA19F51F0B00788094 /* jama_svd.h */; };
+		6F5CD4F21BA203C400619854 /* pitchyin.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377581AF7A7B700B481E4 /* pitchyin.h */; };
+		6F5CD4F31BA203C400619854 /* ringbuffervectoroutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9351B98D7A6006B2C66 /* ringbuffervectoroutput.h */; };
+		6F5CD4F41BA203C400619854 /* devnull.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8A319F51F0B00788094 /* devnull.h */; };
+		6F5CD4F51BA203C400619854 /* SuperFluxNovelty.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD83F19F51F0B00788094 /* SuperFluxNovelty.h */; };
+		6F5CD4F61BA203C400619854 /* barkbands.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7A619F51F0B00788094 /* barkbands.h */; };
+		6F5CD4F71BA203C400619854 /* audioloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5851A7A863700E995AD /* audioloader.h */; };
+		6F5CD4F81BA203C400619854 /* movingaverage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD71A19F51F0B00788094 /* movingaverage.h */; };
+		6F5CD4F91BA203C400619854 /* derivative.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711491A409668002B6E40 /* derivative.h */; };
+		6F5CD4FA1BA203C400619854 /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
+		6F5CD4FB1BA203C400619854 /* zerocrossingrate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD85619F51F0B00788094 /* zerocrossingrate.h */; };
+		6F5CD4FC1BA203C400619854 /* MersenneTwister.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8CE19F51F0B00788094 /* MersenneTwister.h */; };
+		6F5CD4FD1BA203C400619854 /* loudnessebur128.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD84E19F51F0B00788094 /* loudnessebur128.h */; };
+		6F5CD4FE1BA203C400619854 /* gfcc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7B419F51F0B00788094 /* gfcc.h */; };
+		6F5CD4FF1BA203C400619854 /* vectorinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8A819F51F0B00788094 /* vectorinput.h */; };
+		6F5CD5001BA203C400619854 /* pitchsaliencefunctionpeaks.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD87119F51F0B00788094 /* pitchsaliencefunctionpeaks.h */; };
+		6F5CD5011BA203C400619854 /* intensity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD74319F51F0B00788094 /* intensity.h */; };
+		6F5CD5021BA203C400619854 /* source.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8B119F51F0B00788094 /* source.h */; };
+		6F5CD5031BA203C400619854 /* peak.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8D119F51F0B00788094 /* peak.h */; };
+		6F5CD5041BA203C400619854 /* eqloudloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC58D1A7A863700E995AD /* eqloudloader.h */; };
+		6F5CD5051BA203C400619854 /* essentiamath.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88A19F51F0B00788094 /* essentiamath.h */; };
+		6F5CD5061BA203C400619854 /* cubicspline.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711451A409668002B6E40 /* cubicspline.h */; };
+		6F5CD5071BA203C400619854 /* rolloff.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7C219F51F0B00788094 /* rolloff.h */; };
+		6F5CD5081BA203C400619854 /* hfc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7B619F51F0B00788094 /* hfc.h */; };
+		6F5CD5091BA203C400619854 /* onsetrate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD74519F51F0B00788094 /* onsetrate.h */; };
+		6F5CD50A1BA203C400619854 /* phantombuffer_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8AC19F51F0B00788094 /* phantombuffer_impl.h */; };
+		6F5CD50B1BA203C400619854 /* stringutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BD19F51F0B00788094 /* stringutil.h */; };
+		6F5CD50C1BA203C400619854 /* tnt_stopwatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8EE19F51F0B00788094 /* tnt_stopwatch.h */; };
+		6F5CD50D1BA203C400619854 /* SuperFluxExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD83D19F51F0B00788094 /* SuperFluxExtractor.h */; };
+		6F5CD50E1BA203C400619854 /* diskwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8A419F51F0B00788094 /* diskwriter.h */; };
+		6F5CD50F1BA203C400619854 /* copy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8A119F51F0B00788094 /* copy.h */; };
+		6F5CD5101BA203C400619854 /* audiowriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5891A7A863700E995AD /* audiowriter.h */; };
+		6F5CD5111BA203C400619854 /* parameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89019F51F0B00788094 /* parameter.h */; };
+		6F5CD5121BA203C400619854 /* dct.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711471A409668002B6E40 /* dct.h */; };
+		6F5CD5131BA203C400619854 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD94119F51F0B00788094 /* version.h */; };
+		6F5CD5141BA203C400619854 /* energyband.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7A819F51F0B00788094 /* energyband.h */; };
+		6F5CD5151BA203C400619854 /* tnt_array3d_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8E319F51F0B00788094 /* tnt_array3d_utils.h */; };
+		6F5CD5161BA203C400619854 /* binaryoperatorstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07113D1A409668002B6E40 /* binaryoperatorstream.h */; };
+		6F5CD5171BA203C400619854 /* loudnessvickers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD85219F51F0B00788094 /* loudnessvickers.h */; };
+		6F5CD5181BA203C400619854 /* decrease.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD81819F51F0B00788094 /* decrease.h */; };
+		6F5CD5191BA203C400619854 /* oddtoevenharmonicenergyratio.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD86719F51F0B00788094 /* oddtoevenharmonicenergyratio.h */; };
+		6F5CD51A1BA203C400619854 /* sinkbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8AF19F51F0B00788094 /* sinkbase.h */; };
+		6F5CD51B1BA203C400619854 /* streamingalgorithmcomposite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8B819F51F0B00788094 /* streamingalgorithmcomposite.h */; };
+		6F5CD51C1BA203C400619854 /* variance.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD83419F51F0B00788094 /* variance.h */; };
+		6F5CD51D1BA203C400619854 /* frametoreal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F018F0B1B4A90D600367977 /* frametoreal.h */; };
+		6F5CD51E1BA203C400619854 /* easyloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC58B1A7A863700E995AD /* easyloader.h */; };
+		6F5CD51F1BA203C400619854 /* spline.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07116B1A409668002B6E40 /* spline.h */; };
+		6F5CD5201BA203C400619854 /* debugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88719F51F0B00788094 /* debugging.h */; };
+		6F5CD5211BA203C400619854 /* tnt_array2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8E019F51F0B00788094 /* tnt_array2d.h */; };
+		6F5CD5221BA203C400619854 /* ffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F83775C1AF7A91A00B481E4 /* ffta.h */; };
+		6F5CD5231BA203C400619854 /* tnt_array3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8E219F51F0B00788094 /* tnt_array3d.h */; };
+		6F5CD5241BA203C400619854 /* sink.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8AD19F51F0B00788094 /* sink.h */; };
+		6F5CD5251BA203C400619854 /* tnt_fortran_array2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8E719F51F0B00788094 /* tnt_fortran_array2d.h */; };
+		6F5CD5261BA203C400619854 /* iotypewrappers_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88E19F51F0B00788094 /* iotypewrappers_impl.h */; };
+		6F5CD5271BA203C400619854 /* fadedetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD73D19F51F0B00788094 /* fadedetection.h */; };
+		6F5CD5281BA203C400619854 /* output.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8D019F51F0B00788094 /* output.h */; };
+		6F5CD5291BA203C400619854 /* threading.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BE19F51F0B00788094 /* threading.h */; };
+		6F5CD52A1BA203C400619854 /* flatness.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD82019F51F0B00788094 /* flatness.h */; };
+		6F5CD52B1BA203C400619854 /* algorithmfactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD87F19F51F0B00788094 /* algorithmfactory.h */; };
+		6F5CD52C1BA203C400619854 /* windowing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07117B1A409668002B6E40 /* windowing.h */; };
+		6F5CD52D1BA203C400619854 /* fileoutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8A519F51F0B00788094 /* fileoutput.h */; };
+		6F5CD52E1BA203C400619854 /* envelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114B1A409668002B6E40 /* envelope.h */; };
+		6F5CD52F1BA203C400619854 /* jama_eig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8D719F51F0B00788094 /* jama_eig.h */; };
+		6F5CD5301BA203C400619854 /* networkparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89B19F51F0B00788094 /* networkparser.h */; };
+		6F5CD5311BA203C400619854 /* poolaggregator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD82A19F51F0B00788094 /* poolaggregator.h */; };
+		6F5CD5321BA203C400619854 /* streamutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BB19F51F0B00788094 /* streamutil.h */; };
+		6F5CD5331BA203C400619854 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88119F51F0B00788094 /* config.h */; };
+		6F5CD5341BA203C400619854 /* tnt2essentiautils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8DC19F51F0B00788094 /* tnt2essentiautils.h */; };
+		6F5CD5351BA203C400619854 /* asciidag.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8C219F51F0B00788094 /* asciidag.h */; };
+		6F5CD5361BA203C400619854 /* tnt_array1d_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8DF19F51F0B00788094 /* tnt_array1d_utils.h */; };
+		6F5CD5371BA203C400619854 /* flatnessdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7AE19F51F0B00788094 /* flatnessdb.h */; };
+		6F5CD5381BA203C400619854 /* harmonicmask.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F018F121B4A911100367977 /* harmonicmask.h */; };
+		6F5CD5391BA203C400619854 /* audiocontext.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5811A7A85F400E995AD /* audiocontext.h */; };
+		6F5CD53A1BA203C400619854 /* sinemodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F018F141B4A911100367977 /* sinemodel.h */; };
+		6F5CD53B1BA203C400619854 /* instantpower.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD82419F51F0B00788094 /* instantpower.h */; };
+		6F5CD53C1BA203C400619854 /* erbbands.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7AC19F51F0B00788094 /* erbbands.h */; };
+		6F5CD53D1BA203C400619854 /* streamconnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89C19F51F0B00788094 /* streamconnector.h */; };
+		6F5CD53E1BA203C400619854 /* jsonconvert.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8CD19F51F0B00788094 /* jsonconvert.h */; };
+		6F5CD53F1BA203C400619854 /* unaryoperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711731A409668002B6E40 /* unaryoperator.h */; };
+		6F5CD5401BA203C400619854 /* multiratebuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8AA19F51F0B00788094 /* multiratebuffer.h */; };
+		6F5CD5411BA203C400619854 /* connector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88519F51F0B00788094 /* connector.h */; };
+		6F5CD5421BA203C400619854 /* atomic.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8C519F51F0B00788094 /* atomic.h */; };
+		6F5CD5431BA203C400619854 /* iir.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD71619F51F0B00788094 /* iir.h */; };
+		6F5CD5441BA203C400619854 /* harmonicbpm.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD74119F51F0B00788094 /* harmonicbpm.h */; };
+		6F5CD5451BA203C400619854 /* jama_cholesky.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8D619F51F0B00788094 /* jama_cholesky.h */; };
+		6F5CD5471BA203C400619854 /* ringbufferinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9311B98D7A6006B2C66 /* ringbufferinput.h */; };
+		6F5CD5481BA203C400619854 /* tnt2vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8DD19F51F0B00788094 /* tnt2vector.h */; };
+		6F5CD5491BA203C400619854 /* rawmoments.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD82E19F51F0B00788094 /* rawmoments.h */; };
+		6F5CD54A1BA203C400619854 /* tnt_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8F119F51F0B00788094 /* tnt_version.h */; };
+		6F5CD54B1BA203C400619854 /* framecutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114F1A409668002B6E40 /* framecutter.h */; };
+		6F5CD54C1BA203C400619854 /* ringbufferoutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9331B98D7A6006B2C66 /* ringbufferoutput.h */; };
+		6F5CD54E1BA203C400619854 /* powermean.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD82C19F51F0B00788094 /* powermean.h */; };
+		6F5CD54F1BA203C400619854 /* maxmagfreq.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7BA19F51F0B00788094 /* maxmagfreq.h */; };
+		6F5CD5501BA203C400619854 /* sourceproxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8B419F51F0B00788094 /* sourceproxy.h */; };
+		6F5CD5511BA203C400619854 /* roguevector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89519F51F0B00788094 /* roguevector.h */; };
+		6F5CD5521BA203C400619854 /* MaxFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD83819F51F0B00788094 /* MaxFilter.h */; };
+		6F5CD5531BA203C400619854 /* monoloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5931A7A863700E995AD /* monoloader.h */; };
+		6F5CD5541BA203C400619854 /* tnt_array1d.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8DE19F51F0B00788094 /* tnt_array1d.h */; };
+		6F5CD5551BA203C400619854 /* splineutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377521AF79B2500B481E4 /* splineutil.h */; };
+		6F5CD5561BA203C400619854 /* spectralwhitening.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7CA19F51F0B00788094 /* spectralwhitening.h */; };
+		6F5CD5571BA203C400619854 /* mfcc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7BE19F51F0B00788094 /* mfcc.h */; };
+		6F5CD5581BA203C400619854 /* mean.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD82619F51F0B00788094 /* mean.h */; };
+		6F5CD5591BA203C400619854 /* pitchcontours.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD86919F51F0B00788094 /* pitchcontours.h */; };
+		6F5CD55A1BA203C400619854 /* dynamiccomplexity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD73B19F51F0B00788094 /* dynamiccomplexity.h */; };
+		6F5CD55B1BA203C400619854 /* hpcp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7B819F51F0B00788094 /* hpcp.h */; };
+		6F5CD55C1BA203C400619854 /* monomixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711531A409668002B6E40 /* monomixer.h */; };
+		6F5CD55D1BA203C400619854 /* magnitude.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD6EC19F51F0B00788094 /* magnitude.h */; };
+		6F5CD55E1BA203C400619854 /* melbands.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7BC19F51F0B00788094 /* melbands.h */; };
+		6F5CD55F1BA203C400619854 /* predominantpitchmelodia.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F018EFF1B4A904F00367977 /* predominantpitchmelodia.h */; };
+		6F5CD5601BA203C400619854 /* tnt_fortran_array3d_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8EA19F51F0B00788094 /* tnt_fortran_array3d_utils.h */; };
+		6F5CD5611BA203C400619854 /* polartocartesian.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD6EE19F51F0B00788094 /* polartocartesian.h */; };
+		6F5CD5621BA203C400619854 /* danceability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD73919F51F0B00788094 /* danceability.h */; };
+		6F5CD5631BA203C400619854 /* silencerate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711651A409668002B6E40 /* silencerate.h */; };
+		6F5CD5641BA203C400619854 /* essentiautil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD88C19F51F0B00788094 /* essentiautil.h */; };
+		6F5CD5651BA203C400619854 /* pca.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD74719F51F0B00788094 /* pca.h */; };
+		6F5CD5661BA203C400619854 /* yamloutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5991A7A863700E995AD /* yamloutput.h */; };
+		6F5CD5671BA203C400619854 /* tnt_fortran_array2d_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8E819F51F0B00788094 /* tnt_fortran_array2d_utils.h */; };
+		6F5CD5681BA203C400619854 /* pitchsaliencefunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD86F19F51F0B00788094 /* pitchsaliencefunction.h */; };
+		6F5CD5691BA203C400619854 /* energybandratio.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7AA19F51F0B00788094 /* energybandratio.h */; };
+		6F5CD56A1BA203C400619854 /* entropy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD81E19F51F0B00788094 /* entropy.h */; };
+		6F5CD56B1BA203C400619854 /* bpmutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8CA19F51F0B00788094 /* bpmutil.h */; };
+		6F5CD56C1BA203C400619854 /* tnt_fortran_array1d.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8E519F51F0B00788094 /* tnt_fortran_array1d.h */; };
+		6F5CD56D1BA203C400619854 /* key.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD86519F51F0B00788094 /* key.h */; };
+		6F5CD56E1BA203C400619854 /* pitchmelodia.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB430A01B2754A6006BAA24 /* pitchmelodia.h */; };
+		6F5CD56F1BA203C400619854 /* sourcebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8B319F51F0B00788094 /* sourcebase.h */; };
+		6F5CD5701BA203C400619854 /* equalloudness.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD71219F51F0B00788094 /* equalloudness.h */; };
+		6F5CD5721BA203C400619854 /* rms.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD83019F51F0B00788094 /* rms.h */; };
+		6F5CD5731BA203C400619854 /* ffmpegapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCA1CBD1BA01D8D0092006C /* ffmpegapi.h */; };
+		6F5CD5741BA203C400619854 /* bpf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07113F1A409668002B6E40 /* bpf.h */; };
+		6F5CD5751BA203C400619854 /* ringbufferimpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8D219F51F0B00788094 /* ringbufferimpl.h */; };
+		6F5CD5761BA203C400619854 /* distributionshape.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD81A19F51F0B00788094 /* distributionshape.h */; };
+		6F5CD5771BA203C400619854 /* network.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89919F51F0B00788094 /* network.h */; };
+		6F5CD5781BA203C400619854 /* sinkproxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8B019F51F0B00788094 /* sinkproxy.h */; };
 		6F6384D01BA0705500520AAB /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
 		6F6384D11BA0705500520AAB /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
 		6F6384D21BA0705500520AAB /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
@@ -429,8 +794,6 @@
 		6FAEFB071B27495F002DB4A1 /* splineutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377511AF79B2500B481E4 /* splineutil.cpp */; };
 		6FAEFB0A1B27495F002DB4A1 /* autocorrelation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711381A409668002B6E40 /* autocorrelation.cpp */; };
 		6FAEFB0B1B27495F002DB4A1 /* binaryoperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07113A1A409668002B6E40 /* binaryoperator.cpp */; };
-		6FAEFB0C1B27495F002DB4A1 /* binaryoperatorstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07113C1A409668002B6E40 /* binaryoperatorstream.cpp */; };
-		6FAEFB0D1B27495F002DB4A1 /* bpf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07113E1A409668002B6E40 /* bpf.cpp */; };
 		6FAEFB0E1B27495F002DB4A1 /* clipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711401A409668002B6E40 /* clipper.cpp */; };
 		6FAEFB0F1B27495F002DB4A1 /* crosscorrelation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711421A409668002B6E40 /* crosscorrelation.cpp */; };
 		6FAEFB101B27495F002DB4A1 /* cubicspline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711441A409668002B6E40 /* cubicspline.cpp */; };
@@ -465,7 +828,6 @@
 		6FAEFB461B274960002DB4A1 /* fadedetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD73C19F51F0B00788094 /* fadedetection.cpp */; };
 		6FAEFB471B274960002DB4A1 /* harmonicbpm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD74019F51F0B00788094 /* harmonicbpm.cpp */; };
 		6FAEFB481B274960002DB4A1 /* intensity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD74219F51F0B00788094 /* intensity.cpp */; };
-		6FAEFB491B274960002DB4A1 /* onsetrate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD74419F51F0B00788094 /* onsetrate.cpp */; };
 		6FAEFB4A1B274960002DB4A1 /* pca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD74619F51F0B00788094 /* pca.cpp */; };
 		6FAEFB4B1B274960002DB4A1 /* sbic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD74819F51F0B00788094 /* sbic.cpp */; };
 		6FAEFB741B274960002DB4A1 /* barkbands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7A519F51F0B00788094 /* barkbands.cpp */; };
@@ -516,19 +878,15 @@
 		6FAEFBA11B274960002DB4A1 /* larm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84719F51F0B00788094 /* larm.cpp */; };
 		6FAEFBA21B274960002DB4A1 /* leq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84919F51F0B00788094 /* leq.cpp */; };
 		6FAEFBA31B274960002DB4A1 /* loudness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84B19F51F0B00788094 /* loudness.cpp */; };
-		6FAEFBA41B274960002DB4A1 /* loudnessebur128.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84D19F51F0B00788094 /* loudnessebur128.cpp */; };
 		6FAEFBA51B274960002DB4A1 /* loudnessebur128filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD84F19F51F0B00788094 /* loudnessebur128filter.cpp */; };
 		6FAEFBA61B274960002DB4A1 /* loudnessvickers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD85119F51F0B00788094 /* loudnessvickers.cpp */; };
 		6FAEFBA71B274960002DB4A1 /* lpc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD85319F51F0B00788094 /* lpc.cpp */; };
 		6FAEFBA81B274960002DB4A1 /* zerocrossingrate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD85519F51F0B00788094 /* zerocrossingrate.cpp */; };
-		6FAEFBAC1B274960002DB4A1 /* dissonance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD85C19F51F0B00788094 /* dissonance.cpp */; };
 		6FAEFBAD1B274960002DB4A1 /* harmonicpeaks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD85E19F51F0B00788094 /* harmonicpeaks.cpp */; };
-		6FAEFBAE1B274960002DB4A1 /* highresolutionfeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86019F51F0B00788094 /* highresolutionfeatures.cpp */; };
 		6FAEFBAF1B274960002DB4A1 /* inharmonicity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86219F51F0B00788094 /* inharmonicity.cpp */; };
 		6FAEFBB01B274960002DB4A1 /* key.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86419F51F0B00788094 /* key.cpp */; };
 		6FAEFBB11B274960002DB4A1 /* oddtoevenharmonicenergyratio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86619F51F0B00788094 /* oddtoevenharmonicenergyratio.cpp */; };
 		6FAEFBB21B274960002DB4A1 /* pitchcontours.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86819F51F0B00788094 /* pitchcontours.cpp */; };
-		6FAEFBB31B274960002DB4A1 /* pitchcontoursmelody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86A19F51F0B00788094 /* pitchcontoursmelody.cpp */; };
 		6FAEFBB51B274960002DB4A1 /* pitchsaliencefunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD86E19F51F0B00788094 /* pitchsaliencefunction.cpp */; };
 		6FAEFBB61B274960002DB4A1 /* pitchsaliencefunctionpeaks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD87019F51F0B00788094 /* pitchsaliencefunctionpeaks.cpp */; };
 		6FAEFBB71B274960002DB4A1 /* pitchyin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377571AF7A7B700B481E4 /* pitchyin.cpp */; };
@@ -780,6 +1138,7 @@
 		6F0711791A409668002B6E40 /* warpedautocorrelation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = warpedautocorrelation.h; sourceTree = "<group>"; };
 		6F07117A1A409668002B6E40 /* windowing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = windowing.cpp; sourceTree = "<group>"; };
 		6F07117B1A409668002B6E40 /* windowing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = windowing.h; sourceTree = "<group>"; };
+		6F5CD57C1BA203C400619854 /* libessentiaX copy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libessentiaX copy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7D15C21A9B2FF20055DB29 /* chordsdetectionbeats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chordsdetectionbeats.cpp; sourceTree = "<group>"; };
 		6F7D15C31A9B2FF20055DB29 /* chordsdetectionbeats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chordsdetectionbeats.h; sourceTree = "<group>"; };
 		6F8377511AF79B2500B481E4 /* splineutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = splineutil.cpp; path = spline/splineutil.cpp; sourceTree = "<group>"; };
@@ -1241,6 +1600,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6F5CD3FA1BA203C400619854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5CD3FB1BA203C400619854 /* libstdc++.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6FA5A2AF1B21EFAF002C23E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2036,6 +2403,7 @@
 			children = (
 				6FD0EB0E197E7B070093FFB6 /* libessentiaX.a */,
 				6FA5A49B1B21EFAF002C23E4 /* libessentiaRT.a */,
+				6F5CD57C1BA203C400619854 /* libessentiaX copy.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2043,6 +2411,229 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6F5CD49C1BA203C400619854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5CD49D1BA203C400619854 /* spectralpeaks.h in Headers */,
+				6F5CD49E1BA203C400619854 /* slicer.h in Headers */,
+				6F5CD49F1BA203C400619854 /* frequencybands.h in Headers */,
+				6F5CD4A01BA203C400619854 /* singlegaussian.h in Headers */,
+				6F5CD4A11BA203C400619854 /* betools.h in Headers */,
+				6F5CD4A21BA203C400619854 /* highresolutionfeatures.h in Headers */,
+				6F5CD4A31BA203C400619854 /* vectoroutput.h in Headers */,
+				6F5CD4A41BA203C400619854 /* asciidagparser.h in Headers */,
+				6F5CD4A51BA203C400619854 /* centroid.h in Headers */,
+				6F5CD4A61BA203C400619854 /* tristimulus.h in Headers */,
+				6F5CD4A71BA203C400619854 /* energy.h in Headers */,
+				6F5CD4A81BA203C400619854 /* streamingalgorithm.h in Headers */,
+				6F5CD4A91BA203C400619854 /* configurable.h in Headers */,
+				6F5CD4AA1BA203C400619854 /* peakdetection.h in Headers */,
+				6F5CD4AB1BA203C400619854 /* median.h in Headers */,
+				6F5CD4AC1BA203C400619854 /* tnt_sparse_matrix_csr.h in Headers */,
+				6F5CD4AD1BA203C400619854 /* panning.h in Headers */,
+				6F5CD4AE1BA203C400619854 /* flux.h in Headers */,
+				6F5CD4AF1BA203C400619854 /* TriangularBands.h in Headers */,
+				6F5CD4B01BA203C400619854 /* harmonicpeaks.h in Headers */,
+				6F5CD4B11BA203C400619854 /* tnt_i_refvec.h in Headers */,
+				6F5CD4B21BA203C400619854 /* fileoutputproxy.h in Headers */,
+				6F5CD4B31BA203C400619854 /* lpc.h in Headers */,
+				6F5CD4B41BA203C400619854 /* metadatautils.h in Headers */,
+				6F5CD4B51BA203C400619854 /* spectralcomplexity.h in Headers */,
+				6F5CD4B61BA203C400619854 /* tnt_cmat.h in Headers */,
+				6F5CD4B71BA203C400619854 /* lowpass.h in Headers */,
+				6F5CD4B81BA203C400619854 /* tnt.h in Headers */,
+				6F5CD4B91BA203C400619854 /* binaryoperator.h in Headers */,
+				6F5CD4BA1BA203C400619854 /* metadatareader.h in Headers */,
+				6F5CD4BB1BA203C400619854 /* unaryoperatorstream.h in Headers */,
+				6F5CD4BC1BA203C400619854 /* scale.h in Headers */,
+				6F5CD4BD1BA203C400619854 /* tnt_array2d_utils.h in Headers */,
+				6F5CD4BE1BA203C400619854 /* crest.h in Headers */,
+				6F5CD4BF1BA203C400619854 /* monowriter.h in Headers */,
+				6F5CD4C01BA203C400619854 /* accumulatoralgorithm.h in Headers */,
+				6F5CD4C11BA203C400619854 /* clipper.h in Headers */,
+				6F5CD4C21BA203C400619854 /* iotypewrappers.h in Headers */,
+				6F5CD4C31BA203C400619854 /* effectiveduration.h in Headers */,
+				6F5CD4C41BA203C400619854 /* algorithm.h in Headers */,
+				6F5CD4C51BA203C400619854 /* pitchyinfft.h in Headers */,
+				6F5CD4C61BA203C400619854 /* strongpeak.h in Headers */,
+				6F5CD4C71BA203C400619854 /* tnt_math_utils.h in Headers */,
+				6F5CD4C81BA203C400619854 /* larm.h in Headers */,
+				6F5CD4C91BA203C400619854 /* spectrum.h in Headers */,
+				6F5CD4CA1BA203C400619854 /* algorithmfactory_impl.h in Headers */,
+				6F5CD4CB1BA203C400619854 /* yamlinput.h in Headers */,
+				6F5CD4CC1BA203C400619854 /* jama_qr.h in Headers */,
+				6F5CD4CD1BA203C400619854 /* centralmoments.h in Headers */,
+				6F5CD4CE1BA203C400619854 /* pool.h in Headers */,
+				6F5CD4CF1BA203C400619854 /* tnt_subscript.h in Headers */,
+				6F5CD4D01BA203C400619854 /* audioonsetsmarker.h in Headers */,
+				6F5CD4D11BA203C400619854 /* range.h in Headers */,
+				6F5CD4D21BA203C400619854 /* types.h in Headers */,
+				6F5CD4D31BA203C400619854 /* bpfutil.h in Headers */,
+				6F5CD4D41BA203C400619854 /* essentia.h in Headers */,
+				6F5CD4D61BA203C400619854 /* streamingalgorithmwrapper.h in Headers */,
+				6F5CD4D71BA203C400619854 /* poolstorage.h in Headers */,
+				6F5CD4D81BA203C400619854 /* sbic.h in Headers */,
+				6F5CD4D91BA203C400619854 /* duration.h in Headers */,
+				6F5CD4DA1BA203C400619854 /* SuperFluxPeaks.h in Headers */,
+				6F5CD4DB1BA203C400619854 /* phantombuffer.h in Headers */,
+				6F5CD4DC1BA203C400619854 /* yamlast.h in Headers */,
+				6F5CD4DD1BA203C400619854 /* tnt_fortran_array3d.h in Headers */,
+				6F5CD4DE1BA203C400619854 /* autocorrelation.h in Headers */,
+				6F5CD4DF1BA203C400619854 /* inharmonicity.h in Headers */,
+				6F5CD4E01BA203C400619854 /* highpass.h in Headers */,
+				6F5CD4E11BA203C400619854 /* spectralcontrast.h in Headers */,
+				6F5CD4E21BA203C400619854 /* lowlevelspectralextractor.h in Headers */,
+				6F5CD4E31BA203C400619854 /* loudness.h in Headers */,
+				6F5CD4E41BA203C400619854 /* tnt_vec.h in Headers */,
+				6F5CD4E51BA203C400619854 /* resample.h in Headers */,
+				6F5CD4E61BA203C400619854 /* graphutils.h in Headers */,
+				6F5CD4E71BA203C400619854 /* pitchcontoursmelody.h in Headers */,
+				6F5CD4E81BA203C400619854 /* crosscorrelation.h in Headers */,
+				6F5CD4E91BA203C400619854 /* dissonance.h in Headers */,
+				6F5CD4EA1BA203C400619854 /* leq.h in Headers */,
+				6F5CD4EB1BA203C400619854 /* geometricmean.h in Headers */,
+				6F5CD4EC1BA203C400619854 /* cartesiantopolar.h in Headers */,
+				6F5CD4ED1BA203C400619854 /* jama_lu.h in Headers */,
+				6F5CD4EE1BA203C400619854 /* loudnessebur128filter.h in Headers */,
+				6F5CD4EF1BA203C400619854 /* tnt_fortran_array1d_utils.h in Headers */,
+				6F5CD4F01BA203C400619854 /* noiseadder.h in Headers */,
+				6F5CD4F11BA203C400619854 /* jama_svd.h in Headers */,
+				6F5CD4F21BA203C400619854 /* pitchyin.h in Headers */,
+				6F5CD4F31BA203C400619854 /* ringbuffervectoroutput.h in Headers */,
+				6F5CD4F41BA203C400619854 /* devnull.h in Headers */,
+				6F5CD4F51BA203C400619854 /* SuperFluxNovelty.h in Headers */,
+				6F5CD4F61BA203C400619854 /* barkbands.h in Headers */,
+				6F5CD4F71BA203C400619854 /* audioloader.h in Headers */,
+				6F5CD4F81BA203C400619854 /* movingaverage.h in Headers */,
+				6F5CD4F91BA203C400619854 /* derivative.h in Headers */,
+				6F5CD4FA1BA203C400619854 /* iffta.h in Headers */,
+				6F5CD4FB1BA203C400619854 /* zerocrossingrate.h in Headers */,
+				6F5CD4FC1BA203C400619854 /* MersenneTwister.h in Headers */,
+				6F5CD4FD1BA203C400619854 /* loudnessebur128.h in Headers */,
+				6F5CD4FE1BA203C400619854 /* gfcc.h in Headers */,
+				6F5CD4FF1BA203C400619854 /* vectorinput.h in Headers */,
+				6F5CD5001BA203C400619854 /* pitchsaliencefunctionpeaks.h in Headers */,
+				6F5CD5011BA203C400619854 /* intensity.h in Headers */,
+				6F5CD5021BA203C400619854 /* source.h in Headers */,
+				6F5CD5031BA203C400619854 /* peak.h in Headers */,
+				6F5CD5041BA203C400619854 /* eqloudloader.h in Headers */,
+				6F5CD5051BA203C400619854 /* essentiamath.h in Headers */,
+				6F5CD5061BA203C400619854 /* cubicspline.h in Headers */,
+				6F5CD5071BA203C400619854 /* rolloff.h in Headers */,
+				6F5CD5081BA203C400619854 /* hfc.h in Headers */,
+				6F5CD5091BA203C400619854 /* onsetrate.h in Headers */,
+				6F5CD50A1BA203C400619854 /* phantombuffer_impl.h in Headers */,
+				6F5CD50B1BA203C400619854 /* stringutil.h in Headers */,
+				6F5CD50C1BA203C400619854 /* tnt_stopwatch.h in Headers */,
+				6F5CD50D1BA203C400619854 /* SuperFluxExtractor.h in Headers */,
+				6F5CD50E1BA203C400619854 /* diskwriter.h in Headers */,
+				6F5CD50F1BA203C400619854 /* copy.h in Headers */,
+				6F5CD5101BA203C400619854 /* audiowriter.h in Headers */,
+				6F5CD5111BA203C400619854 /* parameter.h in Headers */,
+				6F5CD5121BA203C400619854 /* dct.h in Headers */,
+				6F5CD5131BA203C400619854 /* version.h in Headers */,
+				6F5CD5141BA203C400619854 /* energyband.h in Headers */,
+				6F5CD5151BA203C400619854 /* tnt_array3d_utils.h in Headers */,
+				6F5CD5161BA203C400619854 /* binaryoperatorstream.h in Headers */,
+				6F5CD5171BA203C400619854 /* loudnessvickers.h in Headers */,
+				6F5CD5181BA203C400619854 /* decrease.h in Headers */,
+				6F5CD5191BA203C400619854 /* oddtoevenharmonicenergyratio.h in Headers */,
+				6F5CD51A1BA203C400619854 /* sinkbase.h in Headers */,
+				6F5CD51B1BA203C400619854 /* streamingalgorithmcomposite.h in Headers */,
+				6F5CD51C1BA203C400619854 /* variance.h in Headers */,
+				6F5CD51D1BA203C400619854 /* frametoreal.h in Headers */,
+				6F5CD51E1BA203C400619854 /* easyloader.h in Headers */,
+				6F5CD51F1BA203C400619854 /* spline.h in Headers */,
+				6F5CD5201BA203C400619854 /* debugging.h in Headers */,
+				6F5CD5211BA203C400619854 /* tnt_array2d.h in Headers */,
+				6F5CD5221BA203C400619854 /* ffta.h in Headers */,
+				6F5CD5231BA203C400619854 /* tnt_array3d.h in Headers */,
+				6F5CD5241BA203C400619854 /* sink.h in Headers */,
+				6F5CD5251BA203C400619854 /* tnt_fortran_array2d.h in Headers */,
+				6F5CD5261BA203C400619854 /* iotypewrappers_impl.h in Headers */,
+				6F5CD5271BA203C400619854 /* fadedetection.h in Headers */,
+				6F5CD5281BA203C400619854 /* output.h in Headers */,
+				6F5CD5291BA203C400619854 /* threading.h in Headers */,
+				6F5CD52A1BA203C400619854 /* flatness.h in Headers */,
+				6F5CD52B1BA203C400619854 /* algorithmfactory.h in Headers */,
+				6F5CD52C1BA203C400619854 /* windowing.h in Headers */,
+				6F5CD52D1BA203C400619854 /* fileoutput.h in Headers */,
+				6F5CD52E1BA203C400619854 /* envelope.h in Headers */,
+				6F5CD52F1BA203C400619854 /* jama_eig.h in Headers */,
+				6F5CD5301BA203C400619854 /* networkparser.h in Headers */,
+				6F5CD5311BA203C400619854 /* poolaggregator.h in Headers */,
+				6F5CD5321BA203C400619854 /* streamutil.h in Headers */,
+				6F5CD5331BA203C400619854 /* config.h in Headers */,
+				6F5CD5341BA203C400619854 /* tnt2essentiautils.h in Headers */,
+				6F5CD5351BA203C400619854 /* asciidag.h in Headers */,
+				6F5CD5361BA203C400619854 /* tnt_array1d_utils.h in Headers */,
+				6F5CD5371BA203C400619854 /* flatnessdb.h in Headers */,
+				6F5CD5381BA203C400619854 /* harmonicmask.h in Headers */,
+				6F5CD5391BA203C400619854 /* audiocontext.h in Headers */,
+				6F5CD53A1BA203C400619854 /* sinemodel.h in Headers */,
+				6F5CD53B1BA203C400619854 /* instantpower.h in Headers */,
+				6F5CD53C1BA203C400619854 /* erbbands.h in Headers */,
+				6F5CD53D1BA203C400619854 /* streamconnector.h in Headers */,
+				6F5CD53E1BA203C400619854 /* jsonconvert.h in Headers */,
+				6F5CD53F1BA203C400619854 /* unaryoperator.h in Headers */,
+				6F5CD5401BA203C400619854 /* multiratebuffer.h in Headers */,
+				6F5CD5411BA203C400619854 /* connector.h in Headers */,
+				6F5CD5421BA203C400619854 /* atomic.h in Headers */,
+				6F5CD5431BA203C400619854 /* iir.h in Headers */,
+				6F5CD5441BA203C400619854 /* harmonicbpm.h in Headers */,
+				6F5CD5451BA203C400619854 /* jama_cholesky.h in Headers */,
+				6F5CD5471BA203C400619854 /* ringbufferinput.h in Headers */,
+				6F5CD5481BA203C400619854 /* tnt2vector.h in Headers */,
+				6F5CD5491BA203C400619854 /* rawmoments.h in Headers */,
+				6F5CD54A1BA203C400619854 /* tnt_version.h in Headers */,
+				6F5CD54B1BA203C400619854 /* framecutter.h in Headers */,
+				6F5CD54C1BA203C400619854 /* ringbufferoutput.h in Headers */,
+				6F5CD54E1BA203C400619854 /* powermean.h in Headers */,
+				6F5CD54F1BA203C400619854 /* maxmagfreq.h in Headers */,
+				6F5CD5501BA203C400619854 /* sourceproxy.h in Headers */,
+				6F5CD5511BA203C400619854 /* roguevector.h in Headers */,
+				6F5CD5521BA203C400619854 /* MaxFilter.h in Headers */,
+				6F5CD5531BA203C400619854 /* monoloader.h in Headers */,
+				6F5CD5541BA203C400619854 /* tnt_array1d.h in Headers */,
+				6F5CD5551BA203C400619854 /* splineutil.h in Headers */,
+				6F5CD5561BA203C400619854 /* spectralwhitening.h in Headers */,
+				6F5CD5571BA203C400619854 /* mfcc.h in Headers */,
+				6F5CD5581BA203C400619854 /* mean.h in Headers */,
+				6F5CD5591BA203C400619854 /* pitchcontours.h in Headers */,
+				6F5CD55A1BA203C400619854 /* dynamiccomplexity.h in Headers */,
+				6F5CD55B1BA203C400619854 /* hpcp.h in Headers */,
+				6F5CD55C1BA203C400619854 /* monomixer.h in Headers */,
+				6F5CD55D1BA203C400619854 /* magnitude.h in Headers */,
+				6F5CD55E1BA203C400619854 /* melbands.h in Headers */,
+				6F5CD55F1BA203C400619854 /* predominantpitchmelodia.h in Headers */,
+				6F5CD5601BA203C400619854 /* tnt_fortran_array3d_utils.h in Headers */,
+				6F5CD5611BA203C400619854 /* polartocartesian.h in Headers */,
+				6F5CD5621BA203C400619854 /* danceability.h in Headers */,
+				6F5CD5631BA203C400619854 /* silencerate.h in Headers */,
+				6F5CD5641BA203C400619854 /* essentiautil.h in Headers */,
+				6F5CD5651BA203C400619854 /* pca.h in Headers */,
+				6F5CD5661BA203C400619854 /* yamloutput.h in Headers */,
+				6F5CD5671BA203C400619854 /* tnt_fortran_array2d_utils.h in Headers */,
+				6F5CD5681BA203C400619854 /* pitchsaliencefunction.h in Headers */,
+				6F5CD5691BA203C400619854 /* energybandratio.h in Headers */,
+				6F5CD56A1BA203C400619854 /* entropy.h in Headers */,
+				6F5CD56B1BA203C400619854 /* bpmutil.h in Headers */,
+				6F5CD56C1BA203C400619854 /* tnt_fortran_array1d.h in Headers */,
+				6F5CD56D1BA203C400619854 /* key.h in Headers */,
+				6F5CD56E1BA203C400619854 /* pitchmelodia.h in Headers */,
+				6F5CD56F1BA203C400619854 /* sourcebase.h in Headers */,
+				6F5CD5701BA203C400619854 /* equalloudness.h in Headers */,
+				6F5CD5721BA203C400619854 /* rms.h in Headers */,
+				6F5CD5731BA203C400619854 /* ffmpegapi.h in Headers */,
+				6F5CD5741BA203C400619854 /* bpf.h in Headers */,
+				6F5CD5751BA203C400619854 /* ringbufferimpl.h in Headers */,
+				6F5CD5761BA203C400619854 /* distributionshape.h in Headers */,
+				6F5CD5771BA203C400619854 /* network.h in Headers */,
+				6F5CD5781BA203C400619854 /* sinkproxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6FAEFBDA1B274967002DB4A1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2433,6 +3024,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		6F5CD3F71BA203C400619854 /* essentiaXLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5CD5791BA203C400619854 /* Build configuration list for PBXNativeTarget "essentiaXLight" */;
+			buildPhases = (
+				6F5CD3F81BA203C400619854 /* Run Script configure */,
+				6F5CD3F91BA203C400619854 /* ShellScript */,
+				6F5CD3FA1BA203C400619854 /* Frameworks */,
+				6F5CD3FC1BA203C400619854 /* Sources */,
+				6F5CD49C1BA203C400619854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = essentiaXLight;
+			productName = essentiaX;
+			productReference = 6F5CD57C1BA203C400619854 /* libessentiaX copy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		6FA5A2AC1B21EFAF002C23E4 /* essentiaRT */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FA5A4981B21EFAF002C23E4 /* Build configuration list for PBXNativeTarget "essentiaRT" */;
@@ -2493,11 +3103,39 @@
 			targets = (
 				6FD0EB0D197E7B070093FFB6 /* essentiaX */,
 				6FA5A2AC1B21EFAF002C23E4 /* essentiaRT */,
+				6F5CD3F71BA203C400619854 /* essentiaXLight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6F5CD3F81BA203C400619854 /* Run Script configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script configure";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=$PATH:/usr/local/bin;\ncd $ESSENTIA_PATH;\n./waf configure  --fft $ESSENTIA_FFT --no_build;\n./waf ;\n\n\n";
+		};
+		6F5CD3F91BA203C400619854 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PYTHONPATH=${PYTHONPATH}:${ESSENTIA_PATH}\nexport PYTHONPATH\necho ${PYTHONPATH}\npython $PROJECT_DIR/generate.py ${ESSENTIA_PATH}/src ${PROJECT_DIR}/essentiaX.xcodeproj\n";
+		};
 		6FA5A2AD1B21EFAF002C23E4 /* Run Script configure */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
@@ -2542,6 +3180,159 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6F5CD3FC1BA203C400619854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5CD3FD1BA203C400619854 /* flux.cpp in Sources */,
+				6F5CD3FE1BA203C400619854 /* energybandratio.cpp in Sources */,
+				6F5CD3FF1BA203C400619854 /* spline.cpp in Sources */,
+				6F5CD4001BA203C400619854 /* derivative.cpp in Sources */,
+				6F5CD4011BA203C400619854 /* pitchyin.cpp in Sources */,
+				6F5CD4021BA203C400619854 /* variance.cpp in Sources */,
+				6F5CD4031BA203C400619854 /* splineutil.cpp in Sources */,
+				6F5CD4041BA203C400619854 /* pitchyinfft.cpp in Sources */,
+				6F5CD4051BA203C400619854 /* loudness.cpp in Sources */,
+				6F5CD4061BA203C400619854 /* movingaverage.cpp in Sources */,
+				6F5CD4071BA203C400619854 /* singlegaussian.cpp in Sources */,
+				6F5CD4081BA203C400619854 /* flatness.cpp in Sources */,
+				6F5CD4091BA203C400619854 /* gfcc.cpp in Sources */,
+				6F5CD40A1BA203C400619854 /* noiseadder.cpp in Sources */,
+				6F5CD40B1BA203C400619854 /* maxmagfreq.cpp in Sources */,
+				6F5CD40C1BA203C400619854 /* configurable.cpp in Sources */,
+				6F5CD40D1BA203C400619854 /* harmonicpeaks.cpp in Sources */,
+				6F5CD40E1BA203C400619854 /* hfc.cpp in Sources */,
+				6F5CD40F1BA203C400619854 /* spectralcomplexity.cpp in Sources */,
+				6F5CD4101BA203C400619854 /* resample.cpp in Sources */,
+				6F5CD4111BA203C400619854 /* harmonicmask.cpp in Sources */,
+				6F5CD4121BA203C400619854 /* fadedetection.cpp in Sources */,
+				6F5CD4141BA203C400619854 /* polartocartesian.cpp in Sources */,
+				6F5CD4151BA203C400619854 /* median.cpp in Sources */,
+				6F5CD4161BA203C400619854 /* asciidag.cpp in Sources */,
+				6F5CD4171BA203C400619854 /* essentia_algorithms_reg.cpp in Sources */,
+				6F5CD4181BA203C400619854 /* windowing.cpp in Sources */,
+				6F5CD4191BA203C400619854 /* unaryoperatorstream.cpp in Sources */,
+				6F5CD41A1BA203C400619854 /* TriangularBands.cpp in Sources */,
+				6F5CD41B1BA203C400619854 /* poolaggregator.cpp in Sources */,
+				6F5CD41C1BA203C400619854 /* easyloader.cpp in Sources */,
+				6F5CD41D1BA203C400619854 /* envelope.cpp in Sources */,
+				6F5CD41E1BA203C400619854 /* eqloudloader.cpp in Sources */,
+				6F5CD41F1BA203C400619854 /* mfcc.cpp in Sources */,
+				6F5CD4201BA203C400619854 /* streamingalgorithm.cpp in Sources */,
+				6F5CD4221BA203C400619854 /* centroid.cpp in Sources */,
+				6F5CD4231BA203C400619854 /* audioonsetsmarker.cpp in Sources */,
+				6F5CD4241BA203C400619854 /* oddtoevenharmonicenergyratio.cpp in Sources */,
+				6F5CD4251BA203C400619854 /* cubicspline.cpp in Sources */,
+				6F5CD4261BA203C400619854 /* decrease.cpp in Sources */,
+				6F5CD4271BA203C400619854 /* dct.cpp in Sources */,
+				6F5CD4291BA203C400619854 /* strongpeak.cpp in Sources */,
+				6F5CD42A1BA203C400619854 /* dynamiccomplexity.cpp in Sources */,
+				6F5CD42C1BA203C400619854 /* spectralpeaks.cpp in Sources */,
+				6F5CD42E1BA203C400619854 /* key.cpp in Sources */,
+				6F5CD42F1BA203C400619854 /* iffta.cpp in Sources */,
+				6F5CD4301BA203C400619854 /* predominantpitchmelodia.cpp in Sources */,
+				6F5CD4311BA203C400619854 /* fileoutputproxy.cpp in Sources */,
+				6F5CD4321BA203C400619854 /* loudnessvickers.cpp in Sources */,
+				6F5CD4331BA203C400619854 /* SuperFluxPeaks.cpp in Sources */,
+				6F5CD4341BA203C400619854 /* scale.cpp in Sources */,
+				6F5CD4351BA203C400619854 /* poolstorage.cpp in Sources */,
+				6F5CD4361BA203C400619854 /* networkparser.cpp in Sources */,
+				6F5CD4371BA203C400619854 /* spectrum.cpp in Sources */,
+				6F5CD4381BA203C400619854 /* ringbufferoutput.cpp in Sources */,
+				6F5CD4391BA203C400619854 /* algorithm.cpp in Sources */,
+				6F5CD43A1BA203C400619854 /* powermean.cpp in Sources */,
+				6F5CD43B1BA203C400619854 /* yamlinput.cpp in Sources */,
+				6F5CD43C1BA203C400619854 /* framecutter.cpp in Sources */,
+				6F5CD43D1BA203C400619854 /* ffta.cpp in Sources */,
+				6F5CD43E1BA203C400619854 /* range.cpp in Sources */,
+				6F5CD43F1BA203C400619854 /* rms.cpp in Sources */,
+				6F5CD4401BA203C400619854 /* network.cpp in Sources */,
+				6F5CD4411BA203C400619854 /* centralmoments.cpp in Sources */,
+				6F5CD4431BA203C400619854 /* yamlast.cpp in Sources */,
+				6F5CD4441BA203C400619854 /* debugging.cpp in Sources */,
+				6F5CD4451BA203C400619854 /* rolloff.cpp in Sources */,
+				6F5CD4461BA203C400619854 /* accumulatoralgorithm.cpp in Sources */,
+				6F5CD4471BA203C400619854 /* pitchsalience.cpp in Sources */,
+				6F5CD4481BA203C400619854 /* pitchsaliencefunctionpeaks.cpp in Sources */,
+				6F5CD4491BA203C400619854 /* unaryoperator.cpp in Sources */,
+				6F5CD44A1BA203C400619854 /* essentiautil.cpp in Sources */,
+				6F5CD44B1BA203C400619854 /* iir.cpp in Sources */,
+				6F5CD44C1BA203C400619854 /* instantpower.cpp in Sources */,
+				6F5CD44D1BA203C400619854 /* clipper.cpp in Sources */,
+				6F5CD44E1BA203C400619854 /* harmonicbpm.cpp in Sources */,
+				6F5CD44F1BA203C400619854 /* binaryoperator.cpp in Sources */,
+				6F5CD4501BA203C400619854 /* inharmonicity.cpp in Sources */,
+				6F5CD4511BA203C400619854 /* rawmoments.cpp in Sources */,
+				6F5CD4521BA203C400619854 /* parameter.cpp in Sources */,
+				6F5CD4531BA203C400619854 /* sourcebase.cpp in Sources */,
+				6F5CD4541BA203C400619854 /* spectralwhitening.cpp in Sources */,
+				6F5CD4551BA203C400619854 /* sbic.cpp in Sources */,
+				6F5CD4571BA203C400619854 /* distributionshape.cpp in Sources */,
+				6F5CD4581BA203C400619854 /* SuperFluxNovelty.cpp in Sources */,
+				6F5CD4591BA203C400619854 /* panning.cpp in Sources */,
+				6F5CD45A1BA203C400619854 /* slicer.cpp in Sources */,
+				6F5CD45B1BA203C400619854 /* loudnessebur128filter.cpp in Sources */,
+				6F5CD45C1BA203C400619854 /* pitchcontours.cpp in Sources */,
+				6F5CD45F1BA203C400619854 /* mean.cpp in Sources */,
+				6F5CD4611BA203C400619854 /* danceability.cpp in Sources */,
+				6F5CD4621BA203C400619854 /* hpcp.cpp in Sources */,
+				6F5CD4631BA203C400619854 /* frequencybands.cpp in Sources */,
+				6F5CD4641BA203C400619854 /* MaxFilter.cpp in Sources */,
+				6F5CD4651BA203C400619854 /* equalloudness.cpp in Sources */,
+				6F5CD4661BA203C400619854 /* asciidagparser.cpp in Sources */,
+				6F5CD4671BA203C400619854 /* crest.cpp in Sources */,
+				6F5CD4681BA203C400619854 /* ringbuffervectoroutput.cpp in Sources */,
+				6F5CD46A1BA203C400619854 /* essentia.cpp in Sources */,
+				6F5CD46B1BA203C400619854 /* audioloader.cpp in Sources */,
+				6F5CD46C1BA203C400619854 /* peakdetection.cpp in Sources */,
+				6F5CD46D1BA203C400619854 /* silencerate.cpp in Sources */,
+				6F5CD46E1BA203C400619854 /* energyband.cpp in Sources */,
+				6F5CD46F1BA203C400619854 /* barkbands.cpp in Sources */,
+				6F5CD4701BA203C400619854 /* streamingalgorithmcomposite.cpp in Sources */,
+				6F5CD4711BA203C400619854 /* intensity.cpp in Sources */,
+				6F5CD4721BA203C400619854 /* zerocrossingrate.cpp in Sources */,
+				6F5CD4731BA203C400619854 /* energy.cpp in Sources */,
+				6F5CD4741BA203C400619854 /* sinemodel.cpp in Sources */,
+				6F5CD4751BA203C400619854 /* leq.cpp in Sources */,
+				6F5CD4761BA203C400619854 /* melbands.cpp in Sources */,
+				6F5CD4771BA203C400619854 /* geometricmean.cpp in Sources */,
+				6F5CD4781BA203C400619854 /* erbbands.cpp in Sources */,
+				6F5CD4791BA203C400619854 /* magnitude.cpp in Sources */,
+				6F5CD47A1BA203C400619854 /* flatnessdb.cpp in Sources */,
+				6F5CD47B1BA203C400619854 /* yamloutput.cpp in Sources */,
+				6F5CD47C1BA203C400619854 /* devnull.cpp in Sources */,
+				6F5CD47D1BA203C400619854 /* cartesiantopolar.cpp in Sources */,
+				6F5CD47E1BA203C400619854 /* lowpass.cpp in Sources */,
+				6F5CD47F1BA203C400619854 /* streamingalgorithmwrapper.cpp in Sources */,
+				6F5CD4801BA203C400619854 /* effectiveduration.cpp in Sources */,
+				6F5CD4811BA203C400619854 /* pitchsaliencefunction.cpp in Sources */,
+				6F5CD4821BA203C400619854 /* ringbufferinput.cpp in Sources */,
+				6F5CD4831BA203C400619854 /* connector.cpp in Sources */,
+				6F5CD4841BA203C400619854 /* monoloader.cpp in Sources */,
+				6F5CD4851BA203C400619854 /* metadatareader.cpp in Sources */,
+				6F5CD4861BA203C400619854 /* entropy.cpp in Sources */,
+				6F5CD4881BA203C400619854 /* audiowriter.cpp in Sources */,
+				6F5CD4891BA203C400619854 /* frametoreal.cpp in Sources */,
+				6F5CD48A1BA203C400619854 /* audiocontext.cpp in Sources */,
+				6F5CD48B1BA203C400619854 /* SuperFluxExtractor.cpp in Sources */,
+				6F5CD48C1BA203C400619854 /* highpass.cpp in Sources */,
+				6F5CD48D1BA203C400619854 /* spectralcontrast.cpp in Sources */,
+				6F5CD48E1BA203C400619854 /* pitchmelodia.cpp in Sources */,
+				6F5CD48F1BA203C400619854 /* pca.cpp in Sources */,
+				6F5CD4901BA203C400619854 /* monowriter.cpp in Sources */,
+				6F5CD4921BA203C400619854 /* lowlevelspectralextractor.cpp in Sources */,
+				6F5CD4931BA203C400619854 /* stringutil.cpp in Sources */,
+				6F5CD4941BA203C400619854 /* monomixer.cpp in Sources */,
+				6F5CD4951BA203C400619854 /* crosscorrelation.cpp in Sources */,
+				6F5CD4961BA203C400619854 /* sinkbase.cpp in Sources */,
+				6F5CD4971BA203C400619854 /* duration.cpp in Sources */,
+				6F5CD4981BA203C400619854 /* tristimulus.cpp in Sources */,
+				6F5CD4991BA203C400619854 /* pool.cpp in Sources */,
+				6F5CD49A1BA203C400619854 /* jsonconvert.cpp in Sources */,
+				6F5CD49B1BA203C400619854 /* autocorrelation.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6FAEFB061B274952002DB4A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2550,8 +3341,6 @@
 				6FAEFB0A1B27495F002DB4A1 /* autocorrelation.cpp in Sources */,
 				6F6384D61BA0705600520AAB /* ffta.cpp in Sources */,
 				6FAEFB0B1B27495F002DB4A1 /* binaryoperator.cpp in Sources */,
-				6FAEFB0C1B27495F002DB4A1 /* binaryoperatorstream.cpp in Sources */,
-				6FAEFB0D1B27495F002DB4A1 /* bpf.cpp in Sources */,
 				6FCC187F1B2EECB000370F5E /* kiss_fastfir.c in Sources */,
 				6FAEFB0E1B27495F002DB4A1 /* clipper.cpp in Sources */,
 				6FAEFB0F1B27495F002DB4A1 /* crosscorrelation.cpp in Sources */,
@@ -2602,7 +3391,6 @@
 				6FAEFB461B274960002DB4A1 /* fadedetection.cpp in Sources */,
 				6FAEFB471B274960002DB4A1 /* harmonicbpm.cpp in Sources */,
 				6FAEFB481B274960002DB4A1 /* intensity.cpp in Sources */,
-				6FAEFB491B274960002DB4A1 /* onsetrate.cpp in Sources */,
 				6FAEFB4A1B274960002DB4A1 /* pca.cpp in Sources */,
 				6FAEFB4B1B274960002DB4A1 /* sbic.cpp in Sources */,
 				6F26F7A91B4C44610074B3D9 /* essentiautil.cpp in Sources */,
@@ -2665,20 +3453,16 @@
 				6FAEFBA21B274960002DB4A1 /* leq.cpp in Sources */,
 				6FAEFBA31B274960002DB4A1 /* loudness.cpp in Sources */,
 				6FBC6FCC1BA1FAF200DDAE51 /* unaryoperator.cpp in Sources */,
-				6FAEFBA41B274960002DB4A1 /* loudnessebur128.cpp in Sources */,
 				6FAEFBA51B274960002DB4A1 /* loudnessebur128filter.cpp in Sources */,
 				6FAEFBA61B274960002DB4A1 /* loudnessvickers.cpp in Sources */,
 				6FAEFBA71B274960002DB4A1 /* lpc.cpp in Sources */,
 				6F6384D41BA0705600520AAB /* iffta.cpp in Sources */,
 				6FAEFBA81B274960002DB4A1 /* zerocrossingrate.cpp in Sources */,
-				6FAEFBAC1B274960002DB4A1 /* dissonance.cpp in Sources */,
 				6FAEFBAD1B274960002DB4A1 /* harmonicpeaks.cpp in Sources */,
-				6FAEFBAE1B274960002DB4A1 /* highresolutionfeatures.cpp in Sources */,
 				6FAEFBAF1B274960002DB4A1 /* inharmonicity.cpp in Sources */,
 				6FAEFBB01B274960002DB4A1 /* key.cpp in Sources */,
 				6FAEFBB11B274960002DB4A1 /* oddtoevenharmonicenergyratio.cpp in Sources */,
 				6FAEFBB21B274960002DB4A1 /* pitchcontours.cpp in Sources */,
-				6FAEFBB31B274960002DB4A1 /* pitchcontoursmelody.cpp in Sources */,
 				6FAEFBB51B274960002DB4A1 /* pitchsaliencefunction.cpp in Sources */,
 				6F26F7A21B4C44610074B3D9 /* connector.cpp in Sources */,
 				6FAEFBB61B274960002DB4A1 /* pitchsaliencefunctionpeaks.cpp in Sources */,
@@ -2873,6 +3657,64 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		6F5CD57A1BA203C400619854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libc++";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Frameworks,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUGGING_ENABLED=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				HEADER_SEARCH_PATHS = "$(ESSENTIA_HEADERS)";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-O2",
+					"-fPIC",
+					"-pipe",
+				);
+				PRODUCT_NAME = "essentiaX copy";
+				VALID_ARCHS = "x86_64 i386";
+				WARNING_LDFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		6F5CD57B1BA203C400619854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libc++";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Frameworks,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				HEADER_SEARCH_PATHS = "$(ESSENTIA_HEADERS)";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-O2",
+					"-fPIC",
+					"-pipe",
+				);
+				PRODUCT_NAME = "essentiaX copy";
+				VALID_ARCHS = "x86_64 i386";
+				WARNING_LDFLAGS = "-Wall";
+			};
+			name = Release;
+		};
 		6FA5A4991B21EFAF002C23E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2988,7 +3830,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				ESSENTIA_PATH = ../Essentia/;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -3038,7 +3879,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ESSENTIA_PATH = ../Essentia/;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3124,6 +3964,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6F5CD5791BA203C400619854 /* Build configuration list for PBXNativeTarget "essentiaXLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5CD57A1BA203C400619854 /* Debug */,
+				6F5CD57B1BA203C400619854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6FA5A4981B21EFAF002C23E4 /* Build configuration list for PBXNativeTarget "essentiaRT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

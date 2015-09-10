@@ -9,10 +9,16 @@
 
 //THE PATH TO THE ROOT OF OUR OF PATH RELATIVE TO THIS PROJECT
 //THIS NEEDS TO BE DEFINED BEFORE CoreOF.xcconfig IS INCLUDED
-ESSENTIA_PATH = ../Essentia
+ESSENTIA_PATH = ../Essentia/
+
+
+
+// This indicate the possible unused file in essentia from a list of used algorithms (nested include are handeled)
+
+ESSENTIA_PRUNE = LowLevelSpectralExtractor MonoLoader AudioWriter YamlOutput
 
 //THIS HAS ALL THE HEADER AND LIBS FOR OF CORE
-#include "Essentia.xcconfig"
+#include "Essentia_Core.xcconfig"
 //#include "EssentiaRT.xcconfig"
 
 
