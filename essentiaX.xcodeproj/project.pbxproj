@@ -4271,7 +4271,7 @@
 		};
 		6FD0F0C4197E9FD70093FFB6 /* Run Script configure */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -4279,7 +4279,7 @@
 			name = "Run Script configure";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "export PATH=$PATH:/usr/local/bin;\ncd $ESSENTIA_PATH;\n./waf configure  --fft $ESSENTIA_FFT --no_build;\n./waf ;\n\n\n";
 		};
