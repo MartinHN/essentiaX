@@ -3003,14 +3003,14 @@
 		};
 		6FBC6FB31BA1CA1500DDAE51 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "PYTHONPATH=${PYTHONPATH}:${ESSENTIA_PATH}\nexport PYTHONPATH\necho ${PYTHONPATH}\npython $PROJECT_DIR/generate.py ${ESSENTIA_PATH}/src ${PROJECT_DIR}/essentiaX.xcodeproj\n";
 		};
