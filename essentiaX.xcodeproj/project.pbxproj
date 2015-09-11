@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FBB30271BA2F9540063067A /* ringbufferinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30211BA2F9540063067A /* ringbufferinput.cpp */; };
+		3FBB30281BA2F9540063067A /* ringbufferinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30211BA2F9540063067A /* ringbufferinput.cpp */; };
+		3FBB30291BA2F9540063067A /* ringbufferinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30211BA2F9540063067A /* ringbufferinput.cpp */; };
+		3FBB302A1BA2F9540063067A /* ringbufferinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBB30221BA2F9540063067A /* ringbufferinput.h */; };
+		3FBB302B1BA2F9540063067A /* ringbufferinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBB30221BA2F9540063067A /* ringbufferinput.h */; };
+		3FBB302C1BA2F9540063067A /* ringbufferinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBB30221BA2F9540063067A /* ringbufferinput.h */; };
+		3FBB302D1BA2F9540063067A /* ringbufferoutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30231BA2F9540063067A /* ringbufferoutput.cpp */; };
+		3FBB302E1BA2F9540063067A /* ringbufferoutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30231BA2F9540063067A /* ringbufferoutput.cpp */; };
+		3FBB302F1BA2F9540063067A /* ringbufferoutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30231BA2F9540063067A /* ringbufferoutput.cpp */; };
+		3FBB30301BA2F9540063067A /* ringbufferoutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBB30241BA2F9540063067A /* ringbufferoutput.h */; };
+		3FBB30311BA2F9540063067A /* ringbufferoutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBB30241BA2F9540063067A /* ringbufferoutput.h */; };
+		3FBB30321BA2F9540063067A /* ringbufferoutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBB30241BA2F9540063067A /* ringbufferoutput.h */; };
+		3FBB30331BA2F9540063067A /* ringbuffervectoroutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30251BA2F9540063067A /* ringbuffervectoroutput.cpp */; };
+		3FBB30341BA2F9540063067A /* ringbuffervectoroutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30251BA2F9540063067A /* ringbuffervectoroutput.cpp */; };
+		3FBB30351BA2F9540063067A /* ringbuffervectoroutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30251BA2F9540063067A /* ringbuffervectoroutput.cpp */; };
+		3FBB30361BA2F9540063067A /* ringbuffervectoroutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBB30261BA2F9540063067A /* ringbuffervectoroutput.h */; };
+		3FBB30371BA2F9540063067A /* ringbuffervectoroutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBB30261BA2F9540063067A /* ringbuffervectoroutput.h */; };
+		3FBB30381BA2F9540063067A /* ringbuffervectoroutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBB30261BA2F9540063067A /* ringbuffervectoroutput.h */; };
 		3FCA1CBE1BA01D8D0092006C /* ffmpegapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCA1CBD1BA01D8D0092006C /* ffmpegapi.h */; };
 		3FCA1CBF1BA01D8D0092006C /* ffmpegapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCA1CBD1BA01D8D0092006C /* ffmpegapi.h */; };
 		6F018F011B4A904F00367977 /* predominantpitchmelodia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F018EFE1B4A904F00367977 /* predominantpitchmelodia.cpp */; };
@@ -75,7 +93,6 @@
 		6F26F7B71B4C44610074B3D9 /* stringutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BD19F51F0B00788094 /* stringutil.h */; };
 		6F26F7B81B4C44610074B3D9 /* threading.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BE19F51F0B00788094 /* threading.h */; };
 		6F26F7B91B4C44610074B3D9 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8BF19F51F0B00788094 /* types.h */; };
-		6F5CD3FB1BA203C400619854 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA57EEA1A8A0CC700006E23 /* libstdc++.dylib */; };
 		6F5CD3FD1BA203C400619854 /* flux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7AF19F51F0B00788094 /* flux.cpp */; };
 		6F5CD4031BA203C400619854 /* splineutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377511AF79B2500B481E4 /* splineutil.cpp */; };
 		6F5CD4041BA203C400619854 /* pitchyinfft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD87219F51F0B00788094 /* pitchyinfft.cpp */; };
@@ -225,7 +242,6 @@
 		6F5CD4F01BA203C400619854 /* noiseadder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711571A409668002B6E40 /* noiseadder.h */; };
 		6F5CD4F11BA203C400619854 /* jama_svd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8DA19F51F0B00788094 /* jama_svd.h */; };
 		6F5CD4F21BA203C400619854 /* pitchyin.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377581AF7A7B700B481E4 /* pitchyin.h */; };
-		6F5CD4F31BA203C400619854 /* ringbuffervectoroutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9351B98D7A6006B2C66 /* ringbuffervectoroutput.h */; };
 		6F5CD4F41BA203C400619854 /* devnull.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8A319F51F0B00788094 /* devnull.h */; };
 		6F5CD4F51BA203C400619854 /* SuperFluxNovelty.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD83F19F51F0B00788094 /* SuperFluxNovelty.h */; };
 		6F5CD4F61BA203C400619854 /* barkbands.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7A619F51F0B00788094 /* barkbands.h */; };
@@ -308,12 +324,10 @@
 		6F5CD5431BA203C400619854 /* iir.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD71619F51F0B00788094 /* iir.h */; };
 		6F5CD5441BA203C400619854 /* harmonicbpm.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD74119F51F0B00788094 /* harmonicbpm.h */; };
 		6F5CD5451BA203C400619854 /* jama_cholesky.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8D619F51F0B00788094 /* jama_cholesky.h */; };
-		6F5CD5471BA203C400619854 /* ringbufferinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9311B98D7A6006B2C66 /* ringbufferinput.h */; };
 		6F5CD5481BA203C400619854 /* tnt2vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8DD19F51F0B00788094 /* tnt2vector.h */; };
 		6F5CD5491BA203C400619854 /* rawmoments.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD82E19F51F0B00788094 /* rawmoments.h */; };
 		6F5CD54A1BA203C400619854 /* tnt_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8F119F51F0B00788094 /* tnt_version.h */; };
 		6F5CD54B1BA203C400619854 /* framecutter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07114F1A409668002B6E40 /* framecutter.h */; };
-		6F5CD54C1BA203C400619854 /* ringbufferoutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9331B98D7A6006B2C66 /* ringbufferoutput.h */; };
 		6F5CD54E1BA203C400619854 /* powermean.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD82C19F51F0B00788094 /* powermean.h */; };
 		6F5CD54F1BA203C400619854 /* maxmagfreq.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD7BA19F51F0B00788094 /* maxmagfreq.h */; };
 		6F5CD5501BA203C400619854 /* sourceproxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8B419F51F0B00788094 /* sourceproxy.h */; };
@@ -384,8 +398,6 @@
 		6F9BC5AD1A7A863700E995AD /* yamlinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5971A7A863700E995AD /* yamlinput.h */; };
 		6F9BC5AE1A7A863700E995AD /* yamloutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BC5981A7A863700E995AD /* yamloutput.cpp */; };
 		6F9BC5AF1A7A863700E995AD /* yamloutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9BC5991A7A863700E995AD /* yamloutput.h */; };
-		6FA57EEB1A8A0CC800006E23 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA57EEA1A8A0CC700006E23 /* libstdc++.dylib */; };
-		6FA5A2B01B21EFAF002C23E4 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA57EEA1A8A0CC700006E23 /* libstdc++.dylib */; };
 		6FABD95319F51F0B00788094 /* cartesiantopolar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD6EA19F51F0B00788094 /* cartesiantopolar.h */; };
 		6FABD95519F51F0B00788094 /* magnitude.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD6EC19F51F0B00788094 /* magnitude.h */; };
 		6FABD95719F51F0B00788094 /* polartocartesian.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD6EE19F51F0B00788094 /* polartocartesian.h */; };
@@ -606,15 +618,6 @@
 		6FABDB5D19F51F0B00788094 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD94119F51F0B00788094 /* version.h */; };
 		6FAEB9231B98D61E006B2C66 /* frametoreal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F018F0B1B4A90D600367977 /* frametoreal.h */; };
 		6FAEB92F1B98D61E006B2C66 /* autocorrelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0711391A409668002B6E40 /* autocorrelation.h */; };
-		6FAEB9371B98D7A6006B2C66 /* ringbufferinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FAEB9301B98D7A6006B2C66 /* ringbufferinput.cpp */; };
-		6FAEB93A1B98D7A6006B2C66 /* ringbufferinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9311B98D7A6006B2C66 /* ringbufferinput.h */; };
-		6FAEB93B1B98D7A6006B2C66 /* ringbufferinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9311B98D7A6006B2C66 /* ringbufferinput.h */; };
-		6FAEB93F1B98D7A6006B2C66 /* ringbufferoutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FAEB9321B98D7A6006B2C66 /* ringbufferoutput.cpp */; };
-		6FAEB9421B98D7A6006B2C66 /* ringbufferoutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9331B98D7A6006B2C66 /* ringbufferoutput.h */; };
-		6FAEB9431B98D7A6006B2C66 /* ringbufferoutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9331B98D7A6006B2C66 /* ringbufferoutput.h */; };
-		6FAEB9471B98D7A6006B2C66 /* ringbuffervectoroutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FAEB9341B98D7A6006B2C66 /* ringbuffervectoroutput.cpp */; };
-		6FAEB94A1B98D7A6006B2C66 /* ringbuffervectoroutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9351B98D7A6006B2C66 /* ringbuffervectoroutput.h */; };
-		6FAEB94B1B98D7A6006B2C66 /* ringbuffervectoroutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAEB9351B98D7A6006B2C66 /* ringbuffervectoroutput.h */; };
 		6FAEFB071B27495F002DB4A1 /* splineutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377511AF79B2500B481E4 /* splineutil.cpp */; };
 		6FAEFB0A1B27495F002DB4A1 /* autocorrelation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711381A409668002B6E40 /* autocorrelation.cpp */; };
 		6FAEFB0B1B27495F002DB4A1 /* binaryoperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07113A1A409668002B6E40 /* binaryoperator.cpp */; };
@@ -910,6 +913,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FBB30211BA2F9540063067A /* ringbufferinput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ringbufferinput.cpp; path = ../../../../../essentia/src/essentia/streaming/algorithms/ringbufferinput.cpp; sourceTree = "<group>"; };
+		3FBB30221BA2F9540063067A /* ringbufferinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ringbufferinput.h; path = ../../../../../essentia/src/essentia/streaming/algorithms/ringbufferinput.h; sourceTree = "<group>"; };
+		3FBB30231BA2F9540063067A /* ringbufferoutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ringbufferoutput.cpp; path = ../../../../../essentia/src/essentia/streaming/algorithms/ringbufferoutput.cpp; sourceTree = "<group>"; };
+		3FBB30241BA2F9540063067A /* ringbufferoutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ringbufferoutput.h; path = ../../../../../essentia/src/essentia/streaming/algorithms/ringbufferoutput.h; sourceTree = "<group>"; };
+		3FBB30251BA2F9540063067A /* ringbuffervectoroutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ringbuffervectoroutput.cpp; path = ../../../../../essentia/src/essentia/streaming/algorithms/ringbuffervectoroutput.cpp; sourceTree = "<group>"; };
+		3FBB30261BA2F9540063067A /* ringbuffervectoroutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ringbuffervectoroutput.h; path = ../../../../../essentia/src/essentia/streaming/algorithms/ringbuffervectoroutput.h; sourceTree = "<group>"; };
 		3FCA1CBD1BA01D8D0092006C /* ffmpegapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ffmpegapi.h; path = ../../../../essentia/src/essentia/utils/ffmpegapi.h; sourceTree = "<group>"; };
 		6F018EF81B4A8F1A00367977 /* multipitchklapuri.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multipitchklapuri.cpp; sourceTree = "<group>"; };
 		6F018EF91B4A8F1A00367977 /* multipitchklapuri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multipitchklapuri.h; sourceTree = "<group>"; };
@@ -1026,7 +1035,6 @@
 		6F9BC5971A7A863700E995AD /* yamlinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yamlinput.h; sourceTree = "<group>"; };
 		6F9BC5981A7A863700E995AD /* yamloutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yamloutput.cpp; sourceTree = "<group>"; };
 		6F9BC5991A7A863700E995AD /* yamloutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yamloutput.h; sourceTree = "<group>"; };
-		6FA57EEA1A8A0CC700006E23 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		6FA5A49B1B21EFAF002C23E4 /* libessentiaRT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libessentiaRT.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FABD6E919F51F0B00788094 /* cartesiantopolar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cartesiantopolar.cpp; sourceTree = "<group>"; };
 		6FABD6EA19F51F0B00788094 /* cartesiantopolar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartesiantopolar.h; sourceTree = "<group>"; };
@@ -1401,12 +1409,6 @@
 		6FABD94119F51F0B00788094 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = ../Essentia/src/version.h; sourceTree = "<group>"; };
 		6FABD94219F51F0B00788094 /* wscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wscript; path = ../Essentia/src/wscript; sourceTree = "<group>"; };
 		6FAEB8F31B98CA5D006B2C66 /* Essentia_Core.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Essentia_Core.xcconfig; sourceTree = "<group>"; };
-		6FAEB9301B98D7A6006B2C66 /* ringbufferinput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ringbufferinput.cpp; sourceTree = "<group>"; };
-		6FAEB9311B98D7A6006B2C66 /* ringbufferinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ringbufferinput.h; sourceTree = "<group>"; };
-		6FAEB9321B98D7A6006B2C66 /* ringbufferoutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ringbufferoutput.cpp; sourceTree = "<group>"; };
-		6FAEB9331B98D7A6006B2C66 /* ringbufferoutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ringbufferoutput.h; sourceTree = "<group>"; };
-		6FAEB9341B98D7A6006B2C66 /* ringbuffervectoroutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ringbuffervectoroutput.cpp; sourceTree = "<group>"; };
-		6FAEB9351B98D7A6006B2C66 /* ringbuffervectoroutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ringbuffervectoroutput.h; sourceTree = "<group>"; };
 		6FAEB9621B98EFF0006B2C66 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		6FB4308D1B275439006BAA24 /* multipitchmelodia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multipitchmelodia.cpp; sourceTree = "<group>"; };
 		6FB4308E1B275439006BAA24 /* multipitchmelodia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multipitchmelodia.h; sourceTree = "<group>"; };
@@ -1457,7 +1459,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F5CD3FB1BA203C400619854 /* libstdc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1465,7 +1466,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FA5A2B01B21EFAF002C23E4 /* libstdc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1473,7 +1473,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FA57EEB1A8A0CC800006E23 /* libstdc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1721,12 +1720,6 @@
 		6FABD74A19F51F0B00788094 /* io */ = {
 			isa = PBXGroup;
 			children = (
-				6FAEB9301B98D7A6006B2C66 /* ringbufferinput.cpp */,
-				6FAEB9311B98D7A6006B2C66 /* ringbufferinput.h */,
-				6FAEB9321B98D7A6006B2C66 /* ringbufferoutput.cpp */,
-				6FAEB9331B98D7A6006B2C66 /* ringbufferoutput.h */,
-				6FAEB9341B98D7A6006B2C66 /* ringbuffervectoroutput.cpp */,
-				6FAEB9351B98D7A6006B2C66 /* ringbuffervectoroutput.h */,
 				6F9BC5841A7A863700E995AD /* audioloader.cpp */,
 				6F9BC5851A7A863700E995AD /* audioloader.h */,
 				6F9BC5861A7A863700E995AD /* audioonsetsmarker.cpp */,
@@ -2124,6 +2117,12 @@
 		6FABD8A019F51F0B00788094 /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				3FBB30211BA2F9540063067A /* ringbufferinput.cpp */,
+				3FBB30221BA2F9540063067A /* ringbufferinput.h */,
+				3FBB30231BA2F9540063067A /* ringbufferoutput.cpp */,
+				3FBB30241BA2F9540063067A /* ringbufferoutput.h */,
+				3FBB30251BA2F9540063067A /* ringbuffervectoroutput.cpp */,
+				3FBB30261BA2F9540063067A /* ringbuffervectoroutput.h */,
 				6FABD8A119F51F0B00788094 /* copy.h */,
 				6FABD8A219F51F0B00788094 /* devnull.cpp */,
 				6FABD8A319F51F0B00788094 /* devnull.h */,
@@ -2241,7 +2240,6 @@
 				6FAEB9621B98EFF0006B2C66 /* Project.xcconfig */,
 				6FAEB8F31B98CA5D006B2C66 /* Essentia_Core.xcconfig */,
 				6FBC6FB81BA1D62300DDAE51 /* EssentiaRT_Core.xcconfig */,
-				6FA57EEA1A8A0CC700006E23 /* libstdc++.dylib */,
 				6FABD6CD19F51F0B00788094 /* 3rdparty */,
 				6FABD6E719F51F0B00788094 /* algorithms */,
 				6FABD87C19F51F0B00788094 /* essentia */,
@@ -2285,6 +2283,7 @@
 				6F5CD4AB1BA203C400619854 /* median.h in Headers */,
 				6F5CD4AC1BA203C400619854 /* tnt_sparse_matrix_csr.h in Headers */,
 				6F5CD4AD1BA203C400619854 /* panning.h in Headers */,
+				3FBB30321BA2F9540063067A /* ringbufferoutput.h in Headers */,
 				6F5CD4AE1BA203C400619854 /* flux.h in Headers */,
 				6F5CD4AF1BA203C400619854 /* TriangularBands.h in Headers */,
 				6F5CD4B01BA203C400619854 /* harmonicpeaks.h in Headers */,
@@ -2335,6 +2334,7 @@
 				6F5CD4DE1BA203C400619854 /* autocorrelation.h in Headers */,
 				6F5CD4DF1BA203C400619854 /* inharmonicity.h in Headers */,
 				6F5CD4E01BA203C400619854 /* highpass.h in Headers */,
+				3FBB30381BA2F9540063067A /* ringbuffervectoroutput.h in Headers */,
 				6F5CD4E11BA203C400619854 /* spectralcontrast.h in Headers */,
 				6F5CD4E21BA203C400619854 /* lowlevelspectralextractor.h in Headers */,
 				6F5CD4E31BA203C400619854 /* loudness.h in Headers */,
@@ -2353,7 +2353,6 @@
 				6F5CD4F01BA203C400619854 /* noiseadder.h in Headers */,
 				6F5CD4F11BA203C400619854 /* jama_svd.h in Headers */,
 				6F5CD4F21BA203C400619854 /* pitchyin.h in Headers */,
-				6F5CD4F31BA203C400619854 /* ringbuffervectoroutput.h in Headers */,
 				6F5CD4F41BA203C400619854 /* devnull.h in Headers */,
 				6F5CD4F51BA203C400619854 /* SuperFluxNovelty.h in Headers */,
 				6F5CD4F61BA203C400619854 /* barkbands.h in Headers */,
@@ -2402,6 +2401,7 @@
 				6F5CD5211BA203C400619854 /* tnt_array2d.h in Headers */,
 				6F5CD5221BA203C400619854 /* ffta.h in Headers */,
 				6F5CD5231BA203C400619854 /* tnt_array3d.h in Headers */,
+				3FBB302C1BA2F9540063067A /* ringbufferinput.h in Headers */,
 				6F5CD5241BA203C400619854 /* sink.h in Headers */,
 				6F5CD5251BA203C400619854 /* tnt_fortran_array2d.h in Headers */,
 				6F5CD5261BA203C400619854 /* iotypewrappers_impl.h in Headers */,
@@ -2436,12 +2436,10 @@
 				6F5CD5431BA203C400619854 /* iir.h in Headers */,
 				6F5CD5441BA203C400619854 /* harmonicbpm.h in Headers */,
 				6F5CD5451BA203C400619854 /* jama_cholesky.h in Headers */,
-				6F5CD5471BA203C400619854 /* ringbufferinput.h in Headers */,
 				6F5CD5481BA203C400619854 /* tnt2vector.h in Headers */,
 				6F5CD5491BA203C400619854 /* rawmoments.h in Headers */,
 				6F5CD54A1BA203C400619854 /* tnt_version.h in Headers */,
 				6F5CD54B1BA203C400619854 /* framecutter.h in Headers */,
-				6F5CD54C1BA203C400619854 /* ringbufferoutput.h in Headers */,
 				6F5CD54E1BA203C400619854 /* powermean.h in Headers */,
 				6F5CD54F1BA203C400619854 /* maxmagfreq.h in Headers */,
 				6F5CD5501BA203C400619854 /* sourceproxy.h in Headers */,
@@ -2551,7 +2549,6 @@
 				6FAEFC1C1B274977002DB4A1 /* onsetrate.h in Headers */,
 				6FAEFC1D1B274977002DB4A1 /* pca.h in Headers */,
 				6FAEFC1E1B274978002DB4A1 /* sbic.h in Headers */,
-				6FAEB93B1B98D7A6006B2C66 /* ringbufferinput.h in Headers */,
 				6F6384D51BA0705600520AAB /* iffta.h in Headers */,
 				6F26F79C1B4C44610074B3D9 /* algorithm.h in Headers */,
 				6FAEFC471B27497A002DB4A1 /* barkbands.h in Headers */,
@@ -2567,6 +2564,7 @@
 				6FAEFC4C1B27497B002DB4A1 /* flux.h in Headers */,
 				6FAEFC4D1B27497B002DB4A1 /* frequencybands.h in Headers */,
 				6FAEFC4E1B27497B002DB4A1 /* gfcc.h in Headers */,
+				3FBB30311BA2F9540063067A /* ringbufferoutput.h in Headers */,
 				6F26F7B81B4C44610074B3D9 /* threading.h in Headers */,
 				6FAEFC4F1B27497B002DB4A1 /* hfc.h in Headers */,
 				6FAEFC501B27497B002DB4A1 /* hpcp.h in Headers */,
@@ -2581,7 +2579,7 @@
 				6FAEFC581B27497C002DB4A1 /* spectralpeaks.h in Headers */,
 				6F26F7AE1B4C44610074B3D9 /* parameter.h in Headers */,
 				6FAEFC591B27497C002DB4A1 /* spectralwhitening.h in Headers */,
-				6FAEB94B1B98D7A6006B2C66 /* ringbuffervectoroutput.h in Headers */,
+				3FBB302B1BA2F9540063067A /* ringbufferinput.h in Headers */,
 				6FAEFC5A1B27497C002DB4A1 /* strongpeak.h in Headers */,
 				6FAEFC5B1B27497C002DB4A1 /* centralmoments.h in Headers */,
 				6F26F7B51B4C44610074B3D9 /* streamutil.h in Headers */,
@@ -2595,7 +2593,7 @@
 				6FAEFC631B27497D002DB4A1 /* geometricmean.h in Headers */,
 				6F26F7A51B4C44610074B3D9 /* debugging.h in Headers */,
 				6FAEFC641B27497D002DB4A1 /* instantpower.h in Headers */,
-				6FAEB9431B98D7A6006B2C66 /* ringbufferoutput.h in Headers */,
+				3FBB30371BA2F9540063067A /* ringbuffervectoroutput.h in Headers */,
 				6FAEFC651B27497D002DB4A1 /* mean.h in Headers */,
 				6FCC186C1B2EECB000370F5E /* _kiss_fft_guts.h in Headers */,
 				6FAEFC661B27497D002DB4A1 /* median.h in Headers */,
@@ -2726,6 +2724,7 @@
 				6F0711A51A409668002B6E40 /* resample.h in Headers */,
 				6FABDAE819F51F0B00788094 /* graphutils.h in Headers */,
 				6FABDABE19F51F0B00788094 /* pitchcontoursmelody.h in Headers */,
+				3FBB302A1BA2F9540063067A /* ringbufferinput.h in Headers */,
 				6F0711871A409668002B6E40 /* crosscorrelation.h in Headers */,
 				6FABDAB019F51F0B00788094 /* dissonance.h in Headers */,
 				6FABDA9E19F51F0B00788094 /* leq.h in Headers */,
@@ -2737,7 +2736,6 @@
 				6FBC6FC31BA1F29D00DDAE51 /* noiseadder.h in Headers */,
 				6FABDB2719F51F0B00788094 /* jama_svd.h in Headers */,
 				6F83775A1AF7A7B700B481E4 /* pitchyin.h in Headers */,
-				6FAEB94A1B98D7A6006B2C66 /* ringbuffervectoroutput.h in Headers */,
 				6FABDAF219F51F0B00788094 /* devnull.h in Headers */,
 				6FABDA9419F51F0B00788094 /* SuperFluxNovelty.h in Headers */,
 				6FABDA0019F51F0B00788094 /* barkbands.h in Headers */,
@@ -2779,6 +2777,7 @@
 				6FABDAFE19F51F0B00788094 /* sinkbase.h in Headers */,
 				6FABDB0719F51F0B00788094 /* streamingalgorithmcomposite.h in Headers */,
 				6FABDA8C19F51F0B00788094 /* variance.h in Headers */,
+				3FBB30361BA2F9540063067A /* ringbuffervectoroutput.h in Headers */,
 				6FAEB9231B98D61E006B2C66 /* frametoreal.h in Headers */,
 				6F9BC5A11A7A863700E995AD /* easyloader.h in Headers */,
 				6F0711AF1A409668002B6E40 /* spline.h in Headers */,
@@ -2821,12 +2820,10 @@
 				6FABD9A019F51F0B00788094 /* harmonicbpm.h in Headers */,
 				6FABDB2319F51F0B00788094 /* jama_cholesky.h in Headers */,
 				6FABD97219F51F0B00788094 /* bandpass.h in Headers */,
-				6FAEB93A1B98D7A6006B2C66 /* ringbufferinput.h in Headers */,
 				6FABDB2A19F51F0B00788094 /* tnt2vector.h in Headers */,
 				6FABDA8619F51F0B00788094 /* rawmoments.h in Headers */,
 				6FABDB3E19F51F0B00788094 /* tnt_version.h in Headers */,
 				6F0711931A409668002B6E40 /* framecutter.h in Headers */,
-				6FAEB9421B98D7A6006B2C66 /* ringbufferoutput.h in Headers */,
 				6FABD97419F51F0B00788094 /* bandreject.h in Headers */,
 				6FABDA8419F51F0B00788094 /* powermean.h in Headers */,
 				6FABDA1419F51F0B00788094 /* maxmagfreq.h in Headers */,
@@ -2865,6 +2862,7 @@
 				6FABD97819F51F0B00788094 /* equalloudness.h in Headers */,
 				6FABD97019F51F0B00788094 /* allpass.h in Headers */,
 				6FABDA8819F51F0B00788094 /* rms.h in Headers */,
+				3FBB30301BA2F9540063067A /* ringbufferoutput.h in Headers */,
 				3FCA1CBE1BA01D8D0092006C /* ffmpegapi.h in Headers */,
 				6F0711831A409668002B6E40 /* bpf.h in Headers */,
 				6FABDB2019F51F0B00788094 /* ringbufferimpl.h in Headers */,
@@ -3005,14 +3003,14 @@
 		};
 		6FBC6FB31BA1CA1500DDAE51 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "PYTHONPATH=${PYTHONPATH}:${ESSENTIA_PATH}\nexport PYTHONPATH\necho ${PYTHONPATH}\npython $PROJECT_DIR/generate.py ${ESSENTIA_PATH}/src ${PROJECT_DIR}/essentiaX.xcodeproj\n";
 		};
@@ -3077,6 +3075,7 @@
 				6F5CD4461BA203C400619854 /* accumulatoralgorithm.cpp in Sources */,
 				6F5CD4471BA203C400619854 /* pitchsalience.cpp in Sources */,
 				6F5CD4491BA203C400619854 /* unaryoperator.cpp in Sources */,
+				3FBB30291BA2F9540063067A /* ringbufferinput.cpp in Sources */,
 				6F5CD44A1BA203C400619854 /* essentiautil.cpp in Sources */,
 				6FD4A9CD1BA2283A0012D6AE /* cartesiantopolar.cpp in Sources */,
 				6F5CD4501BA203C400619854 /* inharmonicity.cpp in Sources */,
@@ -3085,6 +3084,7 @@
 				6F5CD4571BA203C400619854 /* distributionshape.cpp in Sources */,
 				6F5CD4661BA203C400619854 /* asciidagparser.cpp in Sources */,
 				6F5CD4671BA203C400619854 /* crest.cpp in Sources */,
+				3FBB302F1BA2F9540063067A /* ringbufferoutput.cpp in Sources */,
 				6F5CD46A1BA203C400619854 /* essentia.cpp in Sources */,
 				6F5CD46B1BA203C400619854 /* audioloader.cpp in Sources */,
 				6F5CD46D1BA203C400619854 /* silencerate.cpp in Sources */,
@@ -3092,6 +3092,7 @@
 				6F5CD46F1BA203C400619854 /* barkbands.cpp in Sources */,
 				6FD4A9D31BA2289F0012D6AE /* magnitude.cpp in Sources */,
 				6F5CD4701BA203C400619854 /* streamingalgorithmcomposite.cpp in Sources */,
+				3FBB30351BA2F9540063067A /* ringbuffervectoroutput.cpp in Sources */,
 				6F5CD4721BA203C400619854 /* zerocrossingrate.cpp in Sources */,
 				6FD4A9D81BA228DB0012D6AE /* TriangularBands.cpp in Sources */,
 				6F5CD4731BA203C400619854 /* energy.cpp in Sources */,
@@ -3145,12 +3146,11 @@
 				6FBC6FC01BA1F23E00DDAE51 /* lowlevelspectralextractor.cpp in Sources */,
 				6FAEFB1F1B27495F002DB4A1 /* scale.cpp in Sources */,
 				6FAEFB201B27495F002DB4A1 /* silencerate.cpp in Sources */,
+				3FBB30281BA2F9540063067A /* ringbufferinput.cpp in Sources */,
 				6FAEFB211B27495F002DB4A1 /* slicer.cpp in Sources */,
-				6FAEB93F1B98D7A6006B2C66 /* ringbufferoutput.cpp in Sources */,
 				6FAEFB221B27495F002DB4A1 /* spectrum.cpp in Sources */,
 				6FAEFB231B27495F002DB4A1 /* spline.cpp in Sources */,
 				6FAEFB2B1B27495F002DB4A1 /* windowing.cpp in Sources */,
-				6FAEB9471B98D7A6006B2C66 /* ringbuffervectoroutput.cpp in Sources */,
 				6FAEFB2C1B27495F002DB4A1 /* cartesiantopolar.cpp in Sources */,
 				6FAEFB2D1B27495F002DB4A1 /* magnitude.cpp in Sources */,
 				6FAEFB2E1B27495F002DB4A1 /* polartocartesian.cpp in Sources */,
@@ -3179,7 +3179,6 @@
 				6FAEFB4B1B274960002DB4A1 /* sbic.cpp in Sources */,
 				6F26F7A91B4C44610074B3D9 /* essentiautil.cpp in Sources */,
 				6FCC187C1B2EECB000370F5E /* fftutil.c in Sources */,
-				6FAEB9371B98D7A6006B2C66 /* ringbufferinput.cpp in Sources */,
 				6FCC18821B2EECB000370F5E /* kiss_fftndr.c in Sources */,
 				6F018F011B4A904F00367977 /* predominantpitchmelodia.cpp in Sources */,
 				6F26F7A61B4C44610074B3D9 /* essentia.cpp in Sources */,
@@ -3232,6 +3231,7 @@
 				6FAEFB9E1B274960002DB4A1 /* SuperFluxPeaks.cpp in Sources */,
 				6FAEFB9F1B274960002DB4A1 /* duration.cpp in Sources */,
 				6FB430BB1B275815006BAA24 /* audioonsetsmarker.cpp in Sources */,
+				3FBB30341BA2F9540063067A /* ringbuffervectoroutput.cpp in Sources */,
 				6FAEFBA01B274960002DB4A1 /* effectiveduration.cpp in Sources */,
 				6FAEFBA11B274960002DB4A1 /* larm.cpp in Sources */,
 				6FAEFBA21B274960002DB4A1 /* leq.cpp in Sources */,
@@ -3247,6 +3247,7 @@
 				6FAEFBB01B274960002DB4A1 /* key.cpp in Sources */,
 				6FAEFBB11B274960002DB4A1 /* oddtoevenharmonicenergyratio.cpp in Sources */,
 				6FAEFBB21B274960002DB4A1 /* pitchcontours.cpp in Sources */,
+				3FBB302E1BA2F9540063067A /* ringbufferoutput.cpp in Sources */,
 				6FAEFBB51B274960002DB4A1 /* pitchsaliencefunction.cpp in Sources */,
 				6F26F7A21B4C44610074B3D9 /* connector.cpp in Sources */,
 				6FAEFBB61B274960002DB4A1 /* pitchsaliencefunctionpeaks.cpp in Sources */,
@@ -3332,6 +3333,7 @@
 				6FABDA0119F51F0B00788094 /* energyband.cpp in Sources */,
 				6FABD9FF19F51F0B00788094 /* barkbands.cpp in Sources */,
 				6FABDB0619F51F0B00788094 /* streamingalgorithmcomposite.cpp in Sources */,
+				3FBB302D1BA2F9540063067A /* ringbufferoutput.cpp in Sources */,
 				6FABDAA919F51F0B00788094 /* zerocrossingrate.cpp in Sources */,
 				6FD4A9D01BA2287D0012D6AE /* autocorrelation.cpp in Sources */,
 				6FD4A9CB1BA228240012D6AE /* dct.cpp in Sources */,
@@ -3346,6 +3348,7 @@
 				6FD4A9C31BA226FA0012D6AE /* duration.cpp in Sources */,
 				6FD4A9D91BA228ED0012D6AE /* MaxFilter.cpp in Sources */,
 				6F9BC5A81A7A863700E995AD /* monoloader.cpp in Sources */,
+				3FBB30271BA2F9540063067A /* ringbufferinput.cpp in Sources */,
 				6FD4A9D21BA2289F0012D6AE /* magnitude.cpp in Sources */,
 				6F9BC59E1A7A863700E995AD /* audiowriter.cpp in Sources */,
 				6F9BC5821A7A85F400E995AD /* audiocontext.cpp in Sources */,
@@ -3359,6 +3362,7 @@
 				6FABDACB19F51F0B00788094 /* tristimulus.cpp in Sources */,
 				6FABDAE319F51F0B00788094 /* pool.cpp in Sources */,
 				6FABDB1A19F51F0B00788094 /* jsonconvert.cpp in Sources */,
+				3FBB30331BA2F9540063067A /* ringbuffervectoroutput.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
