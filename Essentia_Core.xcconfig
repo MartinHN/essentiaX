@@ -71,7 +71,7 @@ L_ESSENTIA_FFT_FFTW_D = -lfftw3f
 L_ESSENTIA_FFT_D = $(L_ESSENTIA_FFT_$(ESSENTIA_FFT)_D)
 
 ESSENTIA_STATICLIBS = $(L_Z) $(L_SAMPLERATE) $(L_FFMPEG) $(L_YAML) $(L_TAG) $(L_ESSENTIA_FFT_S)
-ESSENTIA_DYNAMICLIBS = -L/usr/local/lib -lsamplerate -lavresample -lavformat -lavcodec -lavutil -lyaml -ltag
+ESSENTIA_DYNAMICLIBS = -L/usr/local/lib -lsamplerate -lavresample -lavformat -lavcodec -lavutil -lyaml -ltag $(L_ESSENTIA_FFT_D)
 
 
 

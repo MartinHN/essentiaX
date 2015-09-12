@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F9B22D91BA490FC00960379 /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
-		3F9B22DA1BA4910500960379 /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
 		3FBB30271BA2F9540063067A /* ringbufferinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30211BA2F9540063067A /* ringbufferinput.cpp */; };
 		3FBB30281BA2F9540063067A /* ringbufferinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30211BA2F9540063067A /* ringbufferinput.cpp */; };
 		3FBB30291BA2F9540063067A /* ringbufferinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB30211BA2F9540063067A /* ringbufferinput.cpp */; };
@@ -114,6 +112,7 @@
 		6F5CD42C1BA203C400619854 /* spectralpeaks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7C719F51F0B00788094 /* spectralpeaks.cpp */; };
 		6F5CD42F1BA203C400619854 /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
 		6F5CD4351BA203C400619854 /* poolstorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8A619F51F0B00788094 /* poolstorage.cpp */; };
+		6F5CD4361BA203C400619854 /* networkparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89A19F51F0B00788094 /* networkparser.cpp */; };
 		6F5CD4371BA203C400619854 /* spectrum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0711681A409668002B6E40 /* spectrum.cpp */; };
 		6F5CD4391BA203C400619854 /* algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD87D19F51F0B00788094 /* algorithm.cpp */; };
 		6F5CD43C1BA203C400619854 /* framecutter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07114E1A409668002B6E40 /* framecutter.cpp */; };
@@ -371,7 +370,9 @@
 		6F5CD5761BA203C400619854 /* distributionshape.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD81A19F51F0B00788094 /* distributionshape.h */; };
 		6F5CD5771BA203C400619854 /* network.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89919F51F0B00788094 /* network.h */; };
 		6F5CD5781BA203C400619854 /* sinkproxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD8B019F51F0B00788094 /* sinkproxy.h */; };
+		6F6384D01BA0705500520AAB /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
 		6F6384D11BA0705500520AAB /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
+		6F6384D21BA0705500520AAB /* ffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F83775B1AF7A91A00B481E4 /* ffta.cpp */; };
 		6F6384D31BA0705500520AAB /* ffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F83775C1AF7A91A00B481E4 /* ffta.h */; };
 		6F6384D41BA0705600520AAB /* iffta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F8377631AF7A9ED00B481E4 /* iffta.cpp */; };
 		6F6384D51BA0705600520AAB /* iffta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8377641AF7A9ED00B481E4 /* iffta.h */; };
@@ -533,6 +534,7 @@
 		6FABDAE819F51F0B00788094 /* graphutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89719F51F0B00788094 /* graphutils.h */; };
 		6FABDAE919F51F0B00788094 /* network.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89819F51F0B00788094 /* network.cpp */; };
 		6FABDAEA19F51F0B00788094 /* network.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89919F51F0B00788094 /* network.h */; };
+		6FABDAEB19F51F0B00788094 /* networkparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89A19F51F0B00788094 /* networkparser.cpp */; };
 		6FABDAEC19F51F0B00788094 /* networkparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89B19F51F0B00788094 /* networkparser.h */; };
 		6FABDAED19F51F0B00788094 /* streamconnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD89C19F51F0B00788094 /* streamconnector.h */; };
 		6FABDAEE19F51F0B00788094 /* accumulatoralgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89E19F51F0B00788094 /* accumulatoralgorithm.cpp */; };
@@ -719,6 +721,7 @@
 		6FAEFBBB1B274960002DB4A1 /* tristimulus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD87819F51F0B00788094 /* tristimulus.cpp */; };
 		6FAEFBBD1B274960002DB4A1 /* algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD87D19F51F0B00788094 /* algorithm.cpp */; };
 		6FAEFBC61B274960002DB4A1 /* network.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89819F51F0B00788094 /* network.cpp */; };
+		6FAEFBC71B274960002DB4A1 /* networkparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89A19F51F0B00788094 /* networkparser.cpp */; };
 		6FAEFBC81B274960002DB4A1 /* accumulatoralgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD89E19F51F0B00788094 /* accumulatoralgorithm.cpp */; };
 		6FAEFBCD1B274960002DB4A1 /* devnull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8A219F51F0B00788094 /* devnull.cpp */; };
 		6FAEFBCE1B274960002DB4A1 /* poolstorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD8A619F51F0B00788094 /* poolstorage.cpp */; };
@@ -3000,14 +3003,14 @@
 		};
 		6FBC6FB31BA1CA1500DDAE51 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "PYTHONPATH=${PYTHONPATH}:${ESSENTIA_PATH}\nexport PYTHONPATH\necho ${PYTHONPATH}\npython $PROJECT_DIR/generate.py ${ESSENTIA_PATH}/src ${PROJECT_DIR}/essentiaX.xcodeproj\n";
 		};
@@ -3044,20 +3047,15 @@
 				6F5CD4171BA203C400619854 /* essentia_algorithms_reg.cpp in Sources */,
 				6F5CD4181BA203C400619854 /* windowing.cpp in Sources */,
 				6F5CD41F1BA203C400619854 /* mfcc.cpp in Sources */,
-				6FD4A9E21BA229670012D6AE /* iir.cpp in Sources */,
-				6FD4A9DA1BA228EE0012D6AE /* MaxFilter.cpp in Sources */,
 				6F5CD4201BA203C400619854 /* streamingalgorithm.cpp in Sources */,
 				6F5CD4241BA203C400619854 /* oddtoevenharmonicenergyratio.cpp in Sources */,
 				6F5CD4261BA203C400619854 /* decrease.cpp in Sources */,
 				6F5CD4291BA203C400619854 /* strongpeak.cpp in Sources */,
 				6F5CD42C1BA203C400619854 /* spectralpeaks.cpp in Sources */,
 				6F5CD42F1BA203C400619854 /* iffta.cpp in Sources */,
-				6FD4A9CF1BA2285E0012D6AE /* peakdetection.cpp in Sources */,
 				6F5CD4351BA203C400619854 /* poolstorage.cpp in Sources */,
-				6FD4A9C21BA226C90012D6AE /* metadatareader.cpp in Sources */,
+				6F5CD4361BA203C400619854 /* networkparser.cpp in Sources */,
 				6F5CD4371BA203C400619854 /* spectrum.cpp in Sources */,
-				6FD4A9DE1BA229180012D6AE /* SuperFluxNovelty.cpp in Sources */,
-				6FD4A9D11BA2287E0012D6AE /* autocorrelation.cpp in Sources */,
 				6F5CD4391BA203C400619854 /* algorithm.cpp in Sources */,
 				6F5CD43C1BA203C400619854 /* framecutter.cpp in Sources */,
 				6F5CD43D1BA203C400619854 /* ffta.cpp in Sources */,
@@ -3073,7 +3071,6 @@
 				6F5CD4491BA203C400619854 /* unaryoperator.cpp in Sources */,
 				3FBB30291BA2F9540063067A /* ringbufferinput.cpp in Sources */,
 				6F5CD44A1BA203C400619854 /* essentiautil.cpp in Sources */,
-				6FD4A9CD1BA2283A0012D6AE /* cartesiantopolar.cpp in Sources */,
 				6F5CD4501BA203C400619854 /* inharmonicity.cpp in Sources */,
 				6F5CD4521BA203C400619854 /* parameter.cpp in Sources */,
 				6F5CD4531BA203C400619854 /* sourcebase.cpp in Sources */,
@@ -3086,24 +3083,18 @@
 				6F5CD46D1BA203C400619854 /* silencerate.cpp in Sources */,
 				6F5CD46E1BA203C400619854 /* energyband.cpp in Sources */,
 				6F5CD46F1BA203C400619854 /* barkbands.cpp in Sources */,
-				6FD4A9D31BA2289F0012D6AE /* magnitude.cpp in Sources */,
 				6F5CD4701BA203C400619854 /* streamingalgorithmcomposite.cpp in Sources */,
 				3FBB30351BA2F9540063067A /* ringbuffervectoroutput.cpp in Sources */,
 				6F5CD4721BA203C400619854 /* zerocrossingrate.cpp in Sources */,
-				6FD4A9D81BA228DB0012D6AE /* TriangularBands.cpp in Sources */,
 				6F5CD4731BA203C400619854 /* energy.cpp in Sources */,
 				6F5CD47A1BA203C400619854 /* flatnessdb.cpp in Sources */,
-				6FD4A9DC1BA2290F0012D6AE /* SuperFluxPeaks.cpp in Sources */,
 				6F5CD47B1BA203C400619854 /* yamloutput.cpp in Sources */,
 				6F5CD47C1BA203C400619854 /* devnull.cpp in Sources */,
 				6F5CD47F1BA203C400619854 /* streamingalgorithmwrapper.cpp in Sources */,
 				6F5CD4831BA203C400619854 /* connector.cpp in Sources */,
-				6FD4A9C41BA226FC0012D6AE /* duration.cpp in Sources */,
 				6F5CD4841BA203C400619854 /* monoloader.cpp in Sources */,
-				6FD4A9E01BA229490012D6AE /* movingaverage.cpp in Sources */,
 				6F5CD4881BA203C400619854 /* audiowriter.cpp in Sources */,
 				6F5CD48A1BA203C400619854 /* audiocontext.cpp in Sources */,
-				6FD4A9C61BA227470012D6AE /* frequencybands.cpp in Sources */,
 				6F5CD4921BA203C400619854 /* lowlevelspectralextractor.cpp in Sources */,
 				6F5CD4931BA203C400619854 /* stringutil.cpp in Sources */,
 				6F5CD4941BA203C400619854 /* monomixer.cpp in Sources */,
@@ -3254,6 +3245,7 @@
 				6FCC18801B2EECB000370F5E /* kiss_fftnd.c in Sources */,
 				6FAEFBBD1B274960002DB4A1 /* algorithm.cpp in Sources */,
 				6FAEFBC61B274960002DB4A1 /* network.cpp in Sources */,
+				6FAEFBC71B274960002DB4A1 /* networkparser.cpp in Sources */,
 				6FAEFBC81B274960002DB4A1 /* accumulatoralgorithm.cpp in Sources */,
 				6FAEFBCD1B274960002DB4A1 /* devnull.cpp in Sources */,
 				6FAEFBCE1B274960002DB4A1 /* poolstorage.cpp in Sources */,
@@ -3287,19 +3279,21 @@
 				6FD4A9DD1BA229180012D6AE /* SuperFluxNovelty.cpp in Sources */,
 				6F0711BE1A409668002B6E40 /* windowing.cpp in Sources */,
 				6FABDA1719F51F0B00788094 /* mfcc.cpp in Sources */,
-				3F9B22D91BA490FC00960379 /* ffta.cpp in Sources */,
 				6FABDB0419F51F0B00788094 /* streamingalgorithm.cpp in Sources */,
 				6FABDAB919F51F0B00788094 /* oddtoevenharmonicenergyratio.cpp in Sources */,
 				6FABDA6F19F51F0B00788094 /* decrease.cpp in Sources */,
 				6FABDA2519F51F0B00788094 /* strongpeak.cpp in Sources */,
 				6FD4A9D71BA228D80012D6AE /* TriangularBands.cpp in Sources */,
 				6FABDA2119F51F0B00788094 /* spectralpeaks.cpp in Sources */,
+				6F6384D01BA0705500520AAB /* iffta.cpp in Sources */,
 				6FABDAF519F51F0B00788094 /* poolstorage.cpp in Sources */,
 				6FD4A9C01BA226C40012D6AE /* metadatareader.cpp in Sources */,
+				6FABDAEB19F51F0B00788094 /* networkparser.cpp in Sources */,
 				6FD4A9CE1BA2285D0012D6AE /* peakdetection.cpp in Sources */,
 				6F0711AC1A409668002B6E40 /* spectrum.cpp in Sources */,
 				6FABDACF19F51F0B00788094 /* algorithm.cpp in Sources */,
 				6F0711921A409668002B6E40 /* framecutter.cpp in Sources */,
+				6F6384D21BA0705500520AAB /* ffta.cpp in Sources */,
 				6FABDAE519F51F0B00788094 /* range.cpp in Sources */,
 				6FD4A9C91BA227C60012D6AE /* noiseadder.cpp in Sources */,
 				6FABDA8719F51F0B00788094 /* rms.cpp in Sources */,
@@ -3318,7 +3312,6 @@
 				6FABDAE119F51F0B00788094 /* parameter.cpp in Sources */,
 				6FABDB0119F51F0B00788094 /* sourcebase.cpp in Sources */,
 				6FABDA7119F51F0B00788094 /* distributionshape.cpp in Sources */,
-				3F9B22DA1BA4910500960379 /* iffta.cpp in Sources */,
 				6FABDB1119F51F0B00788094 /* asciidagparser.cpp in Sources */,
 				6FABDA6D19F51F0B00788094 /* crest.cpp in Sources */,
 				6FABDADA19F51F0B00788094 /* essentia.cpp in Sources */,
@@ -3543,6 +3536,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"DEBUGGING_ENABLED=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -3621,7 +3615,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
-					"DEBUGGING_ENABLED=0",
+					"DEBUGGING_ENABLED=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				HEADER_SEARCH_PATHS = "$(ESSENTIA_HEADERS)";

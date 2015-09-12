@@ -159,10 +159,11 @@ if __name__ == '__main__':
             getDependencies(a, res, toRemove, essentiasrc)
             
         
-        del toRemove["IFFTA"]
-        del toRemove["FFTA"]
+        if"FFTA" in toRemove:
+            del toRemove["IFFTA"]
+            del toRemove["FFTA"]
         
-        pruneXcode(xcode, getTarget(xcode,"essentiaXLight"),toRemove,xcodeFile)
+        # pruneXcode(xcode, getTarget(xcode,"essentiaXLight"),toRemove,xcodeFile)
         rstr = []
         for r in toRemove:
             rstr+=[r]
