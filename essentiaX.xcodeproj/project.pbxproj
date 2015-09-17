@@ -823,6 +823,8 @@
 		6FAEFC8E1B274982002DB4A1 /* tristimulus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD87919F51F0B00788094 /* tristimulus.h */; };
 		6FAEFC901B274983002DB4A1 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FABD94119F51F0B00788094 /* version.h */; };
 		6FB41C511BAB01440069C13F /* powerspectrum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F07115A1A409668002B6E40 /* powerspectrum.cpp */; };
+		6FB41C521BAB06B30069C13F /* tctototal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7A219F51F0B00788094 /* tctototal.cpp */; };
+		6FB41C531BAB07010069C13F /* spectralpeaks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7C719F51F0B00788094 /* spectralpeaks.cpp */; };
 		6FB430B41B2754A6006BAA24 /* pitchmelodia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4309F1B2754A6006BAA24 /* pitchmelodia.cpp */; };
 		6FB430B51B2754A6006BAA24 /* pitchmelodia.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB430A01B2754A6006BAA24 /* pitchmelodia.h */; };
 		6FB430B61B2754A6006BAA24 /* pitchmelodia.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB430A01B2754A6006BAA24 /* pitchmelodia.h */; };
@@ -2979,14 +2981,14 @@
 		};
 		6FB41C041BAADB800069C13F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "PYTHONPATH=${PYTHONPATH}:${ESSENTIA_PATH}\nexport PYTHONPATH\necho ${PYTHONPATH}\npython $PROJECT_DIR/generate.py ${ESSENTIA_PATH}/src ${PROJECT_DIR}/essentiaX.xcodeproj essentiaRT";
 		};
@@ -3148,6 +3150,7 @@
 				6F26F7B11B4C44610074B3D9 /* range.cpp in Sources */,
 				6FAEFB3E1B274960002DB4A1 /* dcremoval.cpp in Sources */,
 				6FAEFB3F1B274960002DB4A1 /* equalloudness.cpp in Sources */,
+				6FB41C531BAB07010069C13F /* spectralpeaks.cpp in Sources */,
 				6FAEFB401B274960002DB4A1 /* highpass.cpp in Sources */,
 				6FAEFB411B274960002DB4A1 /* iir.cpp in Sources */,
 				6FAEFB421B274960002DB4A1 /* lowpass.cpp in Sources */,
@@ -3197,6 +3200,7 @@
 				6FAEFB961B274960002DB4A1 /* rawmoments.cpp in Sources */,
 				6FAEFB971B274960002DB4A1 /* rms.cpp in Sources */,
 				6FAEFB981B274960002DB4A1 /* singlegaussian.cpp in Sources */,
+				6FB41C521BAB06B30069C13F /* tctototal.cpp in Sources */,
 				6FAEFB991B274960002DB4A1 /* variance.cpp in Sources */,
 				6FAEFB9A1B274960002DB4A1 /* MaxFilter.cpp in Sources */,
 				6FAEFB9B1B274960002DB4A1 /* TriangularBands.cpp in Sources */,
