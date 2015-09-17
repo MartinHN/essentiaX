@@ -47,6 +47,8 @@ def getPathFromRef(x,ref):
 
 def getDependencies(a,res,algos,rootDir):
     # print "getDependencies for "+a
+    if(not a in algos) :
+        return res
     with open(rootDir + "/" +algos[a]["source"]) as file:
         lines = file.readlines()
     newdep = []
@@ -62,6 +64,7 @@ def getDependencies(a,res,algos,rootDir):
 
     del algos[a]
     return res;
+
 
 
 
@@ -123,10 +126,13 @@ if __name__ == '__main__':
 
     essentiasrc = sys.argv[1]
     xcodeFile = sys.argv[2]+"/project.pbxproj"
+    target = sys.argv[3]
+
+
     with open(xcodeFile) as file:
         xcode =  OpenStepDecoder.ParseFromFile(file);
 
-        t = getTarget(xcode,"essentiaX")
+        t = getTarget(xcode,target)
         files = getPathFromRef(xcode,getBuildFileRef(xcode, t))
 
 
@@ -136,7 +142,7 @@ if __name__ == '__main__':
     algos = get_all_algorithms(algodir,essentiasrc)
     print algos
     res = []
-    
+    print files
 
 
 
@@ -162,6 +168,8 @@ if __name__ == '__main__':
         if"FFTA" in toRemove:
             del toRemove["IFFTA"]
             del toRemove["FFTA"]
+
+        
         
         # pruneXcode(xcode, getTarget(xcode,"essentiaXLight"),toRemove,xcodeFile)
         rstr = []
