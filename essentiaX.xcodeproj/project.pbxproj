@@ -887,6 +887,7 @@
 		6FD4A9E01BA229490012D6AE /* movingaverage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD71919F51F0B00788094 /* movingaverage.cpp */; };
 		6FD4A9E11BA229650012D6AE /* iir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD71519F51F0B00788094 /* iir.cpp */; };
 		6FD4A9E21BA229670012D6AE /* iir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD71519F51F0B00788094 /* iir.cpp */; };
+		6FE04CBB1C455D8F0010258E /* highpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD71319F51F0B00788094 /* highpass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -978,6 +979,7 @@
 		6F07117A1A409668002B6E40 /* windowing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = windowing.cpp; sourceTree = "<group>"; };
 		6F07117B1A409668002B6E40 /* windowing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = windowing.h; sourceTree = "<group>"; };
 		6F5CD57C1BA203C400619854 /* libessentiaX copy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libessentiaX copy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6F17E41CCE782E00482181 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		6F7D15C21A9B2FF20055DB29 /* chordsdetectionbeats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chordsdetectionbeats.cpp; sourceTree = "<group>"; };
 		6F7D15C31A9B2FF20055DB29 /* chordsdetectionbeats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chordsdetectionbeats.h; sourceTree = "<group>"; };
 		6F8377511AF79B2500B481E4 /* splineutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = splineutil.cpp; path = spline/splineutil.cpp; sourceTree = "<group>"; };
@@ -2214,6 +2216,7 @@
 		6FD0EB05197E7B070093FFB6 = {
 			isa = PBXGroup;
 			children = (
+				6F6F17E41CCE782E00482181 /* libiconv.dylib */,
 				6FAEB9621B98EFF0006B2C66 /* Project.xcconfig */,
 				6FAEB8F31B98CA5D006B2C66 /* Essentia_Core.xcconfig */,
 				6FBC6FB81BA1D62300DDAE51 /* EssentiaRT_Core.xcconfig */,
@@ -2977,18 +2980,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=$PATH:/usr/local/bin;\ncd $ESSENTIA_PATH;\n\n./waf configure  --fft $ESSENTIA_FFT --lightweight= --arch=$ARCHS ;\n\n\n\n";
+			shellScript = "export PATH=$PATH:/usr/local/bin;\ncd $ESSENTIA_PATH;\n\n./waf configure  --fft $ESSENTIA_FFT --lightweight= --arch=$ARCHS  ;\n\n\n\n";
 		};
 		6FB41C041BAADB800069C13F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "PYTHONPATH=${PYTHONPATH}:${ESSENTIA_PATH}\nexport PYTHONPATH\necho ${PYTHONPATH}\npython $PROJECT_DIR/generate.py ${ESSENTIA_PATH}/src ${PROJECT_DIR}/essentiaX.xcodeproj essentiaRT";
 		};
@@ -3304,6 +3307,7 @@
 				3FBB302D1BA2F9540063067A /* ringbufferoutput.cpp in Sources */,
 				6FABDAA919F51F0B00788094 /* zerocrossingrate.cpp in Sources */,
 				6FD4A9D01BA2287D0012D6AE /* autocorrelation.cpp in Sources */,
+				6FE04CBB1C455D8F0010258E /* highpass.cpp in Sources */,
 				6FD4A9CB1BA228240012D6AE /* dct.cpp in Sources */,
 				6FABDA7319F51F0B00788094 /* energy.cpp in Sources */,
 				6FD4A9C81BA227A30012D6AE /* geometricmean.cpp in Sources */,
@@ -3398,7 +3402,7 @@
 		6FA5A4991B21EFAF002C23E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				ESSENTIA_DIR = ../Essentia/;
@@ -3441,7 +3445,7 @@
 		6FA5A49A1B21EFAF002C23E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				ESSENTIA_DIR = ../Essentia/;
@@ -3575,6 +3579,7 @@
 		6FD0EB13197E7B070093FFB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libc++";
 				EXECUTABLE_PREFIX = lib;
@@ -3605,6 +3610,7 @@
 		6FD0EB14197E7B070093FFB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libc++";
 				EXECUTABLE_PREFIX = lib;

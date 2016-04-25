@@ -15,7 +15,7 @@ GCC_PREPROCESSOR_DEFINITIONS = HAVE_AVRESAMPLE=1
 // Actually have to manually change fft algorithms to essentia/algorithm/standard/ fftk /ffta / fftw target for xcode to compile it
 // but everything else should be cared of
 // ACCELERATE / KISS / FFTW
-ESSENTIA_FFT = ACCELERATE
+ESSENTIA_FFT = KISS
 
 
 
@@ -47,10 +47,10 @@ L_Z = "/usr/local/opt/zlib/lib/libz.a"
 
 L_FFMPEG_ROOT = /usr/local/lib/
 
-L_FFMPEG_0 = "$(L_FFMPEG_ROOT)libavresample.a"
+L_FFMPEG_2 = "$(L_FFMPEG_ROOT)libavresample.a"
 L_FFMPEG_1 = "$(L_FFMPEG_ROOT)libavformat.a"
-L_FFMPEG_2 = "$(L_FFMPEG_ROOT)libavcodec.a"
-L_FFMPEG_3 = "$(L_FFMPEG_ROOT)libavutil.a"
+L_FFMPEG_3 = "$(L_FFMPEG_ROOT)libavcodec.a"
+L_FFMPEG_0 = "$(L_FFMPEG_ROOT)libavutil.a"
 
 
 L_FFMPEG = $(L_FFMPEG_0) $(L_FFMPEG_1) $(L_FFMPEG_2) $(L_FFMPEG_3)
@@ -60,8 +60,12 @@ L_SAMPLERATE ="/usr/local/lib/libsamplerate.a"
 
 L_YAML = "/usr/local/lib/libyaml.a"
 L_TAG = "/usr/local/lib/libtag.a"
-
-L_ICONV  = "/usr/local/opt/libiconv/lib/libiconv.dylib"
+L_LAME = "/usr/local/Cellar/lame/3.99.5/lib/libmp3lame.a"
+L_FAAC = "/usr/local/lib/libfaac.a"
+L_SWRESAMPLE = "/usr/local/lib/libswresample.a"
+L_LZMA= "/usr/local/Cellar/xz/5.2.2/lib/liblzma.a"
+L_ICONV  = "/usr/local/opt/libiconv/lib/libcharset.a"
+L_BZ2 = "/usr/local/octave/3.8.0/lib/libbz2.a"
 
 L_ESSENTIA_FFT_FFTW_S = "/usr/local/lib/libfftw3f.a"
 L_ESSENTIA_FFT_S = $(L_ESSENTIA_FFT_$(ESSENTIA_FFT)_S)
@@ -70,12 +74,12 @@ L_ESSENTIA_FFT_S = $(L_ESSENTIA_FFT_$(ESSENTIA_FFT)_S)
 L_ESSENTIA_FFT_FFTW_D = -lfftw3f
 L_ESSENTIA_FFT_D = $(L_ESSENTIA_FFT_$(ESSENTIA_FFT)_D)
 
-ESSENTIA_STATICLIBS = $(L_Z) $(L_SAMPLERATE) $(L_FFMPEG) $(L_YAML) $(L_TAG) $(L_ESSENTIA_FFT_S)
+ESSENTIA_STATICLIBS = $(L_Z) $(L_LZMA) $(L_LAME) $(L_FAAC) $(L_ICONV) $(L_BZ2) $(L_SWRESAMPLE) $(L_SAMPLERATE) $(L_FFMPEG) $(L_YAML) $(L_TAG) $(L_ESSENTIA_FFT_S)
 ESSENTIA_DYNAMICLIBS = -L/usr/local/lib -lsamplerate -lavresample -lavformat -lavcodec -lavutil -lyaml -ltag $(L_ESSENTIA_FFT_D)
 
 
 
-ESSENTIA_LIBS = $(ESSENTIA_DYNAMICLIBS)
+ESSENTIA_LIBS = $(ESSENTIA_STATICLIBS)
 
 ESSENTIA_FFT_ACCELERATE_FRAMEWORK = -framework Accelerate
 
