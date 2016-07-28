@@ -979,7 +979,6 @@
 		6F07117A1A409668002B6E40 /* windowing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = windowing.cpp; sourceTree = "<group>"; };
 		6F07117B1A409668002B6E40 /* windowing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = windowing.h; sourceTree = "<group>"; };
 		6F5CD57C1BA203C400619854 /* libessentiaX copy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libessentiaX copy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F6F17E41CCE782E00482181 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		6F7D15C21A9B2FF20055DB29 /* chordsdetectionbeats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chordsdetectionbeats.cpp; sourceTree = "<group>"; };
 		6F7D15C31A9B2FF20055DB29 /* chordsdetectionbeats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chordsdetectionbeats.h; sourceTree = "<group>"; };
 		6F8377511AF79B2500B481E4 /* splineutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = splineutil.cpp; path = spline/splineutil.cpp; sourceTree = "<group>"; };
@@ -2216,7 +2215,6 @@
 		6FD0EB05197E7B070093FFB6 = {
 			isa = PBXGroup;
 			children = (
-				6F6F17E41CCE782E00482181 /* libiconv.dylib */,
 				6FAEB9621B98EFF0006B2C66 /* Project.xcconfig */,
 				6FAEB8F31B98CA5D006B2C66 /* Essentia_Core.xcconfig */,
 				6FBC6FB81BA1D62300DDAE51 /* EssentiaRT_Core.xcconfig */,
@@ -3352,10 +3350,7 @@
 					/usr/local/Frameworks,
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"DEBUGGING_ENABLED=1",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				HEADER_SEARCH_PATHS = "$(ESSENTIA_HEADERS)";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -3588,13 +3583,13 @@
 					/usr/local/Frameworks,
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"DEBUGGING_ENABLED=0",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				HEADER_SEARCH_PATHS = "$(ESSENTIA_HEADERS)";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libiconv/1.14/lib,
+				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-O2",
@@ -3622,7 +3617,10 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				HEADER_SEARCH_PATHS = "$(ESSENTIA_HEADERS)";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libiconv/1.14/lib,
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
